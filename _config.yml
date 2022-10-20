@@ -8,15 +8,15 @@ navigation:
   - title: Home 
     url: /
   - title: Bio
-    url: _pages/bio.md
+    url: bio.md
   - title: CV
     url: setup
   - title: Project
-    url: _pages/projects
+    url: projects
   - title: Services
-    url: _pages/services
+    url: services
   - title: Contact
-    url: _pages/contacts
+    url: contact
     
 email: nwoye.chinedu@gmail.com
 linkedin: https://ng.linkedin.com/in/chinedu-nwoye-69471a31

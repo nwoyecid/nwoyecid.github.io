@@ -8,16 +8,10 @@ navigation:
     url: /
   - title: Bio
     url: /
-  - title: Research
-    url: /
   - title: Project
     url: /
   - title: Services
-    url: /
-  - title: Setup
     url: setup
-  - title: Publication
-    url: /
   - title: Contact
     url: /
 

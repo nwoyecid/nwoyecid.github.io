@@ -5,7 +5,7 @@ show_downloads: False
 navigation:
   - title: Home 
     url: /
-  title: Bio
+  - title: Bio
     url: /
   - title: Research
     url: /

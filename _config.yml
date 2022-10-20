@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Chinedu Nwoye
-avatar: images/circle_bw_crop.jpg
+avatar: assets/img/photo.png
 description: Ph.D. Computer Vision and Medical Robotics
 show_downloads: False
 navigation:
@@ -20,3 +20,23 @@ navigation:
     url: /
   - title: Contact
     url: /
+
+
+
+
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: lkeselman@gmail.com
+  facebook:
+  flickr:
+  github: leonidk
+  instagram: leo_nid_k
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter:
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/

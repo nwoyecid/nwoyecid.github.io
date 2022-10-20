@@ -8,7 +8,7 @@ navigation:
   - title: Home 
     url: /
   - title: Bio
-    url: _pages/bio
+    url: _pages/bio.md
   - title: CV
     url: setup
   - title: Project

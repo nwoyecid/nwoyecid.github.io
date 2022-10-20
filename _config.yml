@@ -1,9 +1,21 @@
 theme: jekyll-theme-minimal
 title: Chinedu Nwoye
 description: Ph.D. Computer Vision and Medical Robotics
-show_downloads: True
+show_downloads: False
 navigation:
-  - title: Home
+  - title: Home 
+    url: /
+  title: Bio
+    url: /
+  - title: Research
+    url: /
+  - title: Project
+    url: /
+  - title: Services
     url: /
   - title: Setup
     url: setup
+  - title: Publication
+    url: /
+  - title: Contact
+    url: /

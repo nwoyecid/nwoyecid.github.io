@@ -5,16 +5,16 @@ description: Ph.D. Computer Vision and Medical Robotics. Post-doctoral research 
 show_downloads: False
 show_social: True
 navigation:
-  - title: Home 
+  - title: Research 
     url: /
-  - title: Bio
-    url: bio
-  - title: CV
-    url: setup
   - title: Project
     url: projects
   - title: Services
     url: services
+  - title: Bio
+    url: bio
+  - title: CV
+    url: setup
   - title: Contact
     url: contact
     

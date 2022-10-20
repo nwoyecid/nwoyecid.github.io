@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 title: Chinedu Nwoye
 avatar: assets/img/photo.png
 description: Ph.D. Computer Vision and Medical Robotics
-show_downloads: False
+show_downloads: True
 show_social: True
 navigation:
   - title: Home 
@@ -17,10 +17,7 @@ navigation:
     url: setup
   - title: Contact
     url: /
-
-
-
-email: nwoye.chinedu@gmail.com 
+email: nwoye.chinedu@gmail.com
 linkedin: https://ng.linkedin.com/in/chinedu-nwoye-69471a31
 github: https://github.com/nwoyecid
 gscholar: https://scholar.google.com/citations?user=9lKxBUoAAAAJ&hl=en

@@ -16,14 +16,14 @@ Representative papers are highlighted.
     </td>
     <td>
       <b>Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos</b><br />
-      <i style="font-size:70%; color:purple">CI. Nwoye, D. Mutter, J. Marescaux, N. Padoy</i><br /> 
+      <i style="font-size:75%; color:purple">CI. Nwoye, D. Mutter, J. Marescaux, N. Padoy</i><br /> 
       <span style="font-size:80%">
         A deep learning method for surgical tool tracking trained on tool binary presence labels only. 
         It exploit temporal information in laparoscopic videos using convolutional LSTM. 
         The model achieved a state-of-the-art performance on tool detection, localization and tracking for weakly supervised models.
       </span><br>
-      <span style="font-size:40%: color: red"><b>IPCAI 2019 (Oral presentation, Audience choice award: Best presentation (First prize)</b></span> <br>
-      <span style="font-size:60%">
+      <span style="font-size:35%: color:dark-blue"><b>IPCAI 2019 (Oral presentation, Audience choice award: Best presentation (First prize)</b></span> <br>
+      <span style="font-size:65%">
         <a href="https://link.springer.com/article/10.1007/s11548-019-01958-6">journal</a> /
         <a href="https://arxiv.org/abs/1812.01366">arXiv</a> / 
         <a href="https://youtu.be/vnMwlS5tvHE">video 1</a> /  

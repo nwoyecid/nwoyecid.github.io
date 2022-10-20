@@ -24,13 +24,14 @@ Representative papers are highlighted.
         The model achieved a state-of-the-art performance on tool detection, localization and tracking for weakly supervised models.
       </span><br>
       <span style="font-size:20%">
-        <a href="">project page</a> 
-        <a href="">arXiv</a> 
-        <a href="">video</a> 
-        <a href="">poster</a> 
-        <a href="">supplement</a> 
-        <a href="">code</a> 
-        <a href="">bibtex</a> 
+        <a href="https://link.springer.com/article/10.1007/s11548-019-01958-6">journal</a> /
+        <a href="https://arxiv.org/abs/1812.01366">arXiv</a> / 
+        <a href="https://youtu.be/vnMwlS5tvHE">video 1</a> /  
+        <a href="https://youtu.be/SNhd1yzOe50">video 2</a> / 
+        <a href="#">poster</a> / 
+        <a href="#">supplement</a> / 
+        <a href="https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker">code</a> / 
+        <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:CweYMKcUKesJ:scholar.google.com/&output=citation&scisdr=CgVAT2hXEOS4tci6tek:AAGBfm0AAAAAY1G8rem5lpW_N2pYmU0J2PqD_-QplUgI&scisig=AAGBfm0AAAAAY1G8rR6pMAYq25cZ2OGGW-Eiu_Fu8lXq&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a> 
       </span>
     </td><td>You</td>
   </tr>

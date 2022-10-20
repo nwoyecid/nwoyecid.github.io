@@ -2,11 +2,10 @@
 layout: default
 ---
 # Research
-```
-I'm interested in computer vision, machine learning, optimization, and image processing. 
+> I'm interested in computer vision, machine learning, optimization, and image processing. 
 Much of my research is about the use of these AI method for the analysis and modeling of surgical activities using real endoscopic videos. 
 Representative papers are highlighted.
-```
+
 
 
 ## Selected publications
@@ -17,13 +16,14 @@ Representative papers are highlighted.
     </td>
     <td>
       <b>Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos</b><br />
-      <span style="font-size:50%">CI. Nwoye, D. Mutter, J. Marescaux, N. Padoy</span><br>
-      <span style="font-size:70%">
+      <i style="font-size:70%; color:purple">CI. Nwoye, D. Mutter, J. Marescaux, N. Padoy</i><br /> 
+      <span style="font-size:80%">
         A deep learning method for surgical tool tracking trained on tool binary presence labels only. 
         It exploit temporal information in laparoscopic videos using convolutional LSTM. 
         The model achieved a state-of-the-art performance on tool detection, localization and tracking for weakly supervised models.
       </span><br>
-      <span style="font-size:20%">
+      <span style="font-size:40%: color: red"><b>IPCAI 2019 (Oral presentation, Audience choice award: Best presentation (First prize)</b></span> <br>
+      <span style="font-size:60%">
         <a href="https://link.springer.com/article/10.1007/s11548-019-01958-6">journal</a> /
         <a href="https://arxiv.org/abs/1812.01366">arXiv</a> / 
         <a href="https://youtu.be/vnMwlS5tvHE">video 1</a> /  
@@ -33,7 +33,7 @@ Representative papers are highlighted.
         <a href="https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker">code</a> / 
         <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:CweYMKcUKesJ:scholar.google.com/&output=citation&scisdr=CgVAT2hXEOS4tci6tek:AAGBfm0AAAAAY1G8rem5lpW_N2pYmU0J2PqD_-QplUgI&scisig=AAGBfm0AAAAAY1G8rR6pMAYq25cZ2OGGW-Eiu_Fu8lXq&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a> 
       </span>
-    </td><td>You</td>
+    </td>
   </tr>
   
 </table>

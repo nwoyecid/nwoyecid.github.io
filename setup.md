@@ -1,7 +1,10 @@
 # Setup
 -------------------------
 
-## Personal page (`<username>.github.io`)
+
+[![](https://img.shields.io/badge/UNDER-CONSTRUCTION-blue?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
+
+## Personal page (`<nwoyecid>.github.io`)
 
 ### 1. Fork the repository
 Fork the repository from [here](https://github.com/kbsezginel/gh-pages-template) by clicking the fork button on the top right corner.

@@ -2,29 +2,31 @@
 layout: default
 ---
 # Biography of Chinedu Nwoye
+----------------------------
 
 Intro
 
-## Early life
+### Early life
 
-## Education
+### Education
 
-## Career
+### Career
 
-## Family and personal life
+### Family and personal life
 
-## Politics
+### Politics
 
-## Events and activities
+### Events and activities
 
-## Charity foundations
+### Charity foundations
 
-## Professional memberships
+### Professional memberships
 
-## Award and honours
+### Award and honours
 
-## Books
+### Books
 
 
+----
 
 ## References

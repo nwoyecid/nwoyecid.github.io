@@ -36,14 +36,21 @@
         {% endif %}
         
         {% if site.show_social %}
-          <hr />
-            <a href="mailto:{{site.email}}">Email</a> | 
-            <a href="{{ site.linkedin }}">Linkedin</a> | 
-            <a href="{{ site.github }}">GitHub</a> | 
+          <ul>            
+            <li><a href="mailto:{{site.email}}">Contact by <strong>Email</strong></a></li>
+            <li><a href="{{ site.linkedin }}">Connect On <strong>Linkedin</strong></a></li>
+            <li><a href="{{ site.gscholar }}">Visit <strong>Google Scholar</strong></a></li>
+            <li><a href="{{ site.researchgate }}">Research <strong>Gate</strong></a></li>
+            <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
+            <li><a href="{{ site.twitter }}">Follow On <strong>Twitter</strong></a></li>
+<!--             
+            <a href="mailto:{{site.email}}">Email</a> / 
+            <a href="{{ site.linkedin }}">Linkedin</a> / 
+            <a href="{{ site.github }}">GitHub</a> / 
             <a href="{{ site.gscholar }}">Google Scholar</a> | 
             <a href="{{ site.researchgate }}">Research Gate</a> | 
-            <a href="{{ site.twitter }}"><strong>Twitter</strong></a>
-           <hr />
+            <a href="{{ site.twitter }}"><strong>Twitter</strong></a> -->
+           </ul>
             This website is maintained by Nwoye Chinedu.
         {% endif %}
       </header>

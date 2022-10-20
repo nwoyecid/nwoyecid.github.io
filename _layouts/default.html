@@ -13,6 +13,8 @@
     <div class="wrapper">
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p><img style="width:100%;max-width:100%" alt="profile photo" src="assets/img/photo.png"></p>
+        <hr/>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         <table>
@@ -39,6 +41,7 @@
 
       </section>
       <footer>
+        <p>{{ footer-links }} </p>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

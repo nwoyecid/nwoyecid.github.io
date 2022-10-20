@@ -60,21 +60,20 @@ h3 {
   display:inline; 
 }
 
+// h1 {
+//   font-family: 'Lato', Verdana, Helvetica, sans-serif;
+//   font-size: 32px;
+//   font-weight: normal;
+//   font-display: auto;
+//   text-align: center;
+//   padding: 0px;
+//   margin-block-start: 14px;
+//   margin-block-end: 14px;
+//   margin-left: 0px;
+//   margin-right: 0px;
+// }
+
 h1 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  font-display: auto;
-  text-align: center;
-  padding: 0px;
-  margin-block-start: 14px;
-  margin-block-end: 14px;
-  margin-left: 0px;
-  margin-right: 0px;
-
-}
-
-.shadow {
   background-color: #565656;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);

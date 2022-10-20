@@ -8,15 +8,16 @@ navigation:
   - title: Home 
     url: /
   - title: Bio
-    url: /
+    url: _pages/bio
   - title: CV
-    url: /
-  - title: Project
-    url: /
-  - title: Services
     url: setup
+  - title: Project
+    url: _pages/projects
+  - title: Services
+    url: _pages/services
   - title: Contact
-    url: /
+    url: _pages/contacts
+    
 email: nwoye.chinedu@gmail.com
 linkedin: https://ng.linkedin.com/in/chinedu-nwoye-69471a31
 github: https://github.com/nwoyecid

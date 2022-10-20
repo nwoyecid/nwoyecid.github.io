@@ -12,7 +12,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 style="font-size:200%; background-color: #565656; color: transparent; text-shadow: 0px 2px 3px rgba(255,255,255,0.2); -webkit-background-clip: text; -moz-background-clip: text; background-clip: text;"> {{ site.title | default: site.github.repository_name }}</h1>
+        <h1 style="font-size:202%; background-color: #565656; color: transparent; text-shadow: 0px 2px 3px rgba(255,255,255,0.3); -webkit-background-clip: text; -moz-background-clip: text; background-clip: text;"> {{ site.title | default: site.github.repository_name }}</h1>
         <img style="width:80%;max-width:90%" alt="profile photo" src="assets/img/photo.png">
         <br/>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -53,18 +53,19 @@
             <a href="{{ site.researchgate }}">Research Gate</a> | 
             <a href="{{ site.twitter }}"><strong>Twitter</strong></a> -->
            
-        Website is maintained by <a>CIDSoft</a> ©
+        
         {% endif %}
       </header>
+      
       <section>
-
-      {{ content }}        
-
+      {{ content }}
       </section>
+      
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
+        Website is maintained by <a>CIDSoft</a> © <hr />
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>

@@ -79,6 +79,6 @@ He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">
 
 ## References
 
-- [<sub>1</sup> ICube http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye](http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye)
-- [<sub>2</sup> UNN http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5](http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5)
-- [<sub>3</sup> RG https://www.researchgate.net/profile/Chinedu_Nwoye](https://www.researchgate.net/profile/Chinedu_Nwoye)
+- [ 1.<sup>a,b</sup> ICube http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye](http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye)
+- [ 2.<sup>c</sup> UNN http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5](http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5)
+- [ 3. RG https://www.researchgate.net/profile/Chinedu_Nwoye](https://www.researchgate.net/profile/Chinedu_Nwoye)

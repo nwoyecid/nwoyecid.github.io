@@ -15,7 +15,7 @@ He is currently a post-doctoral research fellow at <a href="http://camma.u-stras
 </p>
 </div>
 
-
+--------------
 
 ### Early life
 

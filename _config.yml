@@ -14,9 +14,9 @@ navigation:
   - title: Bio
     url: bio
   - title: CV
-    url: setup
+    url: assets/pdf/cid_cv.pdf
   - title: Contact
-    url: contact
+    url: setup
     
 email: nwoye.chinedu@gmail.com
 linkedin: https://ng.linkedin.com/in/chinedu-nwoye-69471a31

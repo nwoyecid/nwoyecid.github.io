@@ -5,8 +5,8 @@ layout: default
 [![](https://img.shields.io/badge/MY-BIOGRAPHY-blue?style=for-the-badge)](#)
 
 
-### Chinedu Nwoye
------------------
+# Chinedu Nwoye
+
 
 <div  style="float:none; font-size:100%; text-align:justify">
 <p>

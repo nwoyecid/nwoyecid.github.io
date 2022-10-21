@@ -89,7 +89,7 @@ Representative papers are highlighted.
       </span
     </td>
   </tr>
-  <tr><td colspan=2 style="color:blue">><p><br /></p></td></tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
   
   
   <!--- paper 4 -->

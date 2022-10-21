@@ -23,7 +23,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         This work introduces the standard splits for the CholecT50 and CholecT45 datasets and show how they compare with existing use of the dataset. CholecT45 is the first public release of 45 videos of CholecT50 dataset. We also develop a metrics library, <i>ivtmetrics</i> (now an open-source project), for model evaluation on surgical triplets. Furthermore, we conduct a benchmark study by reproducing baseline methods in the most predominantly used deep learning frameworks (PyTorch and TensorFlow) to evaluate them using the proposed data splits and metrics and release them publicly to support future research. 
       </span><br>
-      `arXiv report (...updating state-of-the-arts...)`     
+      `arXiv report (...updating state-of-the-arts...)`   
     </td>
   </tr>
   <tr>

@@ -119,18 +119,14 @@ img {
   max-width:100%;
 }
 
-header{
-    background: #FFFF6B;
-    margin: 0px 0px 0px 0px;
-    position: absolute;
-    top: 0;
-    left:0;
-    padding: 0 100px;
-    width: 270px;
-    box-shadow: 0 4px 0 rgba(128, 128, 128, 0.616);
-    box-sizing: border-box;  
-    float:left;
-    -webkit-font-smoothing:subpixel-antialiased;
+header {
+  width:270px;
+  float:left;
+  position:fixed;
+  top: 0;
+  left:0;
+  bottom:0;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 header ul {

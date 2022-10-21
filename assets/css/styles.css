@@ -125,8 +125,6 @@ header {
   position:fixed;
   top:20px;
   bottom:0;
-  display: inline-block;
-  overflow: auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -208,7 +206,7 @@ section {
     background: transparent;
     padding: 5px;
     width: auto;
-    max-width:120px;
+    max-width:80px;
     z-index: 100;
     position: fixed;
     bottom: 0px;
@@ -216,7 +214,7 @@ section {
   }
 
   .floating-menu a, 
-  .floating-menu h1 {
+  .floating-menu h2 {
     display: block;
     margin: 0 0.5em;
     color: white;

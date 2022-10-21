@@ -17,10 +17,7 @@ He is currently a post-doctoral research fellow at <a href="http://camma.u-stras
 
 --------------
 
-### Early life
-
-
-### Education
+## Education
 <p>
 Academically, he earned a Ph.D. in Deep Learning, Computer Vision and Medical Robotics from the <a href="https://www.unistra.fr/index.php?id=english">University of Strasbourg</a> France. His thesis focused on the use of deep learning for the recognition and detection of surgical tools and fine-grained activities in endoscopic videos and thereoff providing context-awareness and intraoperative decision support in the operating room.
 In 2017, He was among the pioneer students of the <a href="https://cmmrs.mpi-sws.org/">CMMRS</a> pre-doctoral program at Saarbrucken, Germany organized by the <a href="https://www.cornell.edu/">Cornel University</a> USA, <a href="https://www.umd.edu/"> University of Maryland</a> USA and <a href="https://www.mpi-sws.org/">Max-Planck Institute for Software Systems</a> Germany. 
@@ -30,7 +27,7 @@ He also obtained his B.Sc. and first M.Sc. degrees in Computer Science (with Fir
 His an old boy of Saint Charles Lwanga secondary school and Johnbosco primary school, Onitsha, Anambra State, Nigeria.
 </p>
 
-### Career
+## Career
 <p>
 In 2022, He started a post-doctoral research at CAMMA: <a href="http://camma.u-strasbg.fr/">Computational Analysis and Modeling of Medical Activities </a> research group headed by his supervisor <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a>, in a close collaborations with the <a href="https://www.ihu-strasbourg.eu/institut/presentation/">IHU MixSurg institute</a>, the <a href="http://www.ircad.fr/?lng=en">IRCAD institute</a> and the <a href="#">Strasbourg University Hospitals</a> for medical data and other supports. He also belongs to wider research groups, <a href="http://icube-avr.unistra.fr/en/index.php/Main_Page">AVR (Automatics, Vision, and Robotics)</a>  and <a href="http://icube-web.unistra.fr/dsai/index.php/Main_Page">Data Science and Artificial Intelligence (DSAI)</a> in the ICube institute.
 Part of his job include teaching and supervision at the Univeristy of Strasbourg, France.
@@ -42,17 +39,21 @@ He is also a lecturer at the <a href="https://www.unn.edu.ng/">UNN</a> in the de
 </p>
 
 
-### Family and personal life
+## Early life
 > Born to St. Pius Nwoye and Mrs. Mercy Ozonze in Onitsha, Anambra state, Nigeria.
 
-### Politics
 
-### Events and activities
+### Family and personal life
 
-### Charity foundations
+
+## Politics
+
+## Events and activities
+
+## Charity foundations
 He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">African of Our Dreams Initiative (AODI)</a> where he also doubles as the project coordinator. 
 
-### Professional memberships
+## Professional memberships
 > - MICCAI Society   
 >> - Africai       
 > - CVPR Society
@@ -61,7 +62,7 @@ He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">
 > - <a href="https://www.cgan.com.ng">CGAN</a> Nigeria.
 
 
-### Award and honours
+## Award and honours
 
 > - IPCAI 2019 audience choice award on best paper presentation
 > - NITDEF postgraduate scholarship
@@ -70,7 +71,7 @@ He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">
 > - ETISALAT merit academic scholarship
 
 
-### Books
+## Short books
 - Determination, 2010
 - Near Death Experience, 2019
 

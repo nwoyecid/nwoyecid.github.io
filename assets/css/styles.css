@@ -121,7 +121,7 @@ header {
   height:100%;
   float:left;
   position:fixed;
-  overflow: scroll;
+  overflow: visible;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -223,8 +223,7 @@ footer {
   }
 
   header {
-    padding-right:320px;    
-    padding-bottom:50px;
+    padding-right:320px;  
   }
 
   section {

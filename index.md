@@ -12,7 +12,7 @@ Representative papers are highlighted.
 <table>
   <!--- paper 8 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -37,7 +37,7 @@ Representative papers are highlighted.
   
   <!--- paper 7 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>Dissecting Self-Supervised Learning Methods for Surgical Computer Vision</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Dissecting Self-Supervised Learning Methods for Surgical Computer Vision</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -65,7 +65,7 @@ Representative papers are highlighted.
   
   <!--- paper 6 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>CholecTriplet2021: A benchmark challenge for surgical action triplet recognition</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>CholecTriplet2021: A benchmark challenge for surgical action triplet recognition</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -94,7 +94,7 @@ Representative papers are highlighted.
   
   <!--- paper 4 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -125,7 +125,7 @@ Representative papers are highlighted.
   
   <!--- paper 5 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>Comparative validation of machine learning algorithms for surgical workflow and skill analysis with the HeiChole benchmark</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Comparative validation of machine learning algorithms for surgical workflow and skill analysis with the HeiChole benchmark</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -156,7 +156,7 @@ Representative papers are highlighted.
   
   <!--- paper 2 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>Recognition of instrument-tissue interactions in endoscopic videos via action triplets</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Recognition of instrument-tissue interactions in endoscopic videos via action triplets</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -189,7 +189,7 @@ Representative papers are highlighted.
   
   <!--- paper 3 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>2020 CATARACTS Semantic Segmentation Challenge</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>2020 CATARACTS Semantic Segmentation Challenge</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -213,7 +213,7 @@ Representative papers are highlighted.
   
   <!--- paper 1 -->
   <tr>
-    <td colspan=2 style="color:blue"><b>Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">

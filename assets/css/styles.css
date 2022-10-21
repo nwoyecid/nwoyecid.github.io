@@ -204,9 +204,8 @@ section {
 .floating-menu {
     font-family: sans-serif;
     background: transparent;
-    padding: 5px;
-    width: auto;
-    max-width:80px;
+    padding: 2px;
+    width: 80px;
     z-index: 100;
     position: fixed;
     bottom: 0px;
@@ -223,19 +222,19 @@ section {
 
 .floating-menu ul {
   list-style:none;
-  height:40px;
+  height:30px;
   padding:0;
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px;
+  width:100px;
 }
 
 .floating-menu li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
-  height:40px;
+  height:30px;
 }
 
 .floating-menu li:first-child a {
@@ -253,7 +252,7 @@ section {
   display:block;
   text-align:center;
   padding-top:6px;
-  height:34px;
+  height:24px;
 }
 
 .floating-menu ul a:hover {
@@ -266,7 +265,7 @@ section {
 
 .floating-menu ul li + li + li {
   border-right:none;
-  width:89px;
+  width:49px;
 }
 
 .floating-menu ul a strong {

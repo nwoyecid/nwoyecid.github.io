@@ -24,17 +24,15 @@ Representative papers are highlighted.
         This work introduces the standard splits for the CholecT50 and CholecT45 datasets and show how they compare with existing use of the dataset. CholecT45 is the first public release of 45 videos of CholecT50 dataset. We also develop a metrics library, <i>ivtmetrics</i> (now an open-source project), for model evaluation on surgical triplets. Furthermore, we conduct a benchmark study by reproducing baseline methods in the most predominantly used deep learning frameworks (PyTorch and TensorFlow) to evaluate them using the proposed data splits and metrics and release them publicly to support future research. 
       </span><br>
       <code class="dest">arXiv report (...updating state-of-the-arts...)</code> 
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <br />
       <span style="font-size:75%">
         <a href="https://arxiv.org/pdf/2204.05235.pdf">arXiv</a> / 
         <a href="https://github.com/CAMMA-public/attention-triplet">code</a> / 
         <a href="">bibtex</a> 
-      </span><p><br /></p>
+      </span>
     </td>
   </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
   
   
   <!--- paper 7 -->
@@ -50,11 +48,8 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         In this work, we address this critical need by investigating four state-of-the-art SSL methods (MoCo v2, SimCLR, DINO, SwAV) in the context of surgical computer vision. We present an extensive analysis of the performance of these methods on the Cholec80 dataset for two fundamental and popular tasks in surgical context understanding, phase recognition and tool presence detection. We examine their parameterization, then their behavior with respect to training data quantities in semi-supervised settings. Correct transfer of these methods to surgery, as described and conducted in this work, leads to substantial performance gains over generic uses of SSL...
       </span><br>
-      <code class="dest"><i>Submitted to</i> Medical Image Analysis 2022 (IF: 8.545)</code>      
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <code class="dest"><i>Submitted to</i> Medical Image Analysis 2022 (IF: 8.545)</code>    
+      <br />
       <span style="font-size:75%">
         <a href="#">journal</a> /
         <a href="https://arxiv.org/pdf/2207.00449.pdf">arXiv</a> / 
@@ -62,9 +57,10 @@ Representative papers are highlighted.
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/SelfSupSurg">code</a> / 
         <a href="#">bibtex</a> 
-      </span><p><br /></p>
+      </span>
     </td>
   </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
   
   
   <!--- paper 6 -->
@@ -80,11 +76,8 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         An endoscopic vision challenge organized at MICCAI 2021 for the recognition of surgical action triplets in laparoscopic videos. private access to the large-scale CholecT50 dataset, summary and assessment of 20 state-of-the-art deep learning methods proposed by the participants. Analysis of the significance of the results obtained by the presented approaches, a thorough methodological comparison, an in-depth result analysis, a novel ensemble method for enhanced recognition, and a highlight of interesting directions for …
       </span><br>
-      <code class="dest">Medical Image Analysis 2022 (IF: 8.545)</code>      
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <code class="dest">Medical Image Analysis 2022 (IF: 8.545)</code>   
+      <br />
       <span style="font-size:75%">
         <a href="https://cholectriplet2021.grand-challenge.org/">project page</a> /
         <a href="#">journal</a> /
@@ -93,9 +86,10 @@ Representative papers are highlighted.
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/cholectriplet2021">code</a> / 
         <a href="">bibtex</a> 
-      </span><p><br /></p>
+      </span
     </td>
   </tr>
+  <tr><td colspan=2 style="color:blue">><p><br /></p></td></tr>
   
   
   <!--- paper 4 -->
@@ -114,11 +108,8 @@ Representative papers are highlighted.
         (2) semantic attention to resolve the relationships between instruments, verbs, and targets leveraging self and cross attention mechanisms; 
         this is called Multi-Head of Mixed Attention (MHMA).
       </span><br>
-      <code class="dest">Medical Image Analysis 2022 (IF: 8.545)</code>      
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <code class="dest">Medical Image Analysis 2022 (IF: 8.545)</code> 
+      <br />
       <span style="font-size:75%">
         <a href="https://doi.org/10.1016/j.media.2022.102433">journal</a> /
         <a href="https://arxiv.org/abs/2109.03223">arXiv</a> / 
@@ -126,10 +117,11 @@ Representative papers are highlighted.
         <a href="https://ars.els-cdn.com/content/image/1-s2.0-S1361841522000846-ga1.jpg">poster</a> / 
         <a href="https://ars.els-cdn.com/content/image/1-s2.0-S1361841522000846-mmc1.pdf">supplement</a> / 
         <a href="https://github.com/CAMMA-public/rendezvous">code</a> / 
-        <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:NvIar7XwfCEJ:scholar.google.com/&output=citation&scisdr=CgVAT2hXEOS4tcjKXjw:AAGBfm0AAAAAY1HMRjw1Vj8y99GIlCuK4Y487-0VkR7j&scisig=AAGBfm0AAAAAY1HMRu-hHlghtvoQXt99SSsSyJSB-yI8&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a> 
-      </span><p><br /></p>
+        <a href="#">bibtex</a> 
+      </span>
     </td>
   </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p> </td></tr>
   
   <!--- paper 5 -->
   <tr>
@@ -144,11 +136,8 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         The purpose of this study was to establish an open benchmark for surgical workflow and skill analysis by providing a state of the art comparison of machine learning algorithms on a novel and publicly accessible data set that improves representativeness with multi-centric data clinical data.
       </span><br>
-      <code class="dest"><i>Submitted to </i>Medical Image Analysis 2022 (IF: 8.545)</code>      
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <code class="dest"><i>Submitted to </i>Medical Image Analysis 2022 (IF: 8.545)</code>
+      <br />
       <span style="font-size:75%">
         <a href="https://www.synapse.org/#!Synapse:syn18824884/wiki/592586">project page</a> /
         <a href="#">journal</a> /
@@ -157,9 +146,10 @@ Representative papers are highlighted.
         <a href="#">supplement</a> / 
         <a href="#">code</a> / 
         <a href="#">bibtex</a> 
-      </span><p><br /></p>
+      </span>
     </td>
   </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
   
   
   
@@ -180,11 +170,8 @@ Representative papers are highlighted.
         Followed by the development of Tripnet: first deep learning method to recognize these triplets directly from the video data leveraging two novel modules, 
         class activation guide (CAG) and 3D interaction space (3Dis), for respectively capturing the individual components of triplet and resolving their association as triplets.        
       </span><br>
-      <code class="dest">MICCAI 2022 (Oral presentation)</code>      
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <code class="dest">MICCAI 2022 (Oral presentation)</code> 
+      <br />
       <span style="font-size:75%">
         <a href="https://link.springer.com/chapter/10.1007/978-3-030-59716-0_35">journal</a> /
         <a href="https://arxiv.org/abs/2007.05405">arXiv</a> / 
@@ -193,10 +180,11 @@ Representative papers are highlighted.
         <a href="#">poster</a> / 
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/tripnet">code</a> / 
-        <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:ZZm_AZpFBVkJ:scholar.google.com/&output=citation&scisdr=CgVAT2hXEOS4tcjIyig:AAGBfm0AAAAAY1HO0ihWUeoZS9wMI9kqhDsAxPhc9m7e&scisig=AAGBfm0AAAAAY1HO0tbsKCBz_ahuqJJjchZZFscqaly0&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a> 
-      </span><p><br /></p>
+        <a href="#">bibtex</a> 
+      </span>
     </td>
   </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
   
   
   <!--- paper 3 -->
@@ -212,18 +200,16 @@ Representative papers are highlighted.
       <span style="font-size:80%">
        An 2020 MICCAI EndoVis Challenge with three sub-tasks to assess participating solutions on anatomical structure and instrument pixel-wise semantic segmentation in cataract surgery videos...
       </span><br>
-      <code class="dest">arXiv report</code>      
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <code class="dest">arXiv report</code>   
+      <br />
       <span style="font-size:75%">
         <a href="https://arxiv.org/pdf/2110.10965.pdf">arXiv</a> / 
         <a href="https://cataracts-semantic-segmentation2020.grand-challenge.org/">project page</a> / 
         <a href="#">bibtex</a> 
-      </span><p><br /></p>
+      </span>
     </td>
   </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
   
   <!--- paper 1 -->
   <tr>
@@ -240,11 +226,8 @@ Representative papers are highlighted.
         It exploit temporal information in laparoscopic videos using convolutional LSTM. 
         The model achieved a state-of-the-art performance on tool detection, localization and tracking for weakly supervised models...
       </span><br>
-      <code class="dest">IPCAI 2019 (Oral presentation, Audience choice award: Best presentation (First prize)</code>      
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2 style="color:blue">
+      <code class="dest">IPCAI 2019 (Oral presentation, Audience choice award: Best paper presentation)</code> 
+      <br />
       <span style="font-size:75%">
         <a href="https://link.springer.com/article/10.1007/s11548-019-01958-6">journal</a> /
         <a href="https://arxiv.org/abs/1812.01366">arXiv</a> / 
@@ -253,56 +236,12 @@ Representative papers are highlighted.
         <a href="#">poster</a> / 
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker">code</a> / 
-        <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:CweYMKcUKesJ:scholar.google.com/&output=citation&scisdr=CgVAT2hXEOS4tci6tek:AAGBfm0AAAAAY1G8rem5lpW_N2pYmU0J2PqD_-QplUgI&scisig=AAGBfm0AAAAAY1G8rR6pMAYq25cZ2OGGW-Eiu_Fu8lXq&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a> 
-      </span><p><br /></p>
+        <a href="#">bibtex</a> 
+      </span>
     </td>
   </tr>
+  <tr> <td colspan=2 style="color:blue"><p><br /></p></td> </tr>
   
 </table>
 
 
-
-
-
-<!-- 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br> -->

@@ -9,10 +9,12 @@ Representative papers are highlighted.
 
 
 ## Selected publications
+
 <table>
+  
   <!--- paper 8 -->
   <tr>
-    <td colspan=2 style="color:#4B9CD3"><b>Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets</b></td>
+    <td colspan=2 style="color:#4B9CDF"><b>Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -86,7 +88,7 @@ Representative papers are highlighted.
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/cholectriplet2021">code</a> / 
         <a href="">bibtex</a> 
-      </span
+      </span>
     </td>
   </tr>
   <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>

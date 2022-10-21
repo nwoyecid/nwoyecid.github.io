@@ -222,7 +222,7 @@ section {
 
 .floating-menu ul {
   list-style:none;
-  height:30px;
+  height:35px;
   padding:0;
   background: #f4f4f4;
   border-radius:5px;
@@ -234,7 +234,7 @@ section {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
-  height:30px;
+  height:35px;
 }
 
 .floating-menu li:first-child a {
@@ -252,7 +252,7 @@ section {
   display:block;
   text-align:center;
   padding-top:6px;
-  height:24px;
+  height:28px;
 }
 
 .floating-menu ul a:hover {

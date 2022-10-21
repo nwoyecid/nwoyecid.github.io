@@ -100,6 +100,9 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
+}
+
+tr {
   border-bottom:1px solid #e5e5e5;
 }
 
@@ -163,7 +166,7 @@ header ul a:hover {
 }
 
 header ul a:active {
-  background-color:#f0f0f0;
+  background-color:#c0f0c9;
 }
 
 strong {

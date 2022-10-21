@@ -199,11 +199,16 @@ section {
 
 
 
+
+
+
+
 .floating-menu {
     font-family: sans-serif;
-    background: yellowgreen;
+    background: transparent;
     padding: 5px;
-    width: 130px;
+    width: auto;
+    max-width:120px;
     z-index: 100;
     position: fixed;
     bottom: 0px;
@@ -211,8 +216,7 @@ section {
   }
 
   .floating-menu a, 
-  .floating-menu h3 {
-    font-size: 0.9em;
+  .floating-menu h1 {
     display: block;
     margin: 0 0.5em;
     color: white;

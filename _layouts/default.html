@@ -34,7 +34,7 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
-        
+        <!--  
         {% if site.show_social %}
           <ul>            
             <li><a href="mailto:{{site.email}}">Contact by <strong>Email</strong></a></li>
@@ -45,38 +45,39 @@
             <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
             <li><a href="{{ site.twitter }}">Follow On <strong>Twitter</strong></a></li>
           </ul>
-<!--             
+           
             <a href="mailto:{{site.email}}">Email</a> / 
             <a href="{{ site.linkedin }}">Linkedin</a> / 
             <a href="{{ site.github }}">GitHub</a> / 
             <a href="{{ site.gscholar }}">Google Scholar</a> | 
             <a href="{{ site.researchgate }}">Research Gate</a> | 
-            <a href="{{ site.twitter }}"><strong>Twitter</strong></a> -->
+            <a href="{{ site.twitter }}"><strong>Twitter</strong></a>
            
         
-        {% endif %}
+        {% endif %} -->
         
         <p> © Website is maintained by <a href="#">CIDSoft</a> ® </p>
         
       </header>
       
-      <nav class="floating-menu">
-        <h3>Floating Menu</h3>
-        <a href="/css/">CSS</a>
-        <a href="/html/">HTML</a>
-        <a href="/coldfusion/">ColdFusion</a>
-        <a href="/database/">Database</a>
-        
-        <ul>            
-            <li><a href="mailto:{{site.email}}">Contact by <strong>Email</strong></a></li>
-            <li><a href="{{ site.linkedin }}">Connect On <strong>Linkedin</strong></a></li>
-            <li><a href="{{ site.gscholar }}">Google <strong>Scholar</strong></a></li>
-        </ul><hr /><ul>
-            <li><a href="{{ site.researchgate }}">Research <strong>Gate</strong></a></li>
-            <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
-            <li><a href="{{ site.twitter }}">Follow On <strong>Twitter</strong></a></li>
-        </ul>
-      </nav>
+      {% if site.show_social %}
+        <nav class="floating-menu">
+          <h2>Flash Contact</h2>
+          <ul>            
+              <li><a href="mailto:{{site.email}}">Send <strong>Email</strong></a></li>
+          </ul><ul>
+              <li><a href="{{ site.linkedin }}">Connect On <strong>Linkedin</strong></a></li>
+          </ul><ul>
+              <li><a href="{{ site.gscholar }}">Google <strong>Scholar</strong></a></li>
+          </ul><ul>
+              <li><a href="{{ site.researchgate }}">Research <strong>Gate</strong></a></li>
+          </ul><ul>
+              <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
+          </ul><ul>
+              <li><a href="{{ site.twitter }}">Follow On <strong>Twitter</strong></a></li>
+          </ul>
+        </nav>
+      {% endif %} 
       
       <section>
         

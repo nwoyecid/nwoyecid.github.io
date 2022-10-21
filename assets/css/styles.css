@@ -83,6 +83,10 @@ code, pre {
   color:#333;
 }
 
+code.dest {
+  font-size: 70%;
+}
+
 pre {
   padding:8px 15px;
   background: #f8f8f8;

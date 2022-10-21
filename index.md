@@ -23,7 +23,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         This work introduces the standard splits for the CholecT50 and CholecT45 datasets and show how they compare with existing use of the dataset. CholecT45 is the first public release of 45 videos of CholecT50 dataset. We also develop a metrics library, <i>ivtmetrics</i> (now an open-source project), for model evaluation on surgical triplets. Furthermore, we conduct a benchmark study by reproducing baseline methods in the most predominantly used deep learning frameworks (PyTorch and TensorFlow) to evaluate them using the proposed data splits and metrics and release them publicly to support future research. 
       </span><br>
-      `arXiv report (...updating state-of-the-arts...)`   
+      <code>arXiv report (...updating state-of-the-arts...)</code> 
     </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         In this work, we address this critical need by investigating four state-of-the-art SSL methods (MoCo v2, SimCLR, DINO, SwAV) in the context of surgical computer vision. We present an extensive analysis of the performance of these methods on the Cholec80 dataset for two fundamental and popular tasks in surgical context understanding, phase recognition and tool presence detection. We examine their parameterization, then their behavior with respect to training data quantities in semi-supervised settings. Correct transfer of these methods to surgery, as described and conducted in this work, leads to substantial performance gains over generic uses of SSL...
       </span><br>
-      <b style="font-size:20%: color:dark-blue"><i>Submitted to</i> Medical Image Analysis 2022 (IF: 8.545)</b>      
+      <code>Submitted to</i> Medical Image Analysis 2022 (IF: 8.545)</code>      
     </td>
   </tr>
   <tr>
@@ -80,7 +80,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         An endoscopic vision challenge organized at MICCAI 2021 for the recognition of surgical action triplets in laparoscopic videos. private access to the large-scale CholecT50 dataset, summary and assessment of 20 state-of-the-art deep learning methods proposed by the participants. Analysis of the significance of the results obtained by the presented approaches, a thorough methodological comparison, an in-depth result analysis, a novel ensemble method for enhanced recognition, and a highlight of interesting directions for …
       </span><br>
-      <b style="font-size:20%: color:dark-blue">Medical Image Analysis 2022 (IF: 8.545)</b>      
+      <code>Medical Image Analysis 2022 (IF: 8.545)</code>      
     </td>
   </tr>
   <tr>
@@ -114,7 +114,7 @@ Representative papers are highlighted.
         (2) semantic attention to resolve the relationships between instruments, verbs, and targets leveraging self and cross attention mechanisms; 
         this is called Multi-Head of Mixed Attention (MHMA).
       </span><br>
-      <b style="font-size:20%: color:dark-blue">Medical Image Analysis 2022 (IF: 8.545)</b>      
+      <code>Medical Image Analysis 2022 (IF: 8.545)</code>      
     </td>
   </tr>
   <tr>
@@ -144,7 +144,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         The purpose of this study was to establish an open benchmark for surgical workflow and skill analysis by providing a state of the art comparison of machine learning algorithms on a novel and publicly accessible data set that improves representativeness with multi-centric data clinical data.
       </span><br>
-      <b style="font-size:20%: color:dark-blue"><i>Submitted to </i>Medical Image Analysis 2022 (IF: 8.545)</b>      
+      <code><i>Submitted to </i>Medical Image Analysis 2022 (IF: 8.545)</code>      
     </td>
   </tr>
   <tr>
@@ -180,7 +180,7 @@ Representative papers are highlighted.
         Followed by the development of Tripnet: first deep learning method to recognize these triplets directly from the video data leveraging two novel modules, 
         class activation guide (CAG) and 3D interaction space (3Dis), for respectively capturing the individual components of triplet and resolving their association as triplets.        
       </span><br>
-      <b style="font-size:20%: color:dark-blue">MICCAI 2022 (Oral presentation)</b>      
+      <code>MICCAI 2022 (Oral presentation)</code>      
     </td>
   </tr>
   <tr>
@@ -212,7 +212,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
        An 2020 MICCAI EndoVis Challenge with three sub-tasks to assess participating solutions on anatomical structure and instrument pixel-wise semantic segmentation in cataract surgery videos...
       </span><br>
-      <b style="font-size:20%: color:dark-blue">arXiv report</b>      
+      <code>arXiv report</code>      
     </td>
   </tr>
   <tr>
@@ -240,7 +240,7 @@ Representative papers are highlighted.
         It exploit temporal information in laparoscopic videos using convolutional LSTM. 
         The model achieved a state-of-the-art performance on tool detection, localization and tracking for weakly supervised models...
       </span><br>
-      <b style="font-size:20%: color:dark-blue">IPCAI 2019 (Oral presentation, Audience choice award: Best presentation (First prize)</b>      
+      <code>IPCAI 2019 (Oral presentation, Audience choice award: Best presentation (First prize)</code>      
     </td>
   </tr>
   <tr>

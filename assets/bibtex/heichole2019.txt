@@ -1,0 +1,6 @@
+@article{wagner2021comparative,
+  title={Comparative validation of machine learning algorithms for surgical workflow and skill analysis with the HeiChole benchmark},
+  author={Wagner, Martin and M{\"u}ller-Stich, Beat-Peter and Kisilenko, Anna and Tran, Duc and Heger, Patrick and M{\"u}ndermann, Lars and Lubotsky, David M and M{\"u}ller, Benjamin and Davitashvili, Tornike and Capek, Manuela and others},
+  journal={arXiv preprint arXiv:2109.14956},
+  year={2021}
+}

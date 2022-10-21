@@ -1,0 +1,8 @@
+@inproceedings{nwoye2020recognition,
+   title={Recognition of instrument-tissue interactions in endoscopic videos via action triplets},
+   author={Nwoye, Chinedu Innocent and Gonzalez, Cristians and Yu, Tong and Mascagni, Pietro and Mutter, Didier and Marescaux, Jacques and Padoy, Nicolas},
+   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+   pages={364--374},
+   year={2020},
+   organization={Springer}
+}

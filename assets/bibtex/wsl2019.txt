@@ -1,0 +1,10 @@
+@article{nwoye2019weakly,
+  title={Weakly supervised convolutional LSTM approach for tool tracking in laparoscopic videos},
+  author={Nwoye, Chinedu Innocent and Mutter, Didier and Marescaux, Jacques and Padoy, Nicolas},
+  journal={International journal of computer assisted radiology and surgery},
+  volume={14},
+  number={6},
+  pages={1059--1067},
+  year={2019},
+  publisher={Springer}
+}

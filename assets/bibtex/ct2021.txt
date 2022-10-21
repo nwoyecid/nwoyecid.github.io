@@ -1,0 +1,6 @@
+@article{nwoye2022cholectriplet2021,
+  title={CholecTriplet2021: a benchmark challenge for surgical action triplet recognition},
+  author={Nwoye, Chinedu Innocent and Alapatt, Deepak and Vardazaryan, Armine ... Gonzalez, Cristians and Padoy, Nicolas},
+  journal={arXiv preprint arXiv:2204.04746},
+  year={2022}
+}

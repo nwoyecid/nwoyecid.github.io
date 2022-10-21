@@ -1,0 +1,6 @@
+@article{ramesh2022dissecting,
+  title={Dissecting Self-Supervised Learning Methods for Surgical Computer Vision},
+  author={Ramesh, Sanat and Srivastav, Vinkle and Alapatt, Deepak and Yu, Tong and Murali, Aditya and Sestini, Luca and Nwoye, Chinedu Innocent and Hamoud, Idris and Fleurentin, Antoine and Exarchakis, Georgios and others},
+  journal={arXiv preprint arXiv:2207.00449},
+  year={2022}
+}

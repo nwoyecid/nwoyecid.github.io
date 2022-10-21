@@ -196,6 +196,92 @@ section {
   padding-bottom:50px;
 }
 
+
+
+
+.floating-menu {
+    font-family: sans-serif;
+    background: yellowgreen;
+    padding: 5px;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+  }
+
+
+.floating-menu ul {
+  list-style:none;
+  height:40px;
+  padding:0;
+  background: #f4f4f4;
+  border-radius:5px;
+  border:1px solid #e0e0e0;
+  width:270px;
+}
+
+.floating-menu li {
+  width:89px;
+  float:left;
+  border-right:1px solid #e0e0e0;
+  height:40px;
+}
+
+.floating-menu li:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+.floating-menu li:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+.floating-menu ul a {
+  line-height:1;
+  font-size:11px;
+  color:#999;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
+}
+
+.floating-menu ul a:hover {
+  color:#999;
+}
+
+.floating-menu ul a:active {
+  background-color:#f0f0f0;
+}
+
+.floating-menu ul li + li + li {
+  border-right:none;
+  width:89px;
+}
+
+.floating-menu ul a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
+
+
+
+
+
+
+
+
+
 small {
   font-size:11px;
 }

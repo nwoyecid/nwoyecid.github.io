@@ -50,7 +50,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         In this work, we address this critical need by investigating four state-of-the-art SSL methods (MoCo v2, SimCLR, DINO, SwAV) in the context of surgical computer vision. We present an extensive analysis of the performance of these methods on the Cholec80 dataset for two fundamental and popular tasks in surgical context understanding, phase recognition and tool presence detection. We examine their parameterization, then their behavior with respect to training data quantities in semi-supervised settings. Correct transfer of these methods to surgery, as described and conducted in this work, leads to substantial performance gains over generic uses of SSL...
       </span><br>
-      <code>Submitted to</i> Medical Image Analysis 2022 (IF: 8.545)</code>      
+      <code><i>Submitted to</i> Medical Image Analysis 2022 (IF: 8.545)</code>      
     </td>
   </tr>
   <tr>

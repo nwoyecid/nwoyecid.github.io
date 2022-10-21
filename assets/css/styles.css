@@ -68,7 +68,8 @@ a:hover small {
 .wrapper {
   width:1080px;
   margin:0 auto;
-  height: 100%;
+  height: auto;
+  max-height: 100%;
 }
 
 blockquote {
@@ -93,7 +94,8 @@ pre {
 }
 
 table {
-  width:100%;
+  width: auto;
+  max-width: 100%;
   border-collapse:collapse;
 }
 
@@ -113,12 +115,15 @@ th {
 }
 
 img {
+  width: auto;
   max-width:100%;
 }
 
 header {
-  width:270px;
-  height:300%;
+  width:auto;
+  max-width: 270px;
+  height:auto;
+  max-height: 300%;
   float:left;
   position:fixed;
   overflow: visible;

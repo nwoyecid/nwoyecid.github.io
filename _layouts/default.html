@@ -55,15 +55,20 @@
            
         
         {% endif %}
+        
+        <p> © Website is maintained by <a href="#">CIDSoft</a> ® </p>
+        
       </header>
       
       <section>
+        
       {{ content }}
+        
       </section>
       
       <footer>
         
-        <p> © Website is maintained by <a href="#">CIDSoft</a> ® </p>
+        
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

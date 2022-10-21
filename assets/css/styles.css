@@ -34,6 +34,17 @@ h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+h1.shadow {
+  font-size: 260%;
+  font-weight: 800;
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 3px 4px 5px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
 a {
   color:#39c;
   text-decoration:none;

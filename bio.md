@@ -43,7 +43,7 @@ He is also a lecturer at the <a href="https://www.unn.edu.ng/">UNN</a> in the de
 
 
 ### Family and personal life
-Born to St. Pius Nwoye and Mrs. Mercy Ozonze in Onitsha, Anambra state, Nigeria.
+> Born to St. Pius Nwoye and Mrs. Mercy Ozonze in Onitsha, Anambra state, Nigeria.
 
 ### Politics
 
@@ -53,21 +53,21 @@ Born to St. Pius Nwoye and Mrs. Mercy Ozonze in Onitsha, Anambra state, Nigeria.
 He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">African of Our Dreams Initiative (AODI)</a> where he also doubles as the project coordinator. 
 
 ### Professional memberships
-- MICCAI Society          
-- CVPR Society
-- Blacks in AI                 
-- AODI
-- Africai
-- <a href="https://www.cgan.com.ng">CGAN</a> Nigeria.
+> - MICCAI Society   
+>> - Africai       
+> - CVPR Society
+> - Blacks in AI                 
+> - AODI
+> - <a href="https://www.cgan.com.ng">CGAN</a> Nigeria.
 
 
 ### Award and honours
 
-- IPCAI 2019 audience choice award on best paper presentation
-- NITDEF postgraduate scholarship
-- Best Graduating Student, Computer Science UNN 2012
-- MTNF award of academic excellence
-- ETISALAT merit academic scholarship
+> - IPCAI 2019 audience choice award on best paper presentation
+> - NITDEF postgraduate scholarship
+> - Best Graduating Student, Computer Science UNN 2012
+> - MTNF award of academic excellence
+> - ETISALAT merit academic scholarship
 
 
 ### Books

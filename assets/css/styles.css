@@ -125,8 +125,7 @@ img {
 }
 
 img.profile {
-  width: auto;
-  max-width:60%;
+  max-width:30%;
   align:center;
 }
 

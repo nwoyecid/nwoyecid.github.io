@@ -282,3 +282,8 @@ footer {
     color:#444;
   }
 }
+
+
+span.highlight {
+  background-color: #ffffd0;
+}

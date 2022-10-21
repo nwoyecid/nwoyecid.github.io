@@ -7,6 +7,5 @@
 - Research
 - Consultancy
 - Supervision
-- Model and research roadmap Design
+- Roadmap and model Design
 
-*

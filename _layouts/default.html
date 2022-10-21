@@ -60,6 +60,24 @@
         
       </header>
       
+      <nav class="floating-menu">
+        <h3>Floating Menu</h3>
+        <a href="/css/">CSS</a>
+        <a href="/html/">HTML</a>
+        <a href="/coldfusion/">ColdFusion</a>
+        <a href="/database/">Database</a>
+        
+        <ul>            
+            <li><a href="mailto:{{site.email}}">Contact by <strong>Email</strong></a></li>
+            <li><a href="{{ site.linkedin }}">Connect On <strong>Linkedin</strong></a></li>
+            <li><a href="{{ site.gscholar }}">Google <strong>Scholar</strong></a></li>
+        </ul><hr /><ul>
+            <li><a href="{{ site.researchgate }}">Research <strong>Gate</strong></a></li>
+            <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
+            <li><a href="{{ site.twitter }}">Follow On <strong>Twitter</strong></a></li>
+        </ul>
+      </nav>
+      
       <section>
         
       {{ content }}

@@ -14,7 +14,7 @@ Representative papers are highlighted.
   
   <!--- paper 8 -->
   <tr>
-    <td colspan=2 style="color:#4B9CDF"><b>Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets</b></td>
+    <td colspan=2 style="color:#4B9CDF"><b>Data splits and metrics for method benchmarking on surgical action triplet datasets</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -39,7 +39,7 @@ Representative papers are highlighted.
   
   <!--- paper 7 -->
   <tr>
-    <td colspan=2 style="color:#4B9CD3"><b>Dissecting Self-Supervised Learning Methods for Surgical Computer Vision</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Dissecting self-supervised learning methods for surgical computer vision</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -96,7 +96,7 @@ Representative papers are highlighted.
   
   <!--- paper 4 -->
   <tr>
-    <td colspan=2 style="color:#4B9CD3"><b>Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos</b></td>
+    <td colspan=2 style="color:#4B9CD3"><b>Rendezvous: Attention mechanisms for the recognition of surgical action triplets in endoscopic videos</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -191,7 +191,7 @@ Representative papers are highlighted.
   
   <!--- paper 3 -->
   <tr>
-    <td colspan=2 style="color:#4B9CDF"><b>2020 CATARACTS Semantic Segmentation Challenge</b></td>
+    <td colspan=2 style="color:#4B9CDF"><b>2020 CATARACTS semantic segmentation challenge</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -215,7 +215,7 @@ Representative papers are highlighted.
   
   <!--- paper 1 -->
   <tr>
-    <td colspan=2 style="color:#4B9CDF"><b>Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos</b></td>
+    <td colspan=2 style="color:#4B9CDF"><b>Weakly supervised convolutional LSTM approach for tool tracking in laparoscopic videos</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">

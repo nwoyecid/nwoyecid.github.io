@@ -122,11 +122,13 @@ img {
 header {
   width:270px;
   float:left;
-  position:fixed;
+  position:absolute;
   top:20px;
   bottom:0;
+  display: inline-block;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
 
 header ul {
   list-style:none;

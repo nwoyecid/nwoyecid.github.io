@@ -1,5 +1,1 @@
-# Contact me
-
-
-
-[![](https://img.shields.io/badge/UNDER-CONSTRUCTION-blue?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
+# [![](https://img.shields.io/badge/MY-CONTACTS-blue?style=for-the-badge)](#)

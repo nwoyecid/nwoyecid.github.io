@@ -34,18 +34,6 @@ h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-h1.shadow {
-  text-align: center;
-  font-size: 230%;
-  font-weight: 800;
-  background-color: #565656;
-  color: transparent;
-  text-shadow: 3px 4px 5px rgba(255,255,255,0.5);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
-}
-
 a {
   color:#39c;
   text-decoration:none;
@@ -67,11 +55,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:auto;
-  max-width:100%;
+  width:1080px;
   margin:0 auto;
-  height: auto;
-  max-height: 90%;
 }
 
 blockquote {
@@ -81,14 +66,9 @@ blockquote {
   font-style:italic;
 }
 
-
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
-}
-
-code.dest {
-  font-size: 70%;
 }
 
 pre {
@@ -100,8 +80,7 @@ pre {
 }
 
 table {
-  width: auto;
-  max-width: 100%;
+  width:100%;
   border-collapse:collapse;
 }
 
@@ -109,7 +88,6 @@ th, td {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
-  vertical-align: top;
 }
 
 dt {
@@ -125,20 +103,10 @@ img {
   max-width:100%;
 }
 
-img.profile {
-  max-width:30%;
-  align:center;
-}
-
 header {
-  width:auto;
-  max-width:20%;
-  height:auto;
-  max-height:100%;
+  width:270px;
   float:left;
   position:fixed;
-  overflow: auto;
-  padding-bottom:100px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -182,7 +150,7 @@ header ul a:hover {
 }
 
 header ul a:active {
-  background-color:#c0f0c9;
+  background-color:#f0f0f0;
 }
 
 strong {
@@ -202,8 +170,7 @@ header ul a strong {
 }
 
 section {
-  width: auto;
-  max-width:70%;
+  width:750px;
   float:right;
   padding-bottom:50px;
 }
@@ -220,8 +187,7 @@ hr {
 }
 
 footer {
-  width:auto;
-  max-width:100%;
+  width:270px;
   float:left;
   position:fixed;
   bottom:50px;
@@ -242,7 +208,7 @@ footer {
   }
 
   header {
-    padding-right:320px;  
+    padding-right:320px;
   }
 
   section {
@@ -301,9 +267,4 @@ footer {
     font-size:12pt;
     color:#444;
   }
-}
-
-
-span.highlight {
-  background-color: #ffffd0;
 }

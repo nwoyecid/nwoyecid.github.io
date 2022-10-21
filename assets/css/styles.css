@@ -100,9 +100,6 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-}
-
-tr {
   border-bottom:1px solid #e5e5e5;
 }
 
@@ -224,7 +221,8 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    padding-right:320px;    
+    padding-bottom:50px;
   }
 
   section {

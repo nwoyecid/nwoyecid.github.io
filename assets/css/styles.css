@@ -117,13 +117,11 @@ th {
 }
 
 img {
-  width: auto;
-  max-width:90%;
+  max-width:100%;
 }
 
 img.profile {
-  width: auto;
-  max-width:70%;
+  max-width:80%;
   align:center;
 }
 

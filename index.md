@@ -189,7 +189,7 @@ Representative papers are highlighted.
   
   <!--- paper 3 -->
   <tr>
-    <td colspan=2 style="color:#4B9CD3"><b>2020 CATARACTS Semantic Segmentation Challenge</b></td>
+    <td colspan=2 style="color:#4B9CDF"><b>2020 CATARACTS Semantic Segmentation Challenge</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -213,7 +213,7 @@ Representative papers are highlighted.
   
   <!--- paper 1 -->
   <tr>
-    <td colspan=2 style="color:#4B9CD3"><b>Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos</b></td>
+    <td colspan=2 style="color:#4B9CDF"><b>Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos</b></td>
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
@@ -240,8 +240,9 @@ Representative papers are highlighted.
       </span>
     </td>
   </tr>
-  <tr> <td colspan=2 style="color:blue"><p><br /></p></td> </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
   
 </table>
 
 
+  **... standing on the shoulders of giants**

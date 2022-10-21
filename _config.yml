@@ -8,7 +8,7 @@ navigation:
   - title: Research 
     url: /
   - title: Projects
-    url: projects
+    url: _pages/projects
   - title: Services
     url: services
   - title: Bio

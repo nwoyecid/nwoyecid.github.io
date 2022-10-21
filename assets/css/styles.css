@@ -87,6 +87,10 @@ code, pre {
   color:#333;
 }
 
+code {
+  font-size: 40%;
+}
+
 pre {
   padding:8px 15px;
   background: #f8f8f8;
@@ -121,16 +125,18 @@ img {
 }
 
 img.profile {
+  width: auto;
   max-width:80%;
   align:center;
 }
 
 header {
   width:auto;
-  max-width: 22%;
+  max-width: 20%;
   height:auto;
   max-height: 100%;
   float:left;
+  padding-right: 20px;
   position:fixed;
   overflow: visible;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -241,7 +247,7 @@ footer {
   }
 
   header {
-    padding-right:320px;  
+    padding-right:32px;  
   }
 
   section {

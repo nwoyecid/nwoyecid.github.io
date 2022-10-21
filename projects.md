@@ -16,7 +16,6 @@
 
 > - Building deep learning models for surgical instrument tracking in endoscopic videos, achieved by modeling spatial localization and temporal consistency in moving images in a video using weak supervision.
 > - Resultant app now integrated in the NVIDIA Holoscan SDK demo for release.
-
 >>> <a href="#">project page</a> | <a href="#">published report </a> | <a href="#">project applications</a>
 
 -------

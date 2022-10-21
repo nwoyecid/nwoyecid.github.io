@@ -24,6 +24,18 @@ h1 {
   font-weight: 500;
 }
 
+h1.shadow {
+  text-align: center;
+  font-weight: 800;
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 3px 4px 5px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+
 h2 {
   color:#393939;
   font-weight: 500;

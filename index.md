@@ -87,7 +87,7 @@ Representative papers are highlighted.
         <a href="#">poster</a> / 
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/cholectriplet2021">code</a> / 
-        <a href="">bibtex</a> 
+        <a href="assets/bibtex/ct2021.txt">bibtex</a> 
       </span>
     </td>
   </tr>
@@ -119,7 +119,7 @@ Representative papers are highlighted.
         <a href="https://ars.els-cdn.com/content/image/1-s2.0-S1361841522000846-ga1.jpg">poster</a> / 
         <a href="https://ars.els-cdn.com/content/image/1-s2.0-S1361841522000846-mmc1.pdf">supplement</a> / 
         <a href="https://github.com/CAMMA-public/rendezvous">code</a> / 
-        <a href="#">bibtex</a> 
+        <a href="assets/bibtex/rdv2022.txt">bibtex</a> 
       </span>
     </td>
   </tr>
@@ -147,7 +147,7 @@ Representative papers are highlighted.
         <a href="#">poster</a> / 
         <a href="#">supplement</a> / 
         <a href="#">code</a> / 
-        <a href="#">bibtex</a> 
+        <a href="assets/bibtex/heichole2019.txt">bibtex</a> 
       </span>
     </td>
   </tr>
@@ -182,7 +182,7 @@ Representative papers are highlighted.
         <a href="#">poster</a> / 
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/tripnet">code</a> / 
-        <a href="#">bibtex</a> 
+        <a href="assets/bibtex/tripnet2020.txt">bibtex</a> 
       </span>
     </td>
   </tr>
@@ -207,7 +207,7 @@ Representative papers are highlighted.
       <span style="font-size:75%">
         <a href="https://arxiv.org/pdf/2110.10965.pdf">arXiv</a> / 
         <a href="https://cataracts-semantic-segmentation2020.grand-challenge.org/">project page</a> / 
-        <a href="#">bibtex</a> 
+        <a href="assets/bibtex/cadis2020.txt">bibtex</a> 
       </span>
     </td>
   </tr>
@@ -238,7 +238,7 @@ Representative papers are highlighted.
         <a href="#">poster</a> / 
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker">code</a> / 
-        <a href="#">bibtex</a> 
+        <a href="assets/bibtex/wsl2019.txt">bibtex</a> 
       </span>
     </td>
   </tr>

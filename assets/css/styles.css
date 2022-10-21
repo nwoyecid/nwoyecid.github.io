@@ -123,8 +123,6 @@ header {
   width:270px;
   float:left;
   position:fixed;
-  top: 0;
-  left:0;
   bottom:0;
   -webkit-font-smoothing:subpixel-antialiased;
 }

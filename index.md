@@ -30,7 +30,7 @@ Representative papers are highlighted.
       <span style="font-size:75%">
         <a href="https://arxiv.org/pdf/2204.05235.pdf">arXiv</a> / 
         <a href="https://github.com/CAMMA-public/attention-tripnet">code</a> / 
-        <a href="">bibtex</a> 
+        <a href="assets/bibtex/data2022.txt">bibtex</a> 
       </span>
     </td>
   </tr>
@@ -58,7 +58,7 @@ Representative papers are highlighted.
         <a href="#">poster</a> / 
         <a href="#">supplement</a> / 
         <a href="https://github.com/CAMMA-public/SelfSupSurg">code</a> / 
-        <a href="#">bibtex</a> 
+        <a href="assets/bibtex/ssl2022.txt">bibtex</a> 
       </span>
     </td>
   </tr>

@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# Biography of Chinedu Nwoye
+# [![](https://img.shields.io/badge/MY-BIOGRAPHY-blue?style=for-the-badge)](#)
 ----------------------------
 
-Intro
+Biography of Chinedu Nwoye
 
 
-[![](https://img.shields.io/badge/UNDER-CONSTRUCTION-blue?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
+
 
 ### Early life
 

@@ -126,6 +126,7 @@ header {
   top:20px;
   bottom:0;
   display: inline-block;
+  overflow: auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 

@@ -29,7 +29,7 @@ Representative papers are highlighted.
       <br />
       <span style="font-size:75%">
         <a href="https://arxiv.org/pdf/2204.05235.pdf">arXiv</a> / 
-        <a href="https://github.com/CAMMA-public/attention-triplet">code</a> / 
+        <a href="https://github.com/CAMMA-public/attention-tripnet">code</a> / 
         <a href="">bibtex</a> 
       </span>
     </td>

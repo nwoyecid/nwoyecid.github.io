@@ -121,6 +121,7 @@ header {
   height:100%;
   float:left;
   position:fixed;
+  overflow: scroll;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 

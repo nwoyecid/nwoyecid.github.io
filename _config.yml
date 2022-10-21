@@ -7,7 +7,7 @@ show_social: True
 navigation:
   - title: Research 
     url: /
-  - title: Project
+  - title: Projects
     url: projects
   - title: Services
     url: services

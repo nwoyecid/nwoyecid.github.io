@@ -25,7 +25,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         This work introduces the standard splits for the CholecT50 and CholecT45 datasets and show how they compare with existing use of the dataset. CholecT45 is the first public release of 45 videos of CholecT50 dataset. We also develop a metrics library, <i>ivtmetrics</i> (now an open-source project), for model evaluation on surgical triplets. Furthermore, we conduct a benchmark study by reproducing baseline methods in the most predominantly used deep learning frameworks (PyTorch and TensorFlow) to evaluate them using the proposed data splits and metrics and release them publicly to support future research. 
       </span><br>
-      <code class="dest">arXiv report (...updating state-of-the-arts...)</code> 
+      <code class="dest">arXiv report 2022 (...updating state-of-the-arts...)</code> 
       <br />
       <span style="font-size:75%">
         <a href="https://arxiv.org/pdf/2204.05235.pdf">arXiv</a> / 
@@ -172,7 +172,7 @@ Representative papers are highlighted.
         Followed by the development of Tripnet: first deep learning method to recognize these triplets directly from the video data leveraging two novel modules, 
         class activation guide (CAG) and 3D interaction space (3Dis), for respectively capturing the individual components of triplet and resolving their association as triplets.        
       </span><br>
-      <code class="dest">MICCAI 2022 (Oral presentation)</code> 
+      <code class="dest">MICCAI 2020 (Oral presentation)</code> 
       <br />
       <span style="font-size:75%">
         <a href="https://link.springer.com/chapter/10.1007/978-3-030-59716-0_35">journal</a> /
@@ -202,7 +202,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
        An 2020 MICCAI EndoVis Challenge with three sub-tasks to assess participating solutions on anatomical structure and instrument pixel-wise semantic segmentation in cataract surgery videos...
       </span><br>
-      <code class="dest">arXiv report</code>   
+      <code class="dest">arXiv report 2021</code>   
       <br />
       <span style="font-size:75%">
         <a href="https://arxiv.org/pdf/2110.10965.pdf">arXiv</a> / 

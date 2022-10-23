@@ -4,6 +4,7 @@ body {
   font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
   font-weight:400;
+  background: #e7e7e7 url(../img/body-bg.png) 0 0 repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -126,7 +127,6 @@ header {
   top:20px;
   bottom:0;
   -webkit-font-smoothing:subpixel-antialiased;
-  background: #e7e7e7 url(../img/body-bg.png) 0 0 repeat;
 }
 
 

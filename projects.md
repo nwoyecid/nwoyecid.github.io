@@ -1,4 +1,4 @@
-# [![](https://img.shields.io/badge/CID-PROJECTS-blue?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
+# [![](https://img.shields.io/badge/CID-PROJECTS-blue?style=for-the-badge)](#)
 
 ### Ongoing projects
 
@@ -45,4 +45,4 @@
 
 ##### Billing system for mobile telephone networks
 
-
+----

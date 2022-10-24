@@ -11,7 +11,7 @@ layout: default
 <div  style="float:none; font-size:100%; text-align:justify">
 <p>
 <b>C</b>hinedu <b>I</b>nnocent <b>D</b>ominic popularly known as <b>CID</b> is an AI scientific researcher at <a href="http://icube.unistra.fr/en/">ICube laboratory</a> France, where he began in February 2018 with research focus on developing new deep learning applications in healthcare. His research objectives point towards the future generation intelligent operating room (OR) and imbibes the methodological approaches of computer vision, machine intelligence, deep learning, and the applications thereof to surgical workflow analysis and human-machine cooperation during surgery.
-He is currently a post-doctoral research fellow at <a href="http://camma.u-strasbg.fr/">CAMMA </a> research lab at IHU Strasbourg, France.
+He is currently with the at <a href="http://camma.u-strasbg.fr/">CAMMA </a> research lab at IHU Strasbourg, France as a post-doctoral research fellow.
 </p>
 </div>
 

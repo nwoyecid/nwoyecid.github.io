@@ -33,7 +33,7 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 In 2022, He started a post-doctoral research at CAMMA: <a href="http://camma.u-strasbg.fr/">Computational Analysis and Modeling of Medical Activities </a> research group headed by his supervisor <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a>, in a close collaborations with the <a href="https://www.ihu-strasbourg.eu/institut/presentation/">IHU MixSurg institute</a>, the <a href="http://www.ircad.fr/?lng=en">IRCAD institute</a> and the <a href="#">Strasbourg University Hospitals</a> for medical data and other supports. He also belongs to wider research groups, <a href="http://icube-avr.unistra.fr/en/index.php/Main_Page">AVR (Automatics, Vision, and Robotics)</a>  and <a href="http://icube-web.unistra.fr/dsai/index.php/Main_Page">Data Science and Artificial Intelligence (DSAI)</a> in the ICube institute.
 Part of his job include teaching and supervision at the Univeristy of Strasbourg, France.
 
-He is also a lecturer at the <a href="https://www.unn.edu.ng/">UNN</a> in the department of computer science, where he began as a graduate teaching assistant in 2014.  He is a former Google ambassador in 2010 – 2012 and has founded the <a href="#">Software Developers Club (SDC)</a> and  <a href="https://cidsoft.com">CIDSoft</a> in Nigeria. 
+He is also a lecturer at the <a href="https://www.unn.edu.ng/">UNN</a> in the department of computer science, where he began as a graduate teaching assistant in 2014.  He was a Google ambassador in 2010 – 2012 and founded the <a href="#">Software Developers Club (SDC)</a> and  <a href="https://cidsoft.com">CIDSoft</a> in Nigeria. 
 </p>
 
 

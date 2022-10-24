@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[![](https://img.shields.io/badge/MY-BIOGRAPHY-blue?style=for-the-badge)](#)
+[![](https://img.shields.io/badge/CID-BIOGRAPHY-blue?style=for-the-badge)](#)
 
 
 # Chinedu Nwoye

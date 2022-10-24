@@ -1,4 +1,4 @@
-# [![](https://img.shields.io/badge/MY-CONTACTS-blue?style=for-the-badge)](#)
+# [![](https://img.shields.io/badge/CID-CONTACTS-blue?style=for-the-badge)](#)
 
 ![IHU Strasbourg](assets/img/ihu.jpg)
 <p><br><br></p>

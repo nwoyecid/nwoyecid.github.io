@@ -3,7 +3,7 @@
 ![IHU Strasbourg](assets/img/ihu.jpg)
 <p><br><br></p>
 
-**Address:** 1 Place de l’Hôpital 67000 Strasbourg, FRANCE
+**Address:** 1 Place de l’Hôpital 67091 Strasbourg, FRANCE
 <br>
 **Phone:** +33 (0) 3 904 13 535
 <br>

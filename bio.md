@@ -62,15 +62,15 @@ He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">
 
 ## Award and honours
 
-> - IPCAI 2019 audience choice award on best paper presentation
-> - NITDEF postgraduate scholarship
-> - Best Graduating Student, Computer Science UNN 2012
-> - MTNF award of academic excellence
-> - ETISALAT merit academic scholarship
+> - IPCAI audience choice award on best paper presentation, 2019
+> - NITDEF postgraduate scholarship, 2015
+> - Best Graduating Student, Computer Science UNN, 2012
+> - MTNF award of academic excellence, 2010, 2011
+> - ETISALAT merit academic scholarship, 2010, 2011
 
 
 ## Short books
-- Determination, 2010
+- Determination: A practical approach for overcoming limitations in life, 2010
 - Near Death Experience, 2019
 
 

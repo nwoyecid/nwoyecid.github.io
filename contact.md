@@ -3,11 +3,19 @@
 ![IHU Strasbourg](assets/img/ihu.jpg)
 <p><br><br></p>
 
-**Address:** 1 Place de l’Hôpital 67091 Strasbourg, FRANCE
+**Mailing Address:** <br/>
+Chinedu Nwoye<br/>
+IHU Strasbourg<br/>
+1 Place de l’Hôpital<br/>
+67091 Strasbourg<br/>
+FRANCE<br/>
 <br>
-**Phone:** +33 (0) 3 904 13 535
+**Phone:** <br/>
++33 (0) 3 904 13 535
 <br>
-**Mobile:** N/A
-<br>
-**Email**: nwoye [dot] chinedu [at] gmail [dot] com
+<br/>
+**Mobile:** <br/>N/A
+<br><br/>
+**Email Address**:<br/>
+nwoye [dot] chinedu [at] gmail [dot] com
 <br>

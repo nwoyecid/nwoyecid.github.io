@@ -7,5 +7,6 @@
 - Research
 - Consultancy
 - Supervision
-- Roadmap and model Design
-
+- Roadmap research design
+- Deep learning model development
+- Training, evaluation, testing and deployment

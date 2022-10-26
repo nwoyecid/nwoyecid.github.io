@@ -13,8 +13,8 @@ navigation:
     url: services
   - title: Bio
     url: bio
-  - title: CV
-    url: assets/pdf/cid_cv.pdf
+#   - title: CV
+#     url: assets/pdf/cid_cv.pdf
   - title: Contact
     url: contact
     

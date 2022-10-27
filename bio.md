@@ -62,8 +62,8 @@ He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">
 
 ## Award and honours
 
-> - Prix de thése, MSII école doctorale, Université dé Strasbourg, 2022
-> - IPCAI audience choice award on best paper presentation, 2019
+> - <a href="http://ed.math-spi.unistra.fr/doctorat/prix-de-these/">Prix de thése</a>, MSII école doctorale, Université dé Strasbourg, 2022
+> - <a href="https://ipcai2019.github.io/">IPCAI audience choice award</a> on best paper presentation, 2019
 > - NITDEF postgraduate scholarship, 2015
 > - Best Graduating Student, Computer Science UNN, 2012
 > - MTNF award of academic excellence, 2010, 2011

@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Chinedu Nwoye
 avatar: assets/img/photo.png
-description: <b>AI Research Scientist, <sub>BS.c., MS.c.<sup>2</sup>, Ph.D.</sub></b><br />Post-doctoral research fellow at ICube Lab, IHU Strasbourg, University of Strasbourg, France.
+description: <b>AI Research Scientist, <sup><sub>BS.c., MS.c.<sup>2</sup>, Ph.D.</sub></sup></b><br />Post-doctoral research fellow at ICube Lab, IHU Strasbourg, University of Strasbourg, France.
 show_downloads: False
 show_social: True
 navigation:

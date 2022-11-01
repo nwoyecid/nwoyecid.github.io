@@ -47,7 +47,7 @@ He is also a lecturer at the <a href="https://www.unn.edu.ng/">UNN</a> in the de
 ## Politics
 
 ## Events and activities
-Chinedu Nwoye is the lead organizer of CholecTriplet challenge: an endoscopic vision challenge focusing on the automatic [recognition](https://cholectriplet2021.grand-challenge.org) and [detection](https://cholectriplet2022.grand-challenge.org) of surgical action triplets from laparoscopic videos.
+Chinedu Nwoye is the lead organizer of CholecTriplet challenge: an endoscopic vision challenge focusing on the automatic [recognition](https://cholectriplet2021.grand-challenge.org) and [detection](https://cholectriplet2022.grand-challenge.org) of surgical action triplets in laparoscopic videos for more helpful AI assistance during surgery.
 
 ## Charity foundations
 He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">African of Our Dreams Initiative (AODI)</a> where he also doubles as the project coordinator. 

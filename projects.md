@@ -31,18 +31,18 @@
 ### Completed projects
 
 
-##### Melanoma skin cancer detection using machine learning
+- ##### <a>Melanoma skin cancer detection using machine learning</a>
 
 
-##### Automatic diagnosis of cardiovascular diseases
+- ##### Automatic diagnosis of cardiovascular diseases
 
 
-##### Short message service converter for android operating system
+- ##### Short message service converter for android operating system
 
 
-##### Fingerprint recognition system for attendance management
+- ##### Fingerprint recognition system for attendance management
 
 
-##### Billing system for mobile telephone networks
+- ##### Billing system for mobile telephone networks
 
-Next >>
+<div style="float:right;">Next >></div>

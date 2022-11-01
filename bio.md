@@ -54,7 +54,7 @@ He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">
 
 ## Professional memberships
 > - MICCAI Society   
->> - Africai       
+> - Africai       
 > - CVPR Society
 > - Blacks in AI                 
 > - AODI

@@ -12,6 +12,32 @@ Representative papers are highlighted.
 
 <table>
   
+  <!--- paper 9 -->
+  <tr>
+    <td colspan=2 style="color:#4B9CD3"><b>CholecTriplet2022: Show me a tool and tell me the triplet - an endoscopic vision challenge for surgical action triplet detection</b></td>
+  </tr>
+  <tr>
+    <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+        <img src="assets/img/ct2022.gif" alt="CholecTriplet 2022" style="width:auto; height:auto; max-width:100%;" />
+    </td>
+    <td>
+      <i style="font-size:75%; color:purple">C.I. Nwoye, T. Yu, S. Sharma, A. Murali, D. Alapatt, A. Vardazaryan, K. Yuan, J. Hajek, W. Reiter, A. Yamlahi, F. Smidt, X. Zou, G. Zheng, B. Oliveira, H.R. Torres, S. Kondo, S. Kasai, F. Holm, E. Ozsoy, S. Gui, H. Li, S. Raviteja, R. Sathish, P. Poudel, B. Bhattarai, Z. Wang, G. Rui, M. Schellenberg, J.L. Vilaca, T. Czempiel, Z. Wang, D. Sheet, S.K. Thapa, M. Berniker, Patrick Godau, Pedro Morais, Sudarshan Regmi, Thuy Nuong Tran, Jaime Fonseca, J. Nolke, E. Lima, E. Vazquez, L. Maier-Hein, N. Navab, P. Mascagni, B. Seeliger, C. Gonzalez, D. Mutter, N. Padoy</i><br /> 
+      <span style="font-size:80%">
+        An endoscopic vision challenge organized at MICCAI 2022 for the recognition and localization of surgical action triplets in laparoscopic videos. private access to the large-scale CholecT50 dataset, summary and assessment of 11 state-of-the-art deep learning methods proposed by the participants. Analysis of the significance of the results obtained by the presented approaches, a thorough methodological comparison, an in-depth result analysis, a rich selection of qualitative results analysis on different surgical conditions and visual challenges, a survey, and a highlight of interesting directions for …
+      </span><br>
+      <code class="dest"><i>Submitted to</i> Medical Image Analysis 2023 (IF: 8.545)</code>   
+      <br />
+      <span style="font-size:75%">
+        <a href="https://cholectriplet2022.grand-challenge.org/">project page</a> /
+        <a href="#">journal</a> /
+        <a href="https://arxiv.org/pdf/2302.06294.pdf">arXiv</a> /
+        <a href="https://github.com/CAMMA-public/cholectriplet2022">code</a> / 
+        <a href="assets/bibtex/ct2022.txt">bibtex</a> 
+      </span>
+    </td>
+  </tr>
+  <tr><td colspan=2 style="color:blue"><p><br /></p></td></tr>
+  
   <!--- paper 8 -->
   <tr>
     <td colspan=2 style="color:#4B9CDF"><b>Data splits and metrics for method benchmarking on surgical action triplet datasets</b></td>
@@ -78,7 +104,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         An endoscopic vision challenge organized at MICCAI 2021 for the recognition of surgical action triplets in laparoscopic videos. private access to the large-scale CholecT50 dataset, summary and assessment of 20 state-of-the-art deep learning methods proposed by the participants. Analysis of the significance of the results obtained by the presented approaches, a thorough methodological comparison, an in-depth result analysis, a novel ensemble method for enhanced recognition, and a highlight of interesting directions for …
       </span><br>
-      <code class="dest">Medical Image Analysis 2022 (IF: 8.545)</code>   
+      <code class="dest"><i>Accepted at </i>Medical Image Analysis 2022 (IF: 8.545)</code>   
       <br />
       <span style="font-size:75%">
         <a href="https://cholectriplet2021.grand-challenge.org/">project page</a> /
@@ -138,7 +164,7 @@ Representative papers are highlighted.
       <span style="font-size:80%">
         The purpose of this study was to establish an open benchmark for surgical workflow and skill analysis by providing a state of the art comparison of machine learning algorithms on a novel and publicly accessible data set that improves representativeness with multi-centric data clinical data.
       </span><br>
-      <code class="dest"><i>Submitted to </i>Medical Image Analysis 2022 (IF: 8.545)</code>
+      <code class="dest"><i>Accepted at </i>Medical Image Analysis 2022 (IF: 8.545)</code>
       <br />
       <span style="font-size:75%">
         <a href="https://www.synapse.org/#!Synapse:syn18824884/wiki/592586">project page</a> /

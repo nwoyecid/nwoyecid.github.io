@@ -69,7 +69,7 @@ Representative papers are highlighted.
   </tr>
   <tr>
     <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-        <img src="assets/img/ssl2022.gif" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+        <img src="assets/img/ssl2022b.gif" alt="project image" style="width:auto; height:auto; max-width:100%;" />
     </td>
     <td>
       <i style="font-size:75%; color:purple">S. Ramesh, V. Srivastav, D. Alapatt, T. Yu, A. Murali, L. Sestini, C.I. Nwoye, I. Hamoud, A. Fleurentin, G. Exarchakis, A. Karargyris, N. Padoy</i><br /> 

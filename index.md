@@ -3,7 +3,7 @@ layout: default
 ---
 # [![](https://img.shields.io/badge/CID-RESEARCH-blue?style=for-the-badge)](#)
 > I'm interested in computer vision, machine learning, optimization, and image processing. 
-Much of my research is about the use of these AI method for the analysis and modeling of surgical activities using real endoscopic videos. 
+Much of my research is about the use of these AI methods for the analysis and modeling of surgical activities using real endoscopic videos. 
 Representative papers are highlighted.
 
 

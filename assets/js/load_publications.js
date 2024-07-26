@@ -46,14 +46,15 @@ document.addEventListener('DOMContentLoaded', () => {
       publicationElement.innerHTML = `
         <h2>${pub.title}</h2>
         <p><strong>Authors:</strong> ${pub.authors}</p>
-        <p><strong>Journal:</strong> ${pub.journal}</p>
+        <p><strong>Journal:</strong> ${pub.journal} (${pub.year})</p>
         <img src="${pub.image}" alt="${pub.title}" />
         <p>${pub.abstract}</p>
         <p>
           <a href="${pub.links.arxiv}">arXiv</a> |
           <a href="${pub.links.publication}">Publication</a> |
+          <a href="${pub.links.project}">Project</a> |
           <a href="${pub.links.code}">Code</a> |
-          <a href="${pub.links.project}">Project</a>
+          <a href="${pub.links.bibtex}">Bibtex</a>
         </p>
       `;
 

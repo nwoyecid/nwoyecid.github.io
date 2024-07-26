@@ -10,6 +10,7 @@
     "publication": "https://doi.org/10.1016/j.media.2023.102888",
     "code": "https://github.com/CAMMA-public/cholectriplet2022",
     "project": "https://cholectriplet2022.grand-challenge.org/",
+    "bibtex": "assets/bibtex/ct2022.txt"
   },
   "date": "2022-10-01"
 }

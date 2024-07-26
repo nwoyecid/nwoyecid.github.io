@@ -1,0 +1,16 @@
+{
+  "title": "CholecTriplet2021: A benchmark challenge for surgical action triplet recognition",
+  "authors": "C.I. Nwoye, D. Alapatt, T. Yu, A. Vardazaryan, F. Xia, Z. Zhao, T. Xia, F. Jia, Y. Yang, H. Wang, D. Yu, G. Zheng, X. Duan, N. Getty, R. Sanchez-Matilla, M. Robu, L. Zhang, H. Chen, J. Wang, L. Wang, B. Zhang, B. Gerats, S. Raviteja, R. Sathish, R. Tao, S. Kondo, W. Pang, H. Ren, J.R. Abbing, M.H. Sarhan, S. Bodenstedt, N. Bhasker, B. Oliveira, H.R. Torres, L. Ling, F. Gaida, T. Czempiel, J.L. Vilaça, P. Morais, J. Fonseca, R.M. Egging, I.N. Wijma, C. Qian, G. Bian, Z. Li, V. Balasubramanian, D. Sheet, I. Luengo, Y. Zhu, S. Ding, J. Aschenbrenner, N.E. Kar, M. Xu, M. Islam, L. Seenivasan, A. Jenke, D. Stoyanov, D. Mutter, P. Mascagni, B. Seeliger, C. Gonzalez, N. Padoy",
+  "journal": "Medical Image Analysis",
+  "year": 2022,
+  "image": "assets/img/ct2021.png",
+  "abstract": "An endoscopic vision challenge organized at MICCAI 2021 for the recognition of surgical action triplets in laparoscopic videos. private access to the large-scale CholecT50 dataset, summary and assessment of 20 state-of-the-art deep learning methods proposed by the participants. Analysis of the significance of the results obtained by the presented approaches, a thorough methodological comparison, an in-depth result analysis, a novel ensemble method for enhanced recognition, and a highlight of interesting directions for …",
+  "links": {
+    "arxiv": "https://arxiv.org/pdf/2204.04746.pdf",
+    "publication": "https",
+    "code": "https://github.com/CAMMA-public/cholectriplet2021",
+    "project": "https://cholectriplet2021.grand-challenge.org/",
+    "bibtex": "assets/bibtex/ct2021.txt"
+  },
+  "date": "2022-02-12"
+}

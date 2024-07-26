@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     currentBatch++;
     if (currentBatch * batchSize >= publications.length) {
-      seeMoreButton.style.display = 'none';
+      seeMoreButton.style.display = 'block';
     } else {
       seeMoreButton.style.display = 'block';
     }

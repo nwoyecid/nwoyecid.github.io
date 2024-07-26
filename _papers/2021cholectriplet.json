@@ -1,0 +1,15 @@
+{
+  "title": "CholecTriplet2022: Show me a tool and tell me the triplet - an endoscopic vision challenge for surgical action triplet detection",
+  "authors": "C.I. Nwoye, T. Yu, S. Sharma, A. Murali, D. Alapatt, A. Vardazaryan, K. Yuan, J. Hajek, W. Reiter, A. Yamlahi, F. Smidt, X. Zou, G. Zheng, B. Oliveira, H.R. Torres, S. Kondo, S. Kasai, F. Holm, E. Ozsoy, S. Gui, H. Li, S. Raviteja, R. Sathish, P. Poudel, B. Bhattarai, Z. Wang, G. Rui, M. Schellenberg, J.L. Vilaca, T. Czempiel, Z. Wang, D. Sheet, S.K. Thapa, M. Berniker, Patrick Godau, Pedro Morais, Sudarshan Regmi, Thuy Nuong Tran, Jaime Fonseca, J. Nolke, E. Lima, E. Vazquez, L. Maier-Hein, N. Navab, P. Mascagni, B. Seeliger, C. Gonzalez, D. Mutter, N. Padoy",
+  "journal": "Medical Image Analysis",
+  "year": 2023,
+  "image": "assets/img/ct2022.gif",
+  "abstract": "An endoscopic vision challenge organized at MICCAI 2022 for the recognition and localization of surgical action triplets in laparoscopic videos. private access to the large-scale CholecT50 dataset, summary and assessment of 11 state-of-the-art deep learning methods proposed by the participants. Analysis of the significance of the results obtained by the presented approaches, a thorough methodological comparison, an in-depth result analysis, a rich selection of qualitative results analysis on different surgical conditions and visual challenges, a survey, and a highlight of interesting directions for …",
+  "links": {
+    "arxiv": "https://arxiv.org/pdf/2302.06294",
+    "publication": "https://doi.org/10.1016/j.media.2023.102888",
+    "code": "https://github.com/CAMMA-public/cholectriplet2022",
+    "project": "https://cholectriplet2022.grand-challenge.org/",
+  },
+  "date": "2022-10-01"
+}

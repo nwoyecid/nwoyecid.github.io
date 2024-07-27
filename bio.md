@@ -38,7 +38,9 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 </details>
 
 <details>
-  <summary><h2>Career</h2></summary>
+  <summary>
+    <h2>Career</h2>
+  </summary>
   <p>
   In 2022, He started a post-doctoral research at CAMMA: <a href="http://camma.u-strasbg.fr/">Computational Analysis and Modeling of Medical Activities </a> research group headed by his supervisor <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a>, in a close collaborations with the <a href="https://www.ihu-strasbourg.eu/institut/presentation/">IHU MixSurg institute</a>, the <a href="http://www.ircad.fr/?lng=en">IRCAD institute</a> and the <a href="#">Strasbourg University Hospitals</a> for medical data and other supports. He also belongs to wider research groups, <a href="https://rdh.icube.unistra.fr">RDH (Robotics, Data science and Healthcare technologies)</a> and <a href="http://icube-web.unistra.fr/dsai/index.php/Main_Page">Data Science and Artificial Intelligence (DSAI)</a> in the ICube institute.
   Part of his job include teaching and supervision at the Univeristy of Strasbourg, France.

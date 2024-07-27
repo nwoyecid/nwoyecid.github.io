@@ -51,7 +51,10 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 
 
 <details>
-  <summary> <h2>Early life</h2></summary>
+  <summary>
+    <b>Early life</b>
+  </summary>
+  
 > Born to St. Pius Nwoye and Mrs. Mercy Ozonze in Onitsha, Anambra state, Nigeria.
   
 ### Family and personal life

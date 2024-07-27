@@ -23,7 +23,9 @@ He is currently with the <a href="http://camma.u-strasbg.fr/">CAMMA </a> researc
 --------------
 
 <details>
-  <summary>## Education</summary>
+  <summary>    
+    <b>Education</b>
+  </summary>
 <p>
 Academically, he earned a Ph.D. in Computer Vision, Deep Learning, and Medical Robotics from the <a href="https://www.unistra.fr/index.php?id=english">University of Strasbourg</a> France. His thesis, which won the <a href="http://ed.math-spi.unistra.fr/doctorat/prix-de-these/">MSII doctoral thesis prize 2022</a>, focused on the use of deep learning techniques for the recognition and detection of surgical tools and fine-grained activities in endoscopic videos and thereoff providing context-awareness and intraoperative decision support in the operating room. This thesis, which innovated the field of surgical action triplet detection and recognition, was supervised by <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a> (Computer Science, University of Strasbourg, France) and <a href="https://www.chru-strasbourg.fr/praticien/mutter-didier/">Prof. Didier Mutter</a> (Digestive and Endocrine Surgery, University Hospital of Strasbourg, France), examined and defended before a stellar panel of <a href="https://campar.in.tum.de/Main/NassirNavabCv">Prof. Nassir Navab</a> (Computer Scicence, TU Munich, Germany & John Hopkins University, USA), <a href="https://www.nct-dresden.de/forschung/departments-and-groups/department-for-translational-surgical-oncology.html">Prof. Stefanie Speidel</a> (Translational Surgical Oncology, NCT Dresden, Germany), and <a href="https://www.artorg.unibe.ch/research/aimi/group_members/persons/prof_dr_sznitman_raphael/index_eng.html">Prof. Raphael Snitzmann</a> (Computer Science, University of Bern, Switzerland).
 </p><p>

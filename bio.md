@@ -37,6 +37,10 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 </p>
 </details>
 
+
+
+
+
 <details>
   <summary>
     <b>Career</b>
@@ -50,14 +54,19 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 </details>
 
 
+
+
+
 <details>
   <summary>
     <b>Early life</b>
   </summary>
   
-> Born to St. Pius Nwoye and Mrs. Mercy Ozonze in Onitsha, Anambra state, Nigeria.
+<p> Born to St. Pius Nwoye and Mrs. Mercy Ozonze in Onitsha, Anambra state, Nigeria.</p>
+<br />
   
 ### Family and personal life
+<p><br></p>
 </details>
 
 
@@ -65,61 +74,66 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 
 <details>
   <summary> <b> Politics</b></summary>
+  <p><br></p>
+  
 </details>
 
 <details>
   <summary> <b>Events and activities</b></summary>
   
-Chinedu Nwoye is the lead organizer of CholecTriplet challenge: an endoscopic vision challenge focusing on the automatic [recognition](https://cholectriplet2021.grand-challenge.org) and [detection](https://cholectriplet2022.grand-challenge.org) of surgical action triplets in laparoscopic videos for more helpful AI assistance during surgery.
+<p>Chinedu Nwoye is the lead organizer of CholecTriplet challenge: an endoscopic vision challenge focusing on the automatic [recognition](https://cholectriplet2021.grand-challenge.org) and [detection](https://cholectriplet2022.grand-challenge.org) of surgical action triplets in laparoscopic videos for more helpful AI assistance during surgery.</p>
+
 </details>
 
 
 <details>
   <summary> <b>Charity foundations</b></summary>
   
-He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">African of Our Dreams Initiative (AODI)</a> where he also doubles as the project coordinator. He is also the principal convener of SETUP mentoring scheme for youth education empowerment in Nigeria.
+<p>He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">African of Our Dreams Initiative (AODI)</a> where he also doubles as the project coordinator. He is also the principal convener of SETUP mentoring scheme for youth education empowerment in Nigeria.</p>
 </details>
 
 
 <details>
   <summary> <b>Professional memberships</b></summary>
-  
-> - MICCAI Society   
-> - Africai       
-> - CVPR Society
-> - Blacks in AI                 
-> - AODI
-> - <a href="https://www.cgan.com.ng">CGAN</a> Nigeria.
 
+<ul>
+ <ol>MICCAI Society</ol>   
+ <ol>Africai</ol>
+ <ol>CVPR Society</ol>
+ <ol>Blacks in AI</ol>                 
+ <ol>AODI</ol>
+ <ol><a href="https://www.cgan.com.ng">CGAN</a> Nigeria.</ol>
+</ul>
+<p><br></p>
 </details>
 
 <details>
   <summary> <b>Award and honours</b></summary>
-  
-> - <a href="http://ed.math-spi.unistra.fr/doctorat/prix-de-these/">Prix de thése</a>, MSII école doctorale, Université dé Strasbourg, 2022
-> - <a href="https://ipcai2019.github.io/">IPCAI audience choice award</a> on best paper presentation, 2019
-> - NITDEF postgraduate scholarship, 2015
-> - Best Graduating Student, Computer Science UNN, 2012
-> - MTNF award of academic excellence, 2010, 2011
-> - ETISALAT merit academic scholarship, 2010, 2011
-
+  <ul>
+    <li><a href="http://ed.math-spi.unistra.fr/doctorat/prix-de-these/">Prix de thése</a>, MSII école doctorale, Université dé Strasbourg, 2022</li>
+    <li><a href="https://ipcai2019.github.io/">IPCAI audience choice award</a> on best paper presentation, 2019</li>
+    <li>NITDEF postgraduate scholarship, 2015</li>
+    <li>Best Graduating Student, Computer Science UNN, 2012</li>
+    <li>MTNF award of academic excellence, 2010, 2011</li>
+    <li>ETISALAT merit academic scholarship, 2010, 2011</li>
+  </ul>
+  <p><br></p>
 </details>
 
 <details>
   <summary> <b>Short books</b></summary>
-  
-- Determination: A practical approach for overcoming limitations in life, 2010
-- Near Death Experience, 2019
-
+  <ul>
+    <li>Determination: A practical approach for overcoming limitations in life, 2010</li>
+    <li>Near Death Experience, 2019</li>
+  </ul>
+  <p><br></p>
 </details>
 
 ----
 
-<details>
-  <summary> <b> References</b></summary>
+## References
 
 - [ 1.<sup>a,b</sup> ICube http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye](http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye)
 - [ 2.<sup>c</sup> UNN http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5](http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5)
 - [ 3. RG https://www.researchgate.net/profile/Chinedu_Nwoye](https://www.researchgate.net/profile/Chinedu_Nwoye)
 
-</details>

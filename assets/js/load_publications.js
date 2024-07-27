@@ -1,89 +1,108 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const folderPath = '_papers/';
-  const metadataFile = 'publications.json';
-  const publicationsList = document.getElementById('publications-list');
-  const seeMoreButton = document.getElementById('see-more');
-  let publications = [];
-  let batchSize = 10;
-  let currentBatch = 0;
+document.addEventListener("DOMContentLoaded", () => {
+    const publicationsContainer = document.getElementById('publications');
+    const metadataUrl = '_papers/metadata.json'; // Metadata file URL
+    let publications = [];
+    let displayedCount = 0;
+    const batchSize = 10;
 
-  async function fetchMetadata() {
-    try {
-      // Fetch the metadata file listing all publication files
-      console.log(`Fetching metadata from ${folderPath}${metadataFile}`);
-      const response = await fetch(`${folderPath}${metadataFile}`);
-      if (!response.ok) throw new Error('Network response was not ok.');
-      const fileList = await response.json();
-      console.log('Metadata file loaded:', fileList);
-      
-      // Fetch each publication file listed in the metadata
-      await Promise.all(fileList.map(file => fetchPublication(`${folderPath}${file}`)));
-      
-      publications.sort((a, b) => new Date(b.date) - new Date(a.date));
-      console.log('Publications sorted:', publications);
-      displayPublications();
-    } catch (error) {
-      console.error('Error fetching metadata:', error);
-    }
-  }
-
-  async function fetchPublication(fileUrl) {
-    try {
-      // Fetch the publication file
-      console.log(`Fetching publication from ${fileUrl}`);
-      const response = await fetch(fileUrl);
-      if (!response.ok) throw new Error('Network response was not ok.');
-      const publication = await response.json();
-      publications.push(publication);
-      console.log('Publication loaded:', publication);
-    } catch (error) {
-      console.error('Error fetching publication:', error);
-    }
-  }
-
-  function displayPublications() {
-    const start = currentBatch * batchSize;
-    const end = start + batchSize;
-    const batch = publications.slice(start, end);
-
-    if (batch.length === 0) {
-      console.log('No more publications to display.');
-      seeMoreButton.style.display = 'none';
-      return;
+    // Function to fetch metadata file
+    async function fetchMetadata() {
+        try {
+            const response = await fetch(metadataUrl);
+            const metadata = await response.json();
+            return metadata;
+        } catch (error) {
+            console.error('Error fetching metadata:', error);
+        }
     }
 
-    batch.forEach(pub => {
-      const publicationElement = document.createElement('div');
-      publicationElement.className = 'publication';
-
-      publicationElement.innerHTML = `
-        <h2>${pub.title}</h2>
-        <p><strong>Authors:</strong> ${pub.authors}</p>
-        <p><strong>Journal:</strong> ${pub.journal}</p>
-        <img src="${pub.image}" alt="${pub.title}" />
-        <p>${pub.abstract}</p>
-        <p>
-          <a href="${pub.links.arxiv}">arXiv</a> |
-          <a href="${pub.links.publication}">Publication</a> |
-          <a href="${pub.links.code}">Code</a> |
-          <a href="${pub.links.project}">Project</a>
-        </p>
-      `;
-
-      publicationsList.appendChild(publicationElement);
-    });
-
-    currentBatch++;
-    if (currentBatch * batchSize >= publications.length) {
-      seeMoreButton.style.display = 'none';
-    } else {
-      seeMoreButton.style.display = 'block';
+    // Function to fetch publication content
+    async function fetchPublicationContent(filePath) {
+        try {
+            const response = await fetch(filePath);
+            const content = await response.json(); // Assuming content is JSON
+            return content;
+        } catch (error) {
+            console.error('Error fetching publication content:', error);
+        }
     }
-  }
 
-  seeMoreButton.addEventListener('click', () => {
-    displayPublications();
-  });
+    // Function to display publications
+    function displayPublications(publicationsToDisplay) {
+        publicationsToDisplay.forEach(pub => {
+            const publicationElement = document.createElement('div');
+            publicationElement.className = 'publication';
 
-  fetchMetadata();
+            const title = document.createElement('h2');
+            title.textContent = pub.title;
+            publicationElement.appendChild(title);
+
+            const authors = document.createElement('p');
+            authors.textContent = `Authors: ${pub.authors}`;
+            publicationElement.appendChild(authors);
+
+            const journal = document.createElement('p');
+            journal.textContent = `Journal: ${pub.journal}`;
+            publicationElement.appendChild(journal);
+
+            const img = document.createElement('img');
+            img.src = pub.featureImage;
+            img.alt = pub.title;
+            publicationElement.appendChild(img);
+
+            const description = document.createElement('p');
+            description.textContent = pub.description;
+            publicationElement.appendChild(description);
+
+            const links = document.createElement('div');
+            pub.links.forEach(link => {
+                const a = document.createElement('a');
+                a.href = link.url;
+                a.textContent = link.label;
+                a.target = '_blank';
+                links.appendChild(a);
+                links.appendChild(document.createElement('br'));
+            });
+            publicationElement.appendChild(links);
+
+            publicationsContainer.appendChild(publicationElement);
+        });
+    }
+
+    // Function to load and display publications
+    async function loadAndDisplayPublications() {
+        const metadata = await fetchMetadata();
+        if (metadata && metadata.files) {
+            // Fetch all publication content
+            const fetchPromises = metadata.files.map(file => fetchPublicationContent(`papers/${file}`));
+            const publicationsContent = await Promise.all(fetchPromises);
+
+            // Flatten and sort publications
+            publications = publicationsContent.flat().sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            // Display initial batch
+            displayPublications(publications.slice(0, batchSize));
+            displayedCount = batchSize;
+
+            // Add "See More" button if there are more publications to show
+            if (publications.length > displayedCount) {
+                const seeMoreButton = document.createElement('button');
+                seeMoreButton.textContent = 'See More';
+                seeMoreButton.onclick = () => {
+                    const nextBatch = publications.slice(displayedCount, displayedCount + batchSize);
+                    displayPublications(nextBatch);
+                    displayedCount += batchSize;
+
+                    // Hide button if no more publications to show
+                    if (displayedCount >= publications.length) {
+                        seeMoreButton.style.display = 'none';
+                    }
+                };
+                publicationsContainer.appendChild(seeMoreButton);
+            }
+        }
+    }
+
+    // Load and display publications when page is ready
+    loadAndDisplayPublications();
 });

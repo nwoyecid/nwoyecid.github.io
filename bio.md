@@ -23,8 +23,7 @@ He is currently with the <a href="http://camma.u-strasbg.fr/">CAMMA </a> researc
 --------------
 
 <details>
-  <summary> <h2>Education</h2>
-    </summary>
+  <summary>## Education</summary>
 <p>
 Academically, he earned a Ph.D. in Computer Vision, Deep Learning, and Medical Robotics from the <a href="https://www.unistra.fr/index.php?id=english">University of Strasbourg</a> France. His thesis, which won the <a href="http://ed.math-spi.unistra.fr/doctorat/prix-de-these/">MSII doctoral thesis prize 2022</a>, focused on the use of deep learning techniques for the recognition and detection of surgical tools and fine-grained activities in endoscopic videos and thereoff providing context-awareness and intraoperative decision support in the operating room. This thesis, which innovated the field of surgical action triplet detection and recognition, was supervised by <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a> (Computer Science, University of Strasbourg, France) and <a href="https://www.chru-strasbourg.fr/praticien/mutter-didier/">Prof. Didier Mutter</a> (Digestive and Endocrine Surgery, University Hospital of Strasbourg, France), examined and defended before a stellar panel of <a href="https://campar.in.tum.de/Main/NassirNavabCv">Prof. Nassir Navab</a> (Computer Scicence, TU Munich, Germany & John Hopkins University, USA), <a href="https://www.nct-dresden.de/forschung/departments-and-groups/department-for-translational-surgical-oncology.html">Prof. Stefanie Speidel</a> (Translational Surgical Oncology, NCT Dresden, Germany), and <a href="https://www.artorg.unibe.ch/research/aimi/group_members/persons/prof_dr_sznitman_raphael/index_eng.html">Prof. Raphael Snitzmann</a> (Computer Science, University of Bern, Switzerland).
 </p><p>
@@ -37,13 +36,13 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 </details>
 
 <details>
-  <summary> <h2>Career</h2></summary>
-<p>
-In 2022, He started a post-doctoral research at CAMMA: <a href="http://camma.u-strasbg.fr/">Computational Analysis and Modeling of Medical Activities </a> research group headed by his supervisor <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a>, in a close collaborations with the <a href="https://www.ihu-strasbourg.eu/institut/presentation/">IHU MixSurg institute</a>, the <a href="http://www.ircad.fr/?lng=en">IRCAD institute</a> and the <a href="#">Strasbourg University Hospitals</a> for medical data and other supports. He also belongs to wider research groups, <a href="https://rdh.icube.unistra.fr">RDH (Robotics, Data science and Healthcare technologies)</a> and <a href="http://icube-web.unistra.fr/dsai/index.php/Main_Page">Data Science and Artificial Intelligence (DSAI)</a> in the ICube institute.
-Part of his job include teaching and supervision at the Univeristy of Strasbourg, France.
-</p><p>
-He is also a lecturer at the <a href="https://www.unn.edu.ng/">UNN</a> in the department of computer science, where he began as a graduate teaching assistant in 2014.  He was a Google ambassador between 2010 – 2012 and founded the <a href="#">Software Developers Club (SDC)</a> and <a href="https://cidsoft.com">CIDSoft</a> in Nigeria. 
-</p>
+  <summary><h2>Career</h2></summary>
+  <p>
+  In 2022, He started a post-doctoral research at CAMMA: <a href="http://camma.u-strasbg.fr/">Computational Analysis and Modeling of Medical Activities </a> research group headed by his supervisor <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a>, in a close collaborations with the <a href="https://www.ihu-strasbourg.eu/institut/presentation/">IHU MixSurg institute</a>, the <a href="http://www.ircad.fr/?lng=en">IRCAD institute</a> and the <a href="#">Strasbourg University Hospitals</a> for medical data and other supports. He also belongs to wider research groups, <a href="https://rdh.icube.unistra.fr">RDH (Robotics, Data science and Healthcare technologies)</a> and <a href="http://icube-web.unistra.fr/dsai/index.php/Main_Page">Data Science and Artificial Intelligence (DSAI)</a> in the ICube institute.
+  Part of his job include teaching and supervision at the Univeristy of Strasbourg, France.
+  </p><p>
+  He is also a lecturer at the <a href="https://www.unn.edu.ng/">UNN</a> in the department of computer science, where he began as a graduate teaching assistant in 2014.  He was a Google ambassador between 2010 – 2012 and founded the <a href="#">Software Developers Club (SDC)</a> and <a href="https://cidsoft.com">CIDSoft</a> in Nigeria. 
+  </p>
 </details>
 
 

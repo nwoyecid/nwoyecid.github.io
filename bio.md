@@ -39,7 +39,7 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 
 <details>
   <summary>
-    <h2>Career</h2>
+    <b>Career</b>
   </summary>
   <p>
   In 2022, He started a post-doctoral research at CAMMA: <a href="http://camma.u-strasbg.fr/">Computational Analysis and Modeling of Medical Activities </a> research group headed by his supervisor <a href="http://camma.u-strasbg.fr/npadoy">Prof. Nicolas Padoy</a>, in a close collaborations with the <a href="https://www.ihu-strasbourg.eu/institut/presentation/">IHU MixSurg institute</a>, the <a href="http://www.ircad.fr/?lng=en">IRCAD institute</a> and the <a href="#">Strasbourg University Hospitals</a> for medical data and other supports. He also belongs to wider research groups, <a href="https://rdh.icube.unistra.fr">RDH (Robotics, Data science and Healthcare technologies)</a> and <a href="http://icube-web.unistra.fr/dsai/index.php/Main_Page">Data Science and Artificial Intelligence (DSAI)</a> in the ICube institute.
@@ -64,53 +64,62 @@ He is an old boy of Saint Charles Lwanga secondary school and Johnbosco primary 
 
 
 <details>
-  <summary> <h2> Politics</h2></summary>
+  <summary> <b> Politics</b></summary>
 </details>
 
 <details>
-  <summary> <h2>Events and activities</h2></summary>
+  <summary> <b>Events and activities</b></summary>
+  
 Chinedu Nwoye is the lead organizer of CholecTriplet challenge: an endoscopic vision challenge focusing on the automatic [recognition](https://cholectriplet2021.grand-challenge.org) and [detection](https://cholectriplet2022.grand-challenge.org) of surgical action triplets in laparoscopic videos for more helpful AI assistance during surgery.
 </details>
 
 
 <details>
-  <summary> <h2>Charity foundations</h2></summary>
+  <summary> <b>Charity foundations</b></summary>
+  
 He is a co-founding member of <a href="https://africaofourdreaminitiative.org/">African of Our Dreams Initiative (AODI)</a> where he also doubles as the project coordinator. He is also the principal convener of SETUP mentoring scheme for youth education empowerment in Nigeria.
 </details>
 
 
 <details>
-  <summary> <h2>Professional memberships</h2></summary>
+  <summary> <b>Professional memberships</b></summary>
+  
 > - MICCAI Society   
 > - Africai       
 > - CVPR Society
 > - Blacks in AI                 
 > - AODI
 > - <a href="https://www.cgan.com.ng">CGAN</a> Nigeria.
+
 </details>
 
 <details>
-  <summary> <h2>Award and honours</h2></summary>
+  <summary> <b>Award and honours</b></summary>
+  
 > - <a href="http://ed.math-spi.unistra.fr/doctorat/prix-de-these/">Prix de thése</a>, MSII école doctorale, Université dé Strasbourg, 2022
 > - <a href="https://ipcai2019.github.io/">IPCAI audience choice award</a> on best paper presentation, 2019
 > - NITDEF postgraduate scholarship, 2015
 > - Best Graduating Student, Computer Science UNN, 2012
 > - MTNF award of academic excellence, 2010, 2011
 > - ETISALAT merit academic scholarship, 2010, 2011
+
 </details>
 
 <details>
-  <summary> <h2>Short books</h2></summary>
+  <summary> <b>Short books</b></summary>
+  
 - Determination: A practical approach for overcoming limitations in life, 2010
 - Near Death Experience, 2019
+
 </details>
 
 ----
 
 <details>
-  <summary> <h2> References</h2></summary>
+  <summary> <b> References</b></summary>
 
 - [ 1.<sup>a,b</sup> ICube http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye](http://icube-avr.unistra.fr/fr/index.php/Page_personnelle_de_Chinedu_Nwoye)
 - [ 2.<sup>c</sup> UNN http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5](http://www.unn.edu.ng/internals/staff/viewProfile/ODQ5)
 - [ 3. RG https://www.researchgate.net/profile/Chinedu_Nwoye](https://www.researchgate.net/profile/Chinedu_Nwoye)
+
 </details>

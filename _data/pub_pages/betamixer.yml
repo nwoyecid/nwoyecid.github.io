@@ -1,0 +1,55 @@
+# Publication Page: BetaMixer
+# Edit this file to update /publications/betamixer/
+
+acronym: BetaMixer
+title: Feature Mixing Approach for Detecting Intraoperative Adverse Events in Laparoscopic Roux-en-Y Gastric Bypass Surgery
+venue: MICCAI 2025
+year: 2025
+authors: R. Bose, C.I. Nwoye, J.F. Lazo, J.L. Lavanchy, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: A feature mixing approach using beta-distributed attention for detecting adverse events during bariatric surgery
+  from multi-scale temporal video features.
+abstract: Detecting adverse events during surgery is critical for patient safety and quality assessment. We present BetaMixer,
+  a feature mixing approach for detecting intraoperative adverse events in laparoscopic Roux-en-Y gastric bypass (RYGB) surgery
+  videos. The method introduces a beta-distribution-based feature mixing module that combines multi-scale temporal features
+  from surgical video to capture both local and global temporal patterns associated with adverse events. Evaluated on a large-scale
+  RYGB dataset, BetaMixer achieves state-of-the-art performance in detecting bleeding, tissue damage, and other intraoperative
+  complications.
+links:
+  arxiv: https://arxiv.org/abs/2504.16749
+citation: "@inproceedings{bose2025betamixer,\n  title={Feature mixing approach for detecting intraoperative adverse events\
+  \ in laparoscopic Roux-en-Y gastric bypass surgery},\n  author={Bose, Rupak and Nwoye, Chinedu Innocent and Lazo, Juan Francisco\
+  \ and Lavanchy, Jo{\\\"e}l L. and Padoy, Nicolas},\n  booktitle={International Conference on Medical Image Computing and\
+  \ Computer-Assisted Intervention (MICCAI)},\n  year={2025}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/betamixer-demo.png
+    caption: Detecting intraoperative adverse events (bleeding, tissue damage) in bariatric surgery videos using multi-scale
+      temporal feature mixing.
+- heading: Method
+  figures:
+  - src: /assets/img/papers/betamixer-architecture.png
+    caption: 'The BetaMixer architecture: multi-scale temporal features are extracted from surgical video and combined through
+      a beta-distribution-based mixing module for adverse event detection.'
+  bullets:
+  - '<strong>Beta-distributed mixing</strong>: A novel feature mixing strategy using beta distributions to weight and combine
+    multi-scale temporal features'
+  - '<strong>Multi-scale temporal modeling</strong>: Captures both short-term (frame-level) and long-term (procedure-level)
+    patterns associated with adverse events'
+  - '<strong>End-to-end training</strong>: Jointly optimizes feature extraction and adverse event classification'
+- heading: Research Coverage
+  figures:
+  - src: /assets/img/papers/betamixer-correlation.png
+    caption: Analysis of feature correlations across temporal scales, showing the complementary information captured by multi-scale
+      mixing.
+  bullets:
+  - '<strong>Dataset</strong>: Large-scale RYGB surgery video dataset with frame-level adverse event annotations'
+  - '<strong>Scope</strong>: First dedicated method for adverse event detection in bariatric surgery'
+  - '<strong>Analysis</strong>: Per-event-type evaluation, temporal resolution ablation, feature mixing strategy comparison'
+  - '<strong>Domain</strong>: Patient safety, surgical quality assessment, bariatric surgery'
+- heading: Results and Findings
+  bullets:
+  - BetaMixer outperforms temporal baseline methods for adverse event detection
+  - Beta-distributed mixing captures complementary multi-scale patterns better than uniform or learned mixing
+  - The method generalizes across different types of adverse events (bleeding, thermal injury, tissue damage)

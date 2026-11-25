@@ -1,0 +1,53 @@
+# Publication Page: CaDIS
+# Edit this file to update /publications/cadis/
+
+acronym: CaDIS
+title: 2020 CATARACTS Semantic Segmentation Challenge
+venue: arXiv Preprint
+year: 2021
+authors: I. Luengo, M. Grammatikopoulou, et al., C.I. Nwoye, D. Alapatt, N. Padoy, et al.
+affiliations: Multiple institutions including ICube, University of Strasbourg, CNRS, France
+summary: An international challenge for semantic segmentation of surgical instruments and anatomical structures in cataract
+  surgery videos, introducing the CaDIS dataset.
+abstract: Semantic segmentation of surgical scenes is essential for context-aware assistance in ophthalmic surgery. We present
+  the 2020 CATARACTS Semantic Segmentation Challenge, organized to advance automated scene understanding in cataract surgery
+  videos. The challenge uses the CaDIS dataset, which provides pixel-level annotations for instruments, anatomy, and other
+  structures across three increasingly difficult tasks. Multiple teams submitted deep learning methods, and this paper provides
+  a comprehensive analysis of their approaches and results.
+links:
+  arxiv: https://arxiv.org/abs/2110.10965
+citation: "@article{luengo2021cataracts,\n  title={2020 CATARACTS semantic segmentation challenge},\n  author={Luengo, Imanol\
+  \ and Grammatikopoulou, Maria and others},\n  journal={arXiv preprint arXiv:2110.10965},\n  year={2021}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/cadis-demo.png
+    caption: 'Semantic segmentation overlays on cataract surgery frames: instruments, anatomy, and other structures are labeled
+      at pixel level.'
+  - src: /assets/img/papers/cadis-examples.png
+    caption: Examples from the CaDIS dataset showing the diversity of cataract surgery scenes and their corresponding segmentation
+      annotations across training and test sets.
+- heading: Method
+  figures:
+  - src: /assets/img/papers/cadis-setup.png
+    caption: 'The CATARACTS challenge setup: three tasks of increasing difficulty, from basic instrument segmentation to full
+      scene parsing with 36 classes.'
+  text: 'The challenge comprised three segmentation tasks:'
+  bullets:
+  - '<strong>Task 1</strong>: Segmentation of surgical instruments (8 classes)'
+  - '<strong>Task 2</strong>: Segmentation of instruments and anatomy (17 classes)'
+  - '<strong>Task 3</strong>: Full scene segmentation including rare structures (36 classes)'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: CaDIS -- 4,670 annotated frames from 25 cataract surgery videos with pixel-level labels'
+  - '<strong>Scope</strong>: International challenge with multiple participating teams and deep learning approaches'
+  - '<strong>Analysis</strong>: Per-task and per-class evaluation, comparison of architectures (U-Net, DeepLab, etc.)'
+  - '<strong>Domain</strong>: Ophthalmic surgery, semantic segmentation'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/cadis-results.png
+    caption: Qualitative segmentation results from top-performing methods on Task 1, showing accurate instrument delineation.
+  bullets:
+  - 'Task complexity significantly affects performance: mean IoU drops from 80%+ (Task 1) to under 50% (Task 3)'
+  - Encoder-decoder architectures with attention modules achieved the best results
+  - Rare class segmentation remains a major challenge across all submitted methods

@@ -1,0 +1,61 @@
+# Publication Page: CholecTrack20
+# Edit this file to update /publications/cholectrack20/
+
+acronym: CholecTrack20
+title: 'CholecTrack20: A Dataset for Multi-Class Multi-Tool Tracking in Laparoscopic Surgery'
+venue: CVPR 2025
+year: 2025
+authors: C.I. Nwoye, K. Elgohary, A. Srinivas, F. Zaid, J.L. Lavanchy, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: The first large-scale multi-perspective tracking dataset for surgical tools, providing intraoperative, intracorporeal,
+  and visibility-level annotations for 20 cholecystectomy videos.
+abstract: 'Tracking surgical tools in laparoscopic videos requires understanding instruments from multiple perspectives: their
+  identity, spatial location, and visibility state. We introduce CholecTrack20, a large-scale dataset of 20 laparoscopic cholecystectomy
+  videos annotated with multi-class multi-tool tracking labels from three complementary perspectives -- intraoperative (which
+  tools are being used by the surgeon), intracorporeal (which tools are inside the body), and visibility (which tools are
+  visible in the camera view). The dataset includes 35,000+ frames with bounding box annotations, track IDs, and multi-perspective
+  labels. We benchmark several tracking methods and analyze the challenges unique to each perspective.'
+links:
+  arxiv: https://arxiv.org/abs/2312.07906
+  code: https://github.com/CAMMA-public/cholectrack20
+  project: https://doi.org/10.7303/syn53182642
+citation: "@inproceedings{nwoye2025cholectrack20,\n  title={CholecTrack20: A Dataset for Multi-Class Multi-Tool Tracking in\
+  \ Laparoscopic Surgery},\n  author={Nwoye, Chinedu Innocent and Elgohary, Kareem and Srinivas, Anvita and Zaid, Fauzan and\
+  \ Lavanchy, Joel L. and Padoy, Nicolas},\n  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n\
+  \  year={2025}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/cholectrack20-annotations.gif
+    caption: 'Multi-class multi-tool tracking annotations: each tool is tracked with bounding boxes and unique IDs across
+      the video.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/cholectrack20-perspectives.gif
+    caption: 'The three complementary tracking perspectives: intraoperative (surgical role), intracorporeal (physical presence),
+      and visibility (camera view).'
+  text: 'CholecTrack20 introduces three complementary tracking perspectives: Each perspective captures different aspects of
+    surgical tool usage, enabling richer understanding of the surgical workflow.'
+  bullets:
+  - '<strong>Intraoperative perspective</strong>: Tracks tools based on their surgical role (e.g., the tool the surgeon is
+    actively operating with)'
+  - '<strong>Intracorporeal perspective</strong>: Tracks all tools that are physically inside the patient''s body'
+  - '<strong>Visibility perspective</strong>: Tracks tools that are visible in the current camera view'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: 20 cholecystectomy videos, 35,000+ annotated frames, multi-class bounding boxes with track
+    IDs'
+  - '<strong>Scope</strong>: First dataset to provide simultaneous multi-perspective tool tracking annotations'
+  - '<strong>Analysis</strong>: Benchmarking of DeepSORT, ByteTrack, and other tracking methods across all three perspectives'
+  - '<strong>Domain</strong>: Laparoscopic cholecystectomy, multi-object tracking'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/cholectrack20-results.gif
+    caption: 'Comparison of state-of-the-art tracking methods on CholecTrack20: different methods show varying strengths across
+      the three perspectives.'
+  bullets:
+  - 'Multi-perspective tracking reveals fundamentally different challenges: occlusion handling (intracorporeal), re-identification
+    (intraoperative), and appearance changes (visibility)'
+  - Existing MOT methods struggle with the unique challenges of surgical tracking, especially tool re-identification after
+    removal and re-insertion
+  - The dataset enables training specialized trackers for each perspective, opening new research directions

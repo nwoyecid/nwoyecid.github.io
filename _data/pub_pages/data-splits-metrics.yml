@@ -1,0 +1,52 @@
+# Publication Page: ivtmetrics
+# Edit this file to update /publications/data-splits-metrics/
+
+acronym: ivtmetrics
+title: Data Splits and Metrics for Benchmarking Methods on Surgical Action Triplet Datasets
+venue: arXiv Preprint
+year: 2022
+authors: C.I. Nwoye, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: Standard data splits for the CholecT50 and CholecT45 datasets, along with the open-source ivtmetrics library for
+  unified evaluation of surgical action triplet methods.
+abstract: Benchmarking deep learning methods requires standardized data splits and evaluation metrics. In this work, we formalize
+  the official data splits for the CholecT50 and CholecT45 datasets for surgical action triplet recognition and detection.
+  We also introduce ivtmetrics, an open-source Python library that provides unified evaluation metrics including average precision
+  (AP) for instrument, verb, target, and triplet recognition and detection. The library supports both PyTorch and TensorFlow
+  workflows and is available on PyPI and Anaconda.
+links:
+  arxiv: https://arxiv.org/abs/2204.05235
+  code: https://github.com/CAMMA-public/attention-tripnet
+  project: https://pypi.org/project/ivtmetrics/
+citation: "@article{nwoye2022data,\n  title={Data splits and metrics for benchmarking methods on surgical action triplet datasets},\n\
+  \  author={Nwoye, Chinedu Innocent and Padoy, Nicolas},\n  journal={arXiv preprint arXiv:2204.05235},\n  year={2022}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/splits-idea.png
+    caption: Overview of standardized data splits and evaluation framework for fair benchmarking of surgical action triplet
+      methods.
+- heading: Method
+  figures:
+  - src: /assets/img/papers/splits-models.png
+    caption: 'Architectures benchmarked using the standardized splits: Tripnet, Attention-Tripnet, and Rendezvous, evaluated
+      in both PyTorch and TensorFlow.'
+  text: 'The work provides two key contributions:'
+  bullets:
+  - '<strong>Official data splits</strong>: Cross-validation and challenge splits for CholecT50 (50 videos) and CholecT45
+    (45 videos), ensuring fair and reproducible comparisons'
+  - '<strong>ivtmetrics library</strong>: A Python package computing average precision (AP) metrics at the instrument, verb,
+    target, and triplet levels, supporting both recognition and detection tasks'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Datasets</strong>: CholecT50 and CholecT45 with cross-validation folds and held-out test sets'
+  - '<strong>Scope</strong>: Benchmark study comparing multiple architectures (Tripnet, Attention-Tripnet, Rendezvous) across
+    PyTorch and TensorFlow'
+  - '<strong>Tools</strong>: ivtmetrics available on [PyPI](https://pypi.org/project/ivtmetrics/) and [Anaconda](https://anaconda.org/nwoye/ivtmetrics)'
+  - '<strong>Domain</strong>: Standardization of surgical AI evaluation'
+- heading: Results and Findings
+  bullets:
+  - 'Provides reproducible baselines: Tripnet (20.3% AP), Attention-Tripnet (22.9% AP), Rendezvous (26.7% AP)'
+  - ivtmetrics adopted as the official evaluation library for the CholecTriplet challenge series
+  - 'Cross-framework consistency: PyTorch and TensorFlow implementations achieve comparable results'
+  - The standardized splits have been adopted by the community for fair method comparison

@@ -1,0 +1,44 @@
+# ============================================================
+# Profile Configuration
+# ============================================================
+# Edit this file to update your homepage hero section.
+# Changes appear automatically after rebuilding the site.
+# ============================================================
+
+name: "Chinedu Nwoye"
+title: "AI Research Scientist &middot; Ph.D."
+position: "Post-doctoral Research Fellow"
+lab: "ICube Lab / CAMMA, IHU Strasbourg"
+institution: "University of Strasbourg, France"
+photo: "assets/img/photo.png"
+photo_alt: "Chinedu Nwoye"
+
+bio: >
+  I develop deep learning methods for surgical video understanding,
+  focusing on action triplet recognition and detection in endoscopic
+  videos. My work aims to build context-aware AI systems for the
+  next-generation intelligent operating room.
+
+# Personal / social links shown in the hero section.
+# Supported icons: email, scholar, github, linkedin, twitter, cv, website
+# For email use "mailto:your@email.com" as the url.
+links:
+  - label: Email
+    url: "mailto:nwoye.chinedu@gmail.com"
+    icon: email
+
+  - label: Scholar
+    url: "https://scholar.google.com/citations?user=9lKxBUoAAAAJ&hl=en"
+    icon: scholar
+
+  - label: GitHub
+    url: "https://github.com/nwoyecid"
+    icon: github
+
+  - label: LinkedIn
+    url: "https://ng.linkedin.com/in/chinedu-nwoye-69471a31"
+    icon: linkedin
+
+  - label: CV
+    url: "assets/pdf/cid_cv.pdf"
+    icon: cv

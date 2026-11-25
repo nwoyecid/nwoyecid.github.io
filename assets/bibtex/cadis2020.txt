@@ -1,0 +1,6 @@
+@article{luengo20212020,
+  title={2020 CATARACTS Semantic Segmentation Challenge},
+  author={Luengo, Imanol and Grammatikopoulou, Maria and Mohammadi, Rahim and Walsh, Chris and Nwoye, Chinedu Innocent and Alapatt, Deepak and Padoy, Nicolas and Ni, Zhen-Liang and Fan, Chen-Chen and Bian, Gui-Bin and others},
+  journal={arXiv preprint arXiv:2110.10965},
+  year={2021}
+}

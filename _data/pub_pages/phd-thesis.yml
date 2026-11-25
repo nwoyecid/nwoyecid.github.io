@@ -1,0 +1,67 @@
+# Publication Page: Ph.D. Thesis
+# Edit this file to update /publications/phd-thesis/
+
+acronym: Ph.D. Thesis
+title: Deep Learning Methods for the Detection and Recognition of Surgical Tools and Activities in Laparoscopic Videos
+venue: Universit&eacute; de Strasbourg &middot; Thesis Prize 2022
+year: 2021
+authors: C.I. Nwoye
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: Doctoral thesis introducing the surgical action triplet paradigm for fine-grained surgical activity recognition,
+  and developing foundational methods and datasets that have shaped the field.
+abstract: 'This thesis addresses the challenge of understanding surgical activities from endoscopic videos. We introduce the
+  concept of surgical action triplets -- structured representations of instrument-tissue interactions as <instrument, verb,
+  target> -- as a new paradigm for fine-grained surgical activity recognition. We develop three foundational methods: (1)
+  a weakly supervised ConvLSTM approach for surgical tool tracking, (2) Tripnet for end-to-end action triplet recognition,
+  and (3) Rendezvous, an attention-based model for joint spatial and semantic reasoning over triplet components. We also create
+  the CholecT40, CholecT45, and CholecT50 datasets, the first large-scale benchmarks for surgical action triplet recognition.
+  This work has led to two international challenges at MICCAI and has been adopted by the community as a standard task in
+  surgical AI.'
+links:
+  publication: https://theses.fr/2021STRAD033
+citation: "@phdthesis{nwoye2021deep,\n  title={Deep learning methods for the detection and recognition of surgical tools and\
+  \ activities in laparoscopic videos},\n  author={Nwoye, Chinedu Innocent},\n  school={Universit{\\'e} de Strasbourg},\n\
+  \  year={2021}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/tripnet-task.png
+    caption: 'The surgical action triplet paradigm introduced in this thesis: modeling fine-grained surgical activities as
+      &lt;instrument, verb, target&gt; triplets.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/convlstm-architecture.png
+    caption: 'ConvLSTM Tracker (IPCAI 2019): weakly supervised tool tracking using temporal class activation maps.'
+  - src: /assets/img/papers/tripnet-architecture.png
+    caption: 'Tripnet (MICCAI 2020): 3-stage architecture for end-to-end surgical action triplet recognition.'
+  - src: /assets/img/papers/rendezvous-architecture.png
+    caption: 'Rendezvous (Medical Image Analysis 2022): attention-based model combining CAGAM and MHMA for state-of-the-art
+      triplet recognition.'
+  text: 'The thesis develops three key methods:'
+  bullets:
+  - '<strong>ConvLSTM Tracker</strong> (IPCAI 2019): Weakly supervised surgical tool tracking using only binary presence labels
+    with temporal ConvLSTM modeling'
+  - '<strong>Tripnet</strong> (MICCAI 2020): The first architecture for end-to-end surgical action triplet recognition with
+    the Triplet Interaction Module'
+  - '<strong>Rendezvous</strong> (Medical Image Analysis 2022): Attention-based model combining class activation guided attention
+    (CAGAM) and multi-head mixed attention (MHMA) for state-of-the-art triplet recognition'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Datasets created</strong>: CholecT40 (40 videos), CholecT45 (45 videos), CholecT50 (50 videos) -- collectively
+    the standard benchmarks for surgical action triplet research'
+  - '<strong>Scope</strong>: From tool detection to fine-grained activity understanding, spanning weak supervision, attention
+    mechanisms, and multi-task learning'
+  - '<strong>Impact</strong>: Established the surgical action triplet task, adopted by MICCAI challenges (CholecTriplet2021,
+    CholecTriplet2022) and numerous follow-up works'
+  - '<strong>Domain</strong>: Minimally invasive surgery, computer-assisted interventions'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/rendezvous-attention-maps.png
+    caption: Learned attention maps from Rendezvous showing the model's ability to focus on relevant instrument-anatomy interaction
+      regions.
+  bullets:
+  - The surgical action triplet paradigm provides richer surgical understanding than phase recognition or tool detection alone
+  - 'Progressive improvement: ConvLSTM Tracker (tool tracking) -> Tripnet (20.3% triplet AP) -> Rendezvous (26.7% triplet
+    AP)'
+  - Datasets and methods have been widely adopted, with 500+ citations across the thesis publications
+  - Awarded the <strong>2022 Thesis Prize</strong> from Universit&eacute; de Strasbourg

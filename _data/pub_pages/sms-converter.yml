@@ -1,0 +1,36 @@
+# Publication Page: SMS Slang Converter
+# Edit this file to update /publications/sms-converter/
+
+acronym: SMS Slang Converter
+title: Motivation for the Design and Implementation of a SMS Slang Converter for Android Devices
+venue: International Journal of Interactive Mobile Technologies (iJIM)
+year: 2016
+authors: C.N. Udanor, C.I. Nwoye
+affiliations: University of Nigeria, Nsukka
+summary: An Android application that converts SMS slang abbreviations to standard English text, improving readability and
+  communication clarity.
+abstract: Short Message Service (SMS) communication has led to the widespread use of slang abbreviations that can hinder clear
+  communication, particularly across generational and cultural boundaries. This paper presents the design and implementation
+  of an SMS slang converter for Android devices that automatically translates common SMS abbreviations into standard English
+  text. The application uses a dictionary-based approach with pattern matching to identify and replace slang terms in real-time.
+links: {}
+citation: "@article{udanor2016motivation,\n  title={Motivation for the design and implementation of a SMS slang converter\
+  \ for android devices},\n  author={Udanor, Collins N. and Nwoye, Chinedu Innocent},\n  journal={International Journal of\
+  \ Interactive Mobile Technologies (iJIM)},\n  year={2016}\n}\n"
+sections:
+- heading: Method
+  bullets:
+  - '<strong>Dictionary-based translation</strong>: A comprehensive lookup table mapping SMS slang to standard English equivalents'
+  - '<strong>Pattern matching</strong>: Real-time identification of slang terms within message text using string matching
+    algorithms'
+  - '<strong>Android integration</strong>: Native Android application with SMS inbox integration for seamless conversion'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Scope</strong>: Design, implementation, and user evaluation of a mobile text processing application'
+  - '<strong>Analysis</strong>: User satisfaction surveys, translation accuracy testing, performance benchmarking'
+  - '<strong>Domain</strong>: Natural language processing, mobile computing, text normalization'
+- heading: Results and Findings
+  bullets:
+  - High accuracy in converting common SMS abbreviations to standard English
+  - Positive user feedback on ease of use and communication improvement
+  - Demonstrated practical application of NLP techniques on mobile devices

@@ -1,0 +1,39 @@
+# Publication Page: Fingerprint Biometric
+# Edit this file to update /publications/fingerprint-biometric/
+
+acronym: Fingerprint Biometric
+title: Enhancing Attendance Management in Firms and Industries Using Fingerprint Biometric Recognition Technique
+venue: IOSR Journal of Mobile Computing &amp; Application (IOSR-JMCA)
+year: 2016
+authors: C.I. Nwoye
+affiliations: University of Nigeria, Nsukka
+summary: Design and implementation of a fingerprint biometric recognition system for automated attendance tracking in workplaces,
+  replacing manual sign-in processes.
+abstract: Attendance management in firms and industries has traditionally relied on manual sign-in processes that are time-consuming,
+  error-prone, and susceptible to fraudulent practices such as buddy punching. This paper presents the design and implementation
+  of a fingerprint biometric recognition system for automated attendance management. The system captures and stores fingerprint
+  templates during enrollment, then verifies employee identity through fingerprint matching during clock-in and clock-out
+  events. The system was tested in a real-world setting and demonstrated significant improvements in accuracy and efficiency
+  over manual methods.
+links: {}
+citation: "@article{nwoye2016enhancing,\n  title={Enhancing attendance management in firms and industries using fingerprint\
+  \ biometric recognition technique},\n  author={Nwoye, Chinedu Innocent},\n  journal={IOSR Journal of Mobile Computing \\\
+  & Application},\n  year={2016}\n}\n"
+sections:
+- heading: Method
+  text: 'The system consists of:'
+  bullets:
+  - '<strong>Fingerprint enrollment module</strong>: Captures and stores fingerprint templates using minutiae extraction'
+  - '<strong>Verification module</strong>: Matches live fingerprint scans against stored templates for identity confirmation'
+  - '<strong>Attendance logging</strong>: Automated timestamped records of employee clock-in/clock-out events'
+  - '<strong>Reporting dashboard</strong>: Administrative interface for attendance reports and analytics'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Scope</strong>: End-to-end system from fingerprint capture to attendance reporting'
+  - '<strong>Analysis</strong>: Accuracy evaluation on real employee fingerprints, comparison with manual attendance systems'
+  - '<strong>Domain</strong>: Biometric recognition, workplace automation'
+- heading: Results and Findings
+  bullets:
+  - Achieved high verification accuracy with low false acceptance and rejection rates
+  - Eliminated buddy punching and manual recording errors
+  - Reduced attendance processing time significantly compared to manual sign-in methods

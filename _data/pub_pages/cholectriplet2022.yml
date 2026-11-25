@@ -1,0 +1,57 @@
+# Publication Page: CholecTriplet2022
+# Edit this file to update /publications/cholectriplet2022/
+
+acronym: CholecTriplet2022
+title: 'CholecTriplet2022: Show Me a Tool and Tell Me the Triplet'
+venue: Medical Image Analysis, Volume 89, 102888
+year: 2023
+authors: C.I. Nwoye, T. Yu, S. Sharma, A. Murali, D. Alapatt, A. Vardazaryan, ..., and N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: The second edition of the CholecTriplet challenge at MICCAI 2022, advancing from triplet recognition to detection
+  -- requiring models to both localize instruments and predict their associated action triplets.
+abstract: Following the success of CholecTriplet2021 on surgical action triplet recognition, we present CholecTriplet2022,
+  an endoscopic vision challenge organized at MICCAI 2022 that advances the task to surgical action triplet detection. This
+  new task requires models to not only recognize the triplets but also localize the instruments performing the actions. Using
+  the CholecT50 dataset with bounding box annotations, the challenge evaluates 11 state-of-the-art methods from participating
+  teams, providing insights into the interplay between instrument detection and triplet recognition.
+links:
+  publication: https://doi.org/10.1016/j.media.2023.102888
+  arxiv: https://arxiv.org/abs/2302.06294
+  code: https://github.com/CAMMA-public/cholectriplet2022
+  challenge: https://cholectriplet2022.grand-challenge.org/
+citation: "@article{nwoye2023cholectriplet2022,\n  title={CholecTriplet2022: Show me a tool and tell me the triplet--an endoscopic\
+  \ vision challenge for surgical action triplet detection},\n  author={Nwoye, Chinedu Innocent and Yu, Tong and Sharma, Saurav\
+  \ and others},\n  journal={Medical Image Analysis},\n  volume={89},\n  pages={102888},\n  year={2023},\n  publisher={Elsevier}\n\
+  }\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/ct2022-task.png
+    caption: 'The triplet detection task: models must localize instruments with bounding boxes and predict the associated
+      action triplets for each detected tool.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/ct2022-timeline.png
+    caption: 'CholecTriplet2022 challenge timeline: from dataset release through training, submission, and evaluation at MICCAI
+      2022.'
+  - src: /assets/img/papers/ct2022-architecture.png
+    caption: The Rendezvous-Det baseline architecture adapted for triplet detection with instrument localization.
+  - src: /assets/img/papers/ct2022-method.png
+    caption: Architecture of a top-performing submission showing the two-stage detect-then-classify approach.
+  text: 'The challenge introduced the triplet detection task requiring:'
+  bullets:
+  - '<strong>Instrument localization</strong>: Detecting and localizing surgical tools with bounding boxes'
+  - '<strong>Triplet association</strong>: Predicting the action verb and target anatomy for each detected instrument'
+  - Participating methods combined object detection architectures (DETR, Faster R-CNN) with triplet reasoning modules
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: CholecT50 with bounding box annotations for instrument localization'
+  - '<strong>Scope</strong>: 11 methods from international teams, evaluated on detection metrics'
+  - '<strong>Analysis</strong>: Joint evaluation of localization accuracy and triplet prediction, per-class detection analysis'
+  - '<strong>Domain</strong>: Surgical action triplet detection in cholecystectomy'
+- heading: Results and Findings
+  bullets:
+  - Triplet detection is significantly harder than recognition, with best methods achieving <strong>17.3% detection AP</strong>
+  - Instrument localization quality directly impacts triplet detection performance
+  - Two-stage methods (detect then classify) outperformed single-stage approaches
+  - Multi-scale feature extraction proved critical for detecting instruments of varying sizes

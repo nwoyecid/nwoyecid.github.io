@@ -1,0 +1,61 @@
+# Publication Page: CholecTriplet2021
+# Edit this file to update /publications/cholectriplet2021/
+
+acronym: CholecTriplet2021
+title: 'CholecTriplet2021: A Benchmark Challenge for Surgical Action Triplet Recognition'
+venue: Medical Image Analysis, Volume 86, 102803
+year: 2023
+authors: C.I. Nwoye, D. Alapatt, T. Yu, A. Vardazaryan, F. Xia, Z. Zhao, ..., and N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: An international endoscopic vision challenge at MICCAI 2021, evaluating 20 deep learning methods from 14 teams on
+  the task of surgical action triplet recognition using the CholecT45 dataset.
+abstract: Surgical action triplet recognition from endoscopic videos is a fundamental task for context-aware assistance in
+  the operating room. This paper presents CholecTriplet2021, an endoscopic vision challenge organized at MICCAI 2021 for the
+  recognition of surgical action triplets in laparoscopic cholecystectomy videos. Using the CholecT45 dataset, the challenge
+  attracted 14 participating teams who developed 20 deep learning methods. This paper provides comprehensive analysis of the
+  methods, including a novel ensemble approach, and discusses the remaining open challenges.
+links:
+  publication: https://doi.org/10.1016/j.media.2023.102803
+  arxiv: https://arxiv.org/abs/2204.04746
+  code: https://github.com/CAMMA-public/cholectriplet2021
+  challenge: https://cholectriplet2021.grand-challenge.org/
+citation: "@article{nwoye2023cholectriplet2021,\n  title={CholecTriplet2021: a benchmark challenge for surgical action triplet\
+  \ recognition},\n  author={Nwoye, Chinedu Innocent and Alapatt, Deepak and Yu, Tong and Vardazaryan, Armine and Xia, Fangfang\
+  \ and Zhao, Zixuan and others},\n  journal={Medical Image Analysis},\n  volume={86},\n  pages={102803},\n  year={2023},\n\
+  \  publisher={Elsevier}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/ct2021-dataset.png
+    caption: 'The CholecT45 dataset: examples of annotated surgical action triplets across different surgical phases and instrument
+      configurations.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/ct2021-timeline.png
+    caption: 'CholecTriplet2021 challenge timeline: from dataset release to final evaluation at MICCAI 2021.'
+  - src: /assets/img/papers/ct2021-method.png
+    caption: Architecture of one of the top-performing submitted methods, illustrating the multi-task learning approach with
+      shared backbone and task-specific heads.
+  text: 'The challenge evaluated diverse deep learning approaches:'
+  bullets:
+  - Multi-task learning architectures with shared backbones
+  - Attention-based models for component association
+  - Graph neural networks for triplet relationship modeling
+  - Transformer-based methods for temporal reasoning
+  - A novel ensemble method combining top submissions
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: CholecT45 -- 45 cholecystectomy videos with triplet annotations, standardized splits'
+  - '<strong>Scope</strong>: 14 international teams, 20 submitted methods'
+  - '<strong>Analysis</strong>: Per-class evaluation, failure case analysis, statistical significance testing, and method
+    categorization'
+  - '<strong>Domain</strong>: Endoscopic vision, surgical activity recognition'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/ct2021-tripnet.png
+    caption: The Tripnet baseline architecture used as reference for all challenge submissions.
+  bullets:
+  - Best single method achieved <strong>32.7% triplet AP</strong>, showing significant progress over initial baselines
+  - Ensemble of top methods reached <strong>36.9% triplet AP</strong>
+  - Attention mechanisms and multi-task learning were the most effective design patterns
+  - Significant performance gap between frequent and rare triplet classes remains an open challenge

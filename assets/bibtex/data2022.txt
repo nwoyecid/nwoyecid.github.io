@@ -1,0 +1,6 @@
+@article{nwoye2022data,
+  title={Data Splits and Metrics for Benchmarking Methods on Surgical Action Triplet Datasets},
+  author={Nwoye, Chinedu Innocent and Padoy, Nicolas},
+  journal={arXiv preprint arXiv:2204.05235},
+  year={2022}
+}

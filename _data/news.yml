@@ -1,0 +1,37 @@
+# ============================================================
+# News & Highlights
+# ============================================================
+# Each entry needs: year, text
+# The text field supports HTML (links, bold, etc.)
+# Entries are displayed in the order listed here.
+# ============================================================
+
+- year: 2025
+  text: '<a href="/publications/cholectrack20/">CholecTrack20</a> accepted at <strong>CVPR 2025</strong>'
+
+- year: 2025
+  text: '<a href="/publications/surgitrack/">SurgiTrack</a> published in Medical Image Analysis'
+
+- year: 2025
+  text: '<a href="/publications/surgical-text-to-image/">Surgical Text-to-Image</a> published in Pattern Recognition Letters'
+
+- year: 2025
+  text: '<a href="/publications/multi-perspective-tracking/">Multi-Perspective Tracking</a> presented at IPCAI 2025'
+
+- year: 2024
+  text: 'Area Chair for <a href="https://sites.google.com/view/ipcai2024/organization" target="_blank">IPCAI 2024</a>'
+
+- year: 2024
+  text: 'Co-organizer of the <a href="https://sites.google.com/view/lm-surg/organization" target="_blank">NeurIPS Workshop on Large Models Meet Surgical Data Science</a>'
+
+- year: 2023
+  text: '<a href="/publications/cholectriplet2022/">CholecTriplet2022</a> published in Medical Image Analysis'
+
+- year: 2022
+  text: 'Won the <a href="http://ed.math-spi.unistra.fr/doctorat/prix-de-these/" target="_blank">MSII Doctoral Thesis Prize</a>, Universit&eacute; de Strasbourg'
+
+- year: 2022
+  text: '<a href="/publications/rendezvous/">Rendezvous</a> published in Medical Image Analysis (IF: 8.545)'
+
+- year: 2019
+  text: 'IPCAI Audience Choice Award for <a href="/publications/convlstm-tracker/">Best Paper Presentation</a>'

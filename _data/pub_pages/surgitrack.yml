@@ -1,0 +1,54 @@
+# Publication Page: SurgiTrack
+# Edit this file to update /publications/surgitrack/
+
+acronym: SurgiTrack
+title: 'SurgiTrack: Fine-Grained Multi-Class Multi-Tool Tracking in Surgical Videos'
+venue: Medical Image Analysis, Volume 90, 103438
+year: 2025
+authors: C.I. Nwoye, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: A novel tracking method that simultaneously tracks multiple surgical tools of different classes, handling challenges
+  like occlusion, tool exchanges, and re-identification across video sequences.
+abstract: 'Tracking surgical tools in endoscopic videos is a critical task for surgical workflow analysis. Existing methods
+  either track a single tool class or fail when multiple tools of the same appearance interact. We present SurgiTrack, a fine-grained
+  multi-class multi-tool tracking approach that addresses three key challenges: (1) distinguishing between multiple instances
+  of the same tool class, (2) maintaining identity through occlusions and temporary disappearances, and (3) handling tool
+  exchanges between the surgeon''s hands. SurgiTrack combines a detection backbone with a novel association module that leverages
+  spatial, appearance, and motion cues for robust tracking.'
+links:
+  publication: https://doi.org/10.1016/j.media.2024.103438
+  code: https://github.com/CAMMA-public/surgitrack
+citation: "@article{nwoye2025surgitrack,\n  title={SurgiTrack: Fine-grained multi-class multi-tool tracking in surgical videos},\n\
+  \  author={Nwoye, Chinedu Innocent and Padoy, Nicolas},\n  journal={Medical Image Analysis},\n  volume={90},\n  pages={103438},\n\
+  \  year={2025},\n  publisher={Elsevier}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/cholectrack20-annotations.gif
+    caption: 'Fine-grained multi-class multi-tool tracking: each instrument is tracked with a unique identity across the video,
+      handling occlusions and tool exchanges.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/cholectrack20-perspectives.gif
+    caption: 'SurgiTrack operates across multiple perspectives: tracking tools from intraoperative, intracorporeal, and visibility
+      viewpoints.'
+  text: 'SurgiTrack addresses the challenges of fine-grained surgical tool tracking through:'
+  bullets:
+  - '<strong>Multi-cue association</strong>: Combines spatial proximity, visual appearance, and motion patterns for robust
+    track assignment'
+  - '<strong>Occlusion handling</strong>: Maintains track identities through temporary occlusions using a memory mechanism'
+  - '<strong>Tool exchange detection</strong>: Identifies when tools are exchanged between hands and updates track assignments
+    accordingly'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: CholecTrack20 with multi-class bounding box annotations and track IDs'
+  - '<strong>Scope</strong>: First method specifically designed for fine-grained multi-class surgical tool tracking'
+  - '<strong>Analysis</strong>: Comprehensive evaluation on all three tracking perspectives (intraoperative, intracorporeal,
+    visibility)'
+  - '<strong>Domain</strong>: Laparoscopic cholecystectomy, multi-object tracking'
+- heading: Results and Findings
+  bullets:
+  - SurgiTrack outperforms existing MOT methods (DeepSORT, ByteTrack) on surgical tool tracking by significant margins
+  - The multi-cue association module improves identity preservation through occlusions by 12%
+  - Tool exchange detection reduces ID switches by 35% compared to appearance-only association
+  - Real-time capable, processing at 30+ FPS suitable for intraoperative deployment

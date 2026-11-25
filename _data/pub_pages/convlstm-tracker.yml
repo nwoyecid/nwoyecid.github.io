@@ -1,0 +1,57 @@
+# Publication Page: ConvLSTM Tracker
+# Edit this file to update /publications/convlstm-tracker/
+
+acronym: ConvLSTM Tracker
+title: Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos
+venue: IPCAI 2019 &middot; Oral &middot; Audience Choice Best Paper Award
+year: 2019
+authors: C.I. Nwoye, D. Mutter, J. Marescaux, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: A weakly supervised deep learning method for surgical tool tracking using only binary tool presence labels, leveraging
+  ConvLSTM for temporal modeling. Now integrated in the NVIDIA Holoscan SDK for real-time surgical AI.
+abstract: Surgical tool tracking is an essential but challenging task in computer-assisted interventions. We propose a weakly
+  supervised approach for tool tracking in laparoscopic videos that relies only on binary tool presence labels for training.
+  Our method leverages convolutional LSTM to model the temporal evolution of class activation maps (CAMs), enabling the network
+  to learn smooth spatial tool localizations over time without requiring any bounding box or pixel-level annotations during
+  training. The approach generates tool presence detection, spatial localization, and motion tracking in a unified framework.
+links:
+  publication: https://link.springer.com/article/10.1007/s11548-019-01958-6
+  arxiv: https://arxiv.org/abs/1812.01366
+  code: https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker
+citation: "@article{nwoye2019weakly,\n  title={Weakly supervised convolutional LSTM approach for tool tracking in laparoscopic\
+  \ videos},\n  author={Nwoye, Chinedu Innocent and Mutter, Didier and Marescaux, Jacques and Padoy, Nicolas},\n  journal={International\
+  \ Journal of Computer Assisted Radiology and Surgery},\n  volume={14},\n  pages={1059--1067},\n  year={2019},\n  publisher={Springer}\n\
+  }\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/ipcai2019.gif
+    caption: Real-time surgical tool tracking using only binary presence labels for training -- no bounding box annotations
+      needed.
+- heading: Method
+  figures:
+  - src: /assets/img/papers/convlstm-architecture.png
+    caption: 'The ConvLSTM tracker architecture: a CNN backbone generates class activation maps (CAMs) which are temporally
+      refined by a ConvLSTM module for smooth spatial localization.'
+  bullets:
+  - '<strong>Weak supervision</strong>: Only binary tool presence/absence labels are needed -- no bounding boxes or segmentation
+    masks'
+  - '<strong>ConvLSTM temporal modeling</strong>: Class activation maps from a CNN are fed into a ConvLSTM to enforce temporal
+    consistency and smooth spatial localization'
+  - '<strong>Unified framework</strong>: Simultaneously performs tool detection, localization, and tracking'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: Cholec80 (80 cholecystectomy videos) and m2cai16-tool (15 videos)'
+  - '<strong>Scope</strong>: First weakly supervised approach to achieve competitive tool tracking in surgical videos'
+  - '<strong>Domain</strong>: Laparoscopic cholecystectomy'
+  - '<strong>Industry adoption</strong>: Integrated into the NVIDIA Holoscan SDK for real-time endoscopy AI applications'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/convlstm-results.png
+    caption: 'Comparison of spatial localization: ConvLSTM produces smoother, more accurate tool tracking than static CAM
+      approaches.'
+  bullets:
+  - Achieves tracking performance competitive with fully supervised methods while requiring only binary presence labels
+  - ConvLSTM improves localization accuracy by 7.8% over static CAM approaches
+  - Won the <strong>IPCAI 2019 Audience Choice Award for Best Paper Presentation</strong>
+  - Adopted by NVIDIA as a reference model in the Holoscan SDK for surgical tool tracking

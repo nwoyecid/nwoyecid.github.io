@@ -1,0 +1,54 @@
+# Publication Page: CoSimGen
+# Edit this file to update /publications/cosimgen/
+
+acronym: CoSimGen
+title: 'CoSimGen: Controllable Diffusion Model for Simultaneous Image and Mask Generation'
+venue: arXiv Preprint
+year: 2025
+authors: R. Bose, C.I. Nwoye, A. Bhat, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: An extension of SimGen that adds user-controllable conditions for simultaneous generation of surgical images and
+  segmentation masks, enabling targeted data augmentation.
+abstract: Building on SimGen, we present CoSimGen, a controllable diffusion model for the simultaneous generation of surgical
+  images and their segmentation masks. CoSimGen introduces user-specified control signals -- such as class labels, spatial
+  layouts, and semantic maps -- that guide the generation process, enabling targeted creation of specific surgical scenarios.
+  This controllability is critical for addressing class imbalance and generating rare surgical events that are underrepresented
+  in real datasets.
+links:
+  arxiv: https://arxiv.org/abs/2503.19661
+citation: "@article{bose2025cosimgen,\n  title={CoSimGen: Controllable diffusion model for simultaneous image and mask generation},\n\
+  \  author={Bose, Rupak and Nwoye, Chinedu Innocent and Bhat, Aditya and Padoy, Nicolas},\n  journal={arXiv preprint arXiv:2503.19661},\n\
+  \  year={2025}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/cosimgen-demo.png
+    caption: 'CoSimGen generates controllable paired surgical images and masks: users specify conditions (class, layout, semantics)
+      and the model produces matching image-mask pairs.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/cosimgen-architecture.png
+    caption: 'The CoSimGen architecture: a controllable dual-branch diffusion model with conditioning modules that inject
+      user-specified control signals into both the image and mask generation branches.'
+  bullets:
+  - '<strong>Controllable generation</strong>: Accepts class labels, spatial layouts, or semantic maps as conditioning signals'
+  - '<strong>Dual-branch diffusion</strong>: Jointly generates images and masks while maintaining spatial alignment'
+  - '<strong>Targeted augmentation</strong>: Enables creation of specific underrepresented surgical scenarios on demand'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Datasets</strong>: CholecSeg8k, CaDIS, BTCV, MBRSC, and other surgical segmentation benchmarks'
+  - '<strong>Scope</strong>: First controllable simultaneous image-mask generation framework for surgery'
+  - '<strong>Analysis</strong>: Controllability evaluation, FID metrics, downstream segmentation improvement'
+  - '<strong>Domain</strong>: Surgical generative AI, controllable data augmentation'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/cosimgen-comparison.png
+    caption: 'Comparison with other generative methods: CoSimGen produces higher-quality and more controllable image-mask
+      pairs.'
+  - src: /assets/img/papers/cosimgen-controllable.png
+    caption: 'Controllable generation examples: varying the input conditions produces diverse but semantically consistent
+      surgical scenes.'
+  bullets:
+  - Controllable conditioning significantly improves generation quality over unconditional methods
+  - Targeted augmentation of rare classes improves segmentation performance on tail categories by 5-10%
+  - Generated pairs maintain high spatial consistency across all conditioning modes

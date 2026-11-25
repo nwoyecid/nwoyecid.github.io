@@ -1,0 +1,21 @@
+# ============================================================
+# Research Interests
+# ============================================================
+# Each entry appears as a tag on the homepage.
+# Add or remove items to update the list.
+# ============================================================
+
+headline: "Developing AI methods for surgical video analysis and the future intelligent operating room"
+
+tags:
+  - Deep Learning
+  - Computer Vision
+  - Surgical AI
+  - Action Triplet Recognition
+  - Multi-task Learning
+  - Attention Mechanisms
+  - Weak Supervision
+  - Transformers
+  - Endoscopic Video Analysis
+  - Generative AI for Surgery
+  - Surgical Tool Tracking

@@ -1,0 +1,470 @@
+# ============================================================
+# Publications List
+# ============================================================
+# To add a new publication, copy one entry below and fill in
+# the fields. The homepage list is auto-generated from this
+# file, sorted by year (newest first).
+#
+# Fields:
+#   title:       Paper title (required)
+#   authors:     Author string (required)
+#   venue:       Venue name + year label shown in badge (required)
+#   year:        Publication year as integer (required)
+#   icon:        Path to SVG thumbnail in assets/img/pubs/ (required)
+#   desc:        One-line description of key idea (required)
+#   first_author: true if Nwoye is first/corresponding author (required)
+#   project_page:     slug under /publications/ (for papers with a local page)
+#   external_project: full URL to an external project page (for co-authored
+#                     papers whose first author hosts a page elsewhere)
+#   links:            List of {label, url} pairs for external links
+# ============================================================
+
+# ---------- 2026 ----------
+
+- title: "Understanding tool-tissue interactions in surgical videos"
+  authors: "F. Federiconi, C. La Sala, Z. Khatab, C.I. Nwoye, P. Mascagni, A. Madani, et al."
+  venue: "IEEE BioRob 2026"
+  year: 2026
+  icon: "assets/img/pubs/tool-tissue-interaction.svg"
+  desc: "Analyzing fine-grained tool-tissue interaction patterns in surgical video for improved activity understanding."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:5awf1xo2G04C"
+
+- title: "Sureon: A benchmark and vision-language-model for surgical reasoning"
+  authors: "A. Perez, A. Rau, L. White, B. Mlambo, C. Nwoye, M.A. Jamal, O. Mohareri"
+  venue: "arXiv 2026"
+  year: 2026
+  icon: "assets/img/pubs/sureon.svg"
+  desc: "A VLM benchmark for evaluating surgical reasoning capabilities with structured question answering."
+  first_author: false
+  external_project: "https://aperezr20.github.io/sureon/"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2603.06570"
+
+- title: "State-change learning for prediction of future events in endoscopic videos"
+  authors: "S. Sharma, C.I. Nwoye, D. Mutter, N. Padoy"
+  venue: "Medical Image Analysis 2026"
+  year: 2026
+  icon: "assets/img/pubs/state-change.svg"
+  desc: "Predicting upcoming surgical events by learning state transitions from endoscopic video sequences."
+  first_author: false
+  links:
+    - label: Journal
+      url: "https://doi.org/10.1016/j.media.2025.104325"
+
+- title: "SurgLaVI: Large-scale hierarchical dataset for surgical vision-language representation learning"
+  authors: "A. Perez, C. Nwoye, R.R. Kermani, O. Mohareri, M.A. Jamal"
+  venue: "Medical Image Analysis 2026"
+  year: 2026
+  icon: "assets/img/pubs/surglavi.svg"
+  desc: "A large-scale hierarchical dataset enabling vision-language pre-training for surgical scene understanding."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:wbdj-CoPYUoC"
+
+- title: "iMED: A multi-endoscope dataset for surgical 3D perception"
+  authors: "S. Bonilla, F. Jiang, C. Nwoye, J. Lu, K. Reardon, et al."
+  venue: "ECCV 2026"
+  year: 2026
+  icon: "assets/img/pubs/imed.svg"
+  desc: "A multi-endoscope dataset for 3D reconstruction and depth estimation in surgical environments."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:eq2jaN3J8jMC"
+
+- title: "On the role of depth in surgical vision foundation models: an empirical study of RGB-D pre-training"
+  authors: "J.J. Han, A. Schmidt, M.A. Jamal, C. Nwoye, A. Rau, J.Y. Wu, O. Mohareri"
+  venue: "arXiv 2026"
+  year: 2026
+  icon: "assets/img/pubs/rgbd-depth.svg"
+  desc: "Empirical study on how depth information improves foundation model pre-training for surgical vision tasks."
+  first_author: false
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2601.18929"
+
+# ---------- 2025 ----------
+
+- title: "CholecTrack20: A multi-perspective tracking dataset for surgical tools"
+  authors: "C.I. Nwoye, K. Elgohary, A. Srinivas, F. Zaid, J.L. Lavanchy, N. Padoy"
+  venue: "CVPR 2025"
+  year: 2025
+  icon: "assets/img/pubs/cholectrack20.svg"
+  desc: "Large-scale multi-perspective tracking dataset with multi-class multi-tool annotations for laparoscopic cholecystectomy."
+  first_author: true
+  project_page: cholectrack20
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2312.07906"
+    - label: Code
+      url: "https://github.com/CAMMA-public/cholectrack20"
+    - label: Dataset
+      url: "https://doi.org/10.7303/syn53182642"
+
+- title: "SurgiTrack: Fine-grained multi-class multi-tool tracking in surgical videos"
+  authors: "C.I. Nwoye, N. Padoy"
+  venue: "Medical Image Analysis 2025"
+  year: 2025
+  icon: "assets/img/pubs/surgitrack.svg"
+  desc: "Fine-grained tracking distinguishing multiple tool types simultaneously, handling occlusions and tool exchanges."
+  first_author: true
+  project_page: surgitrack
+  links:
+    - label: Journal
+      url: "https://doi.org/10.1016/j.media.2024.103438"
+    - label: Code
+      url: "https://github.com/CAMMA-public/surgitrack"
+
+- title: "Surgical text-to-image generation"
+  authors: "C.I. Nwoye, R. Bose, K. Elgohary, L. Arboit, G. Carlino, J.L. Lavanchy, N. Padoy"
+  venue: "Pattern Recognition Letters 2025"
+  year: 2025
+  icon: "assets/img/pubs/surgical-text-to-image.svg"
+  desc: "Diffusion-based generation of realistic surgical images from text descriptions for data augmentation and education."
+  first_author: true
+  project_page: surgical-text-to-image
+  links:
+    - label: Journal
+      url: "https://doi.org/10.1016/j.patrec.2024.12.016"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2312.09066"
+    - label: Code
+      url: "https://github.com/CAMMA-public/SurgicalT2I"
+
+- title: "Multi-perspective tracking of surgical tools"
+  authors: "C.I. Nwoye, N. Padoy"
+  venue: "IPCAI 2025"
+  year: 2025
+  icon: "assets/img/pubs/multi-perspective-tracking.svg"
+  desc: "Integrating complementary tracking perspectives for robust surgical tool localization under challenging conditions."
+  first_author: true
+  project_page: multi-perspective-tracking
+
+- title: "Current validation practice undermines surgical AI development"
+  authors: "A. Reinke, Z.O. Li, M.D. Tizabi, et al."
+  venue: "arXiv 2025"
+  year: 2025
+  icon: "assets/img/pubs/validation-practice.svg"
+  desc: "Critical analysis of evaluation practices in surgical AI and recommendations for more reliable validation."
+  first_author: false
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2511.03769"
+
+- title: "SimGen: A diffusion-based framework for simultaneous surgical image and segmentation mask generation"
+  authors: "A. Bhat, R. Bose, C.I. Nwoye, N. Padoy"
+  venue: "arXiv 2025"
+  year: 2025
+  icon: "assets/img/pubs/simgen.svg"
+  desc: "Jointly generating paired surgical images and pixel-level segmentation masks using diffusion models."
+  first_author: true
+  project_page: simgen
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2501.09008"
+
+- title: "CoSimGen: Controllable diffusion model for simultaneous image and mask generation"
+  authors: "R. Bose, C.I. Nwoye, A. Bhat, N. Padoy"
+  venue: "arXiv 2025"
+  year: 2025
+  icon: "assets/img/pubs/cosimgen.svg"
+  desc: "Controllable simultaneous generation of images and segmentation masks with user-specified conditions."
+  first_author: true
+  project_page: cosimgen
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2503.19661"
+
+- title: "Feature mixing approach for detecting intraoperative adverse events in laparoscopic Roux-en-Y gastric bypass surgery"
+  authors: "R. Bose, C.I. Nwoye, J.F. Lazo, J.L. Lavanchy, N. Padoy"
+  venue: "MICCAI 2025"
+  year: 2025
+  icon: "assets/img/pubs/feature-mixing.svg"
+  desc: "Detecting adverse events during bariatric surgery by mixing multi-scale temporal features from surgical video."
+  first_author: true
+  project_page: betamixer
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2504.16749"
+
+# ---------- 2023 ----------
+
+- title: "CholecTriplet2022: Show me a tool and tell me the triplet"
+  authors: "C.I. Nwoye, T. Yu, S. Sharma, et al., N. Padoy"
+  venue: "Medical Image Analysis 2023"
+  year: 2023
+  icon: "assets/img/pubs/cholectriplet2022.svg"
+  desc: "MICCAI 2022 endoscopic vision challenge benchmarking 11 methods for surgical action triplet detection on CholecT50."
+  first_author: true
+  project_page: cholectriplet2022
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2302.06294"
+    - label: Code
+      url: "https://github.com/CAMMA-public/cholectriplet2022"
+    - label: Challenge
+      url: "https://cholectriplet2022.grand-challenge.org/"
+
+- title: "CholecTriplet2021: A benchmark challenge for surgical action triplet recognition"
+  authors: "C.I. Nwoye, D. Alapatt, T. Yu, A. Vardazaryan, et al., N. Padoy"
+  venue: "Medical Image Analysis 2023"
+  year: 2023
+  icon: "assets/img/pubs/cholectriplet2021.svg"
+  desc: "MICCAI 2021 challenge evaluating 20 deep learning methods for surgical action triplet recognition."
+  first_author: true
+  project_page: cholectriplet2021
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2204.04746"
+    - label: Code
+      url: "https://github.com/CAMMA-public/cholectriplet2021"
+    - label: Challenge
+      url: "https://cholectriplet2021.grand-challenge.org/"
+
+- title: "Comparative validation of machine learning algorithms for surgical workflow and skill analysis with the HeiChole benchmark"
+  authors: "M. Wagner, B.P. M&uuml;ller-Stich, et al., C.I. Nwoye, N. Padoy, et al."
+  venue: "Medical Image Analysis 2023"
+  year: 2023
+  icon: "assets/img/pubs/heichole.svg"
+  desc: "Multi-center benchmark comparing ML methods for surgical workflow recognition and skill assessment."
+  first_author: false
+  links:
+    - label: Journal
+      url: "https://doi.org/10.1016/j.media.2022.102770"
+
+- title: "Dissecting self-supervised learning methods for surgical computer vision"
+  authors: "S. Ramesh, V. Srivastav, D. Alapatt, T. Yu, A. Murali, L. Sestini, C.I. Nwoye, et al."
+  venue: "Medical Image Analysis 2023"
+  year: 2023
+  icon: "assets/img/pubs/selfsup-surgery.svg"
+  desc: "Systematic study of self-supervised pre-training strategies and their effectiveness for surgical video tasks."
+  first_author: false
+  links:
+    - label: Journal
+      url: "https://doi.org/10.1016/j.media.2022.102844"
+
+- title: "Rendezvous in time: an attention-based temporal fusion approach for surgical triplet recognition"
+  authors: "S. Sharma, C.I. Nwoye, D. Mutter, N. Padoy"
+  venue: "International Journal of CARS 2023"
+  year: 2023
+  icon: "assets/img/pubs/rendezvous-time.svg"
+  desc: "Extending the Rendezvous architecture with temporal attention fusion for improved triplet recognition over time."
+  first_author: false
+  links:
+    - label: Journal
+      url: "https://doi.org/10.1007/s11548-023-02914-1"
+
+- title: "Intuitive Surgical SurgToolLoc Challenge Results: 2022-2023"
+  authors: "A. Zia, M. Berniker, R.G. Nespolo, et al."
+  venue: "arXiv 2023"
+  year: 2023
+  icon: "assets/img/pubs/surgtoolloc.svg"
+  desc: "Results of the SurgToolLoc challenge for surgical tool localization using weakly supervised learning."
+  first_author: false
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2305.07152"
+
+- title: "Self-distillation for surgical action recognition"
+  authors: "A. Yamlahi, T.N. Tran, P. Godau, et al."
+  venue: "MICCAI 2023"
+  year: 2023
+  icon: "assets/img/pubs/self-distillation.svg"
+  desc: "Using self-distillation to improve surgical action recognition without additional labeled data."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:O3NaXMp0MMsC"
+
+- title: "Surgical action triplet detection by mixed supervised learning of instrument-tissue interactions"
+  authors: "S. Sharma, C.I. Nwoye, D. Mutter, N. Padoy"
+  venue: "MICCAI 2023"
+  year: 2023
+  icon: "assets/img/pubs/mixed-supervised.svg"
+  desc: "Combining different supervision levels to detect surgical action triplets from instrument-tissue interactions."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:RYcK_YlVTxYC"
+
+# ---------- 2022 ----------
+
+- title: "Rendezvous: Attention mechanisms for the recognition of surgical action triplets in endoscopic videos"
+  authors: "C.I. Nwoye, T. Yu, C. Gonzalez, B. Seeliger, P. Mascagni, D. Mutter, J. Marescaux, and N. Padoy"
+  venue: "Medical Image Analysis 2022"
+  year: 2022
+  icon: "assets/img/pubs/rendezvous.svg"
+  desc: "Transformer-inspired attention model (CAGAM + MHMA) for joint spatial and semantic reasoning over surgical action triplets."
+  first_author: true
+  project_page: rendezvous
+  links:
+    - label: Journal
+      url: "https://doi.org/10.1016/j.media.2022.102433"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2109.03223"
+    - label: Code
+      url: "https://github.com/CAMMA-public/rendezvous"
+
+- title: "Data splits and metrics for benchmarking methods on surgical action triplet datasets"
+  authors: "C.I. Nwoye, N. Padoy"
+  venue: "arXiv 2022"
+  year: 2022
+  icon: "assets/img/pubs/data-splits-metrics.svg"
+  desc: "Standard data splits for CholecT50/T45 and the ivtmetrics evaluation library for fair triplet method comparison."
+  first_author: true
+  project_page: data-splits-metrics
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2204.05235"
+    - label: Code
+      url: "https://github.com/CAMMA-public/attention-tripnet"
+    - label: PyPI
+      url: "https://pypi.org/project/ivtmetrics/"
+
+- title: "Biomedical image analysis competitions: The state of current participation practice"
+  authors: "M. Eisenmann, A. Reinke, V. Weru, M.D. Tizabi, et al."
+  venue: "arXiv 2022"
+  year: 2022
+  icon: "assets/img/pubs/biomed-competitions.svg"
+  desc: "Large-scale survey of biomedical image analysis challenge practices, participation, and reporting standards."
+  first_author: false
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2212.08568"
+
+- title: "Endoscopic vision challenge 2022"
+  authors: "A. Zia, X. Liu, K. Bhattacharyya, Z. Wang, M. Berniker, A. Jarc, C. Nwoye, et al."
+  venue: "MICCAI EndoVis 2022"
+  year: 2022
+  icon: "assets/img/pubs/endovis2022.svg"
+  desc: "Annual endoscopic vision challenge at MICCAI covering multiple surgical video analysis tasks."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:D03iK_w7-QYC"
+
+# ---------- 2021 ----------
+
+- title: "Deep learning methods for the detection and recognition of surgical tools and activities in laparoscopic videos"
+  authors: "C.I. Nwoye"
+  venue: "Ph.D. Thesis &middot; Universit&eacute; de Strasbourg &middot; Thesis Prize"
+  year: 2021
+  icon: "assets/img/pubs/phd-thesis.svg"
+  desc: "Doctoral thesis introducing the surgical action triplet paradigm and foundational methods (Tripnet, Rendezvous, ConvLSTM Tracker)."
+  first_author: true
+  project_page: phd-thesis
+  links:
+    - label: Thesis
+      url: "https://theses.fr/2021STRAD033"
+
+- title: "2020 CATARACTS semantic segmentation challenge"
+  authors: "I. Luengo, M. Grammatikopoulou, et al., C.I. Nwoye, D. Alapatt, N. Padoy, et al."
+  venue: "arXiv 2021"
+  year: 2021
+  icon: "assets/img/pubs/cataracts.svg"
+  desc: "Challenge for semantic segmentation of surgical instruments and anatomical structures in cataract surgery videos."
+  first_author: true
+  project_page: cadis
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2110.10965"
+
+- title: "Endoscopic vision challenge 2021"
+  authors: "S. Speidel, L. Maier-Hein, D. Stoyanov, et al."
+  venue: "MICCAI EndoVis 2021"
+  year: 2021
+  icon: "assets/img/pubs/endovis2021.svg"
+  desc: "Annual endoscopic vision challenge at MICCAI covering multiple surgical video analysis tasks."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:cFHS6HbyZ2cC"
+
+# ---------- 2020 ----------
+
+- title: "Recognition of instrument-tissue interactions in endoscopic videos via action triplets"
+  authors: "C.I. Nwoye, C. Gonzalez, T. Yu, P. Mascagni, D. Mutter, J. Marescaux, and N. Padoy"
+  venue: "MICCAI 2020 &middot; Oral"
+  year: 2020
+  icon: "assets/img/pubs/tripnet.svg"
+  desc: "First work modeling surgical activities as <instrument, verb, target> triplets. Introduced the CholecT40 dataset and Tripnet architecture."
+  first_author: true
+  project_page: tripnet
+  links:
+    - label: Conference
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-59716-0_35"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2007.05405"
+    - label: Code
+      url: "https://github.com/CAMMA-public/tripnet"
+
+# ---------- 2019 ----------
+
+- title: "Weakly supervised convolutional LSTM approach for tool tracking in laparoscopic videos"
+  authors: "C.I. Nwoye, D. Mutter, J. Marescaux, N. Padoy"
+  venue: "IPCAI 2019 &middot; Oral &middot; Best Paper Award"
+  year: 2019
+  icon: "assets/img/pubs/convlstm-tracker.svg"
+  desc: "Surgical tool tracking using only binary presence labels with ConvLSTM. Integrated in the NVIDIA Holoscan SDK."
+  first_author: true
+  project_page: convlstm-tracker
+  links:
+    - label: Journal
+      url: "https://link.springer.com/article/10.1007/s11548-019-01958-6"
+    - label: arXiv
+      url: "https://arxiv.org/abs/1812.01366"
+    - label: Code
+      url: "https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker"
+
+# ---------- 2016 ----------
+
+- title: "Enhancing attendance management in firms and industries using fingerprint biometric recognition technique"
+  authors: "C.I. Nwoye"
+  venue: "IOSR-JMCA 2016"
+  year: 2016
+  icon: "assets/img/pubs/fingerprint-biometric.svg"
+  desc: "Fingerprint biometric system for automated attendance tracking in firms and industries."
+  first_author: true
+  project_page: fingerprint-biometric
+
+- title: "Motivation for the design and implementation of a SMS slang converter for android devices"
+  authors: "C.N. Udanor, C.I. Nwoye"
+  venue: "iJIM 2016"
+  year: 2016
+  icon: "assets/img/pubs/sms-converter.svg"
+  desc: "Android application converting SMS slang abbreviations to standard English text."
+  first_author: true
+  project_page: sms-converter
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:eQOLeE2rZwMC"
+
+# ---------- 2015 ----------
+
+- title: "Enhancing courier service with the development of an interactive mobile app in android platform"
+  authors: "M.N. Agu, C.I. Nwoye, B.O. Ogbuokiri"
+  venue: "IOSR-JMCA 2015"
+  year: 2015
+  icon: "assets/img/pubs/courier-app.svg"
+  desc: "Interactive Android mobile application for improving courier service delivery and tracking."
+  first_author: true
+  project_page: courier-app
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:HoB7MX3m0LUC"
+
+- title: "A model for identity verification in Nigerian E-Governance"
+  authors: "B.O. Ogbuokiri, M.N. Agu, C.I. Nwoye"
+  venue: "Conference Paper"
+  year: 2015
+  icon: "assets/img/pubs/idevsoft.svg"
+  desc: "Identity verification framework for Nigerian e-governance applications."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:f2IySw72cVMC"

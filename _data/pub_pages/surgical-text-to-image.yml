@@ -1,0 +1,67 @@
+# Publication Page: Surgical Imagen
+# Edit this file to update /publications/surgical-text-to-image/
+
+acronym: Surgical Imagen
+title: Surgical Text-to-Image Generation
+venue: Pattern Recognition Letters, Volume 189, pp. 73-79
+year: 2025
+authors: C.I. Nwoye, R. Bose, K. Elgohary, L. Arboit, G. Carlino, J.L. Lavanchy, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: A pioneering effort in generating realistic surgical images from triplet-based text prompts using diffusion models,
+  enabling data augmentation and educational applications in surgical AI.
+abstract: Generating realistic surgical images from textual descriptions has significant potential for data augmentation,
+  surgical education, and simulation. We present Surgical Imagen, a text-to-image generation framework tailored for the surgical
+  domain. By fine-tuning state-of-the-art diffusion models on surgical datasets with structured triplet-based text annotations
+  (instrument, action, target), we generate high-fidelity images of surgical scenes. The generated images are evaluated both
+  quantitatively using FID and CLIP metrics and qualitatively through surgeon assessment, demonstrating their realism and
+  potential for downstream surgical AI tasks.
+links:
+  publication: https://doi.org/10.1016/j.patrec.2024.12.016
+  arxiv: https://arxiv.org/abs/2312.09066
+  code: https://github.com/CAMMA-public/SurgicalT2I
+  project: https://camma-public.github.io/endogen/surgical-imagen/
+citation: "@article{nwoye2025surgical,\n  title={Surgical text-to-image generation},\n  author={Nwoye, Chinedu Innocent and\
+  \ Bose, Rupak and Elgohary, Kareem and Arboit, Lorenzo and Carlino, Giovanni and Lavanchy, Jo{\\\"e}l L. and Padoy, Nicolas},\n\
+  \  journal={Pattern Recognition Letters},\n  volume={189},\n  pages={73--79},\n  year={2025},\n  publisher={Elsevier}\n\
+  }\n"
+sections:
+- heading: Method
+  figures:
+  - src: /assets/img/papers/t2i-architecture.png
+    caption: 'The Surgical Imagen pipeline: triplet-based text prompts (e.g. "clipper clip cystic duct") are encoded by a
+      large language model and used to condition a cascaded diffusion model for generating photorealistic surgical images.'
+  text: 'The Surgical Imagen framework builds on the Imagen architecture with surgical-specific adaptations:'
+  bullets:
+  - '<strong>Triplet-based text conditioning</strong>: Structured prompts describing surgical scenes as &lt;instrument, verb,
+    target&gt; triplets (e.g., "grasper retract gallbladder")'
+  - '<strong>Cascaded diffusion model</strong>: A base diffusion model generates low-resolution images, followed by super-resolution
+    stages for high-fidelity output'
+  - '<strong>Instrument-based class balancing</strong>: Addresses dataset imbalance by balancing training samples based on
+    instrument frequency'
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/t2i-bipolar-coagulate-liver.png
+    caption: 'Prompt: "bipolar coagulate liver" -- the model generates realistic endoscopic images showing the bipolar instrument
+      coagulating liver tissue.'
+  - src: /assets/img/papers/t2i-grasper-retract-gallbladder.png
+    caption: 'Prompt: "grasper retract gallbladder" -- generated images faithfully depict the grasper retracting the gallbladder.'
+  - src: /assets/img/papers/t2i-hook-dissect-duct.png
+    caption: 'Prompt: "hook dissect cystic duct" -- the model captures the correct instrument and anatomy for this common
+      surgical action.'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: CholecT50 with triplet annotations providing structured text descriptions of surgical scenes'
+  - '<strong>Scope</strong>: First study on text-to-image generation specifically for the surgical domain'
+  - '<strong>Analysis</strong>: FID and CLIP metrics, surgeon qualitative assessment, downstream task evaluation for data
+    augmentation'
+  - '<strong>Domain</strong>: Surgical generative AI, data augmentation, surgical education'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/t2i-clipper-clip-duct.png
+    caption: 'Prompt: "clipper clip cystic duct" -- generated images are realistic enough to fool expert surgeons in blind
+      assessment.'
+  bullets:
+  - Surgeon evaluators rate generated images as plausible surgical scenes in blind assessment
+  - Using generated images for data augmentation improves triplet recognition by 2-4% on underrepresented classes
+  - The model handles rare instrument-action-target combinations that are difficult to collect in real datasets
+  - Opens new possibilities for surgical training simulation and rare case generation

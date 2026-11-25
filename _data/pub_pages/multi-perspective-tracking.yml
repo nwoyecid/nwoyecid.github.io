@@ -1,0 +1,50 @@
+# Publication Page: MPT
+# Edit this file to update /publications/multi-perspective-tracking/
+
+acronym: MPT
+title: Multi-Perspective Tracking of Surgical Tools
+venue: IPCAI 2025
+year: 2025
+authors: C.I. Nwoye, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: A unified framework that integrates intraoperative, intracorporeal, and visibility tracking perspectives for more
+  robust and accurate surgical tool tracking under challenging real-world conditions.
+abstract: 'Surgical tool tracking from endoscopic video remains challenging due to occlusions, visual similarity between tools,
+  and rapid camera movements. We propose a multi-perspective tracking framework that jointly reasons about tool tracking from
+  three complementary viewpoints: intraoperative (surgical role), intracorporeal (physical presence), and visibility (camera
+  view). By modeling the dependencies between these perspectives, the framework achieves more robust tracking than single-perspective
+  methods, especially in difficult scenarios such as tool exchanges and partial occlusions.'
+links:
+  publication: '#'
+citation: "@inproceedings{nwoye2025multiperspective,\n  title={Multi-Perspective Tracking of Surgical Tools},\n  author={Nwoye,\
+  \ Chinedu Innocent and Padoy, Nicolas},\n  booktitle={International Conference on Information Processing in Computer-Assisted\
+  \ Interventions (IPCAI)},\n  year={2025}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/cholectrack20-perspectives.gif
+    caption: 'Multi-perspective tracking: jointly reasoning from intraoperative, intracorporeal, and visibility viewpoints
+      for robust tool localization.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/cholectrack20-annotations.gif
+    caption: Dense multi-class annotations with track IDs enable training and evaluation of the multi-perspective framework.
+  text: 'The multi-perspective tracking framework consists of:'
+  bullets:
+  - '<strong>Perspective-specific trackers</strong>: Dedicated tracking heads for each perspective (intraoperative, intracorporeal,
+    visibility)'
+  - '<strong>Cross-perspective reasoning</strong>: A fusion module that propagates information between perspectives to resolve
+    ambiguities'
+  - '<strong>Consistency enforcement</strong>: Constraints ensuring logical coherence between perspectives (e.g., a visible
+    tool must also be intracorporeal)'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: CholecTrack20 benchmark with multi-perspective annotations'
+  - '<strong>Scope</strong>: First method to jointly reason across multiple tracking perspectives'
+  - '<strong>Analysis</strong>: Per-perspective and joint evaluation, ablation on cross-perspective fusion strategies'
+  - '<strong>Domain</strong>: Laparoscopic cholecystectomy, multi-object tracking'
+- heading: Results and Findings
+  bullets:
+  - Joint multi-perspective reasoning improves tracking accuracy over independent single-perspective trackers
+  - Cross-perspective fusion is most beneficial during occlusion events and tool exchanges
+  - The framework provides a richer understanding of tool usage patterns throughout the surgical procedure

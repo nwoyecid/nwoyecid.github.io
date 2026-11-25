@@ -1,0 +1,61 @@
+# Publication Page: TRIPNET
+# Edit this file to update /publications/tripnet/
+
+acronym: TRIPNET
+title: Recognition of Instrument-Tissue Interactions in Endoscopic Videos via Action Triplets
+venue: MICCAI 2020 &middot; Oral Presentation
+year: 2020
+authors: C.I. Nwoye, C. Gonzalez, T. Yu, P. Mascagni, D. Mutter, J. Marescaux, and N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: The first work to formalize surgical activity recognition as action triplets &lt;instrument, verb, target&gt;, introducing
+  both the CholecT40 dataset and the Tripnet architecture for end-to-end triplet recognition from video.
+abstract: Surgical activity recognition is of growing importance for monitoring and understanding surgical procedures. Current
+  state of the art focuses on recognizing short-term activities and long-term phases from surgical videos. In this paper,
+  we propose to model fine-grained activities as action triplets of instrument, verb, and target. We introduce a new dataset,
+  CholecT40, consisting of 40 laparoscopic cholecystectomy videos annotated with action triplet labels. We also introduce
+  Tripnet, a 3-stage architecture that models the triplet components and their associations using a novel attention-based
+  module called the Triplet Interaction Module (TRI). It first detects the instruments, then uses the detected instruments
+  to predict the verbs and targets, and finally associates them into triplets.
+links:
+  publication: https://link.springer.com/chapter/10.1007/978-3-030-59716-0_35
+  arxiv: https://arxiv.org/abs/2007.05405
+  code: https://github.com/CAMMA-public/tripnet
+citation: "@inproceedings{nwoye2020recognition,\n  title={Recognition of instrument-tissue interactions in endoscopic videos\
+  \ via action triplets},\n  author={Nwoye, Chinedu Innocent and Gonzalez, Cristians and Yu, Tong and Mascagni, Pietro and\
+  \ Mutter, Didier and Marescaux, Jacques and Padoy, Nicolas},\n  booktitle={International Conference on Medical Image Computing\
+  \ and Computer-Assisted Intervention},\n  pages={364--374},\n  year={2020},\n  organization={Springer}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/tripnet-task.png
+    caption: 'The surgical action triplet task: recognizing fine-grained instrument-tissue interactions as &lt;instrument,
+      verb, target&gt; triplets from endoscopic video.'
+- heading: Method
+  figures:
+  - src: /assets/img/papers/tripnet-architecture.png
+    caption: 'The Tripnet architecture: a 3-stage model that detects instruments, predicts verbs and targets, and associates
+      them into complete action triplets via the Triplet Interaction Module (TRI).'
+  text: 'Tripnet is a 3-stage deep learning architecture:'
+  bullets:
+  - '<strong>Stage 1 -- Instrument Detection</strong>: A weakly-supervised CNN detects which instruments are present in the
+    frame'
+  - '<strong>Stage 2 -- Verb and Target Recognition</strong>: Instrument features are used to predict the associated actions
+    and anatomical targets'
+  - '<strong>Stage 3 -- Triplet Interaction Module (TRI)</strong>: An attention module that associates the three components
+    into complete triplets by modeling their dependencies'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Dataset</strong>: CholecT40 -- 40 cholecystectomy videos with 127,385 frames annotated with 100 triplet classes
+    (6 instruments, 10 verbs, 15 targets)'
+  - '<strong>Scope</strong>: First large-scale study of fine-grained surgical activity as action triplets'
+  - '<strong>Analysis</strong>: Comparison with multi-task learning baselines and ablation on triplet association strategies'
+  - '<strong>Domain</strong>: Laparoscopic cholecystectomy'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/tripnet-results.png
+    caption: Qualitative results on challenging surgical scenes showing triplet predictions and their confidence scores.
+  bullets:
+  - <strong>20.3% triplet AP</strong> -- establishing the first benchmark for this new task
+  - The Triplet Interaction Module (TRI) improves triplet association by +4.1% over naive combination
+  - Demonstrates that modeling triplets captures richer surgical context than recognizing phases or tools alone
+  - The triplet paradigm has since become a standard task in surgical AI, adopted by multiple international challenges

@@ -1,0 +1,96 @@
+# ============================================================
+# Publication Page: Rendezvous
+# ============================================================
+# This file drives the content of /publications/rendezvous/
+# Edit fields here; the template renders them automatically.
+# Any section left empty or omitted is skipped on the page.
+#
+# Sections are rendered in the order listed. Each section has:
+#   heading:  Section title (e.g. "Method", "Demo")
+#   text:     Paragraph(s) of text (HTML allowed). Optional.
+#   bullets:  List of bullet strings (HTML/bold allowed). Optional.
+#   figures:  List of {src, caption, width}. Optional.
+#             width is optional (default: 100%).
+# ============================================================
+
+# ----- Hero / Front Matter -----
+acronym: "RENDEZVOUS"
+title: "Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos"
+venue: "Medical Image Analysis, Volume 78, 102433"
+year: 2022
+authors: "C.I. Nwoye, T. Yu, C. Gonzalez, B. Seeliger, P. Mascagni, D. Mutter, J. Marescaux, and N. Padoy"
+affiliations: "ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France"
+summary: "A transformer-inspired deep learning model that uses class activation guided attention (CAGAM) and multi-head of mixed attention (MHMA) to jointly detect surgical instruments, recognize actions, and identify targets as action triplets from endoscopic video."
+
+abstract: >
+  Out of the description of surgical procedures as a series of triplets of
+  the used instruments, performed actions, and treated anatomies, the
+  recognition of these triplets in surgical videos is becoming a new
+  challenge. Extending the CholecT40 and CholecT45 datasets with 5
+  additional videos and bounding box instrument annotations, we introduce
+  CholecT50 -- a large-scale dataset for the recognition of surgical action
+  triplets. We propose Rendezvous (RDV) -- a deep learning model that
+  recognizes surgical action triplets directly from videos by leveraging
+  attention at two complementary levels: (1) a class activation guided
+  attention mechanism (CAGAM) that generates instrument-aware spatial maps
+  to focus on the relevant tools in the scene and (2) a multi-head of mixed
+  attention (MHMA) that captures relationships between instruments, verbs,
+  and targets by combining self- and cross-attention to model inter- and
+  intra-triplet component associations.
+
+links:
+  publication: "https://doi.org/10.1016/j.media.2022.102433"
+  arxiv: "https://arxiv.org/abs/2109.03223"
+  code: "https://github.com/CAMMA-public/rendezvous"
+
+citation: |
+  @article{nwoye2022rendezvous,
+    title={Rendezvous: Attention mechanisms for the recognition of surgical action triplets in endoscopic videos},
+    author={Nwoye, Chinedu Innocent and Yu, Tong and Gonzalez, Cristians and Seeliger, Barbara and Mascagni, Pietro and Mutter, Didier and Marescaux, Jacques and Padoy, Nicolas},
+    journal={Medical Image Analysis},
+    volume={78},
+    pages={102433},
+    year={2022},
+    publisher={Elsevier}
+  }
+
+# ----- Page Sections (rendered in order) -----
+sections:
+  - heading: "Demo"
+    figures:
+      - src: "/assets/img/papers/rendezvous-demo.png"
+        caption: "Examples of surgical action triplets detected from cholecystectomy video frames: each triplet captures the instrument, action verb, and target anatomy."
+
+  - heading: "Method"
+    figures:
+      - src: "/assets/img/papers/rendezvous-architecture.png"
+        caption: "The complete Rendezvous (RDV) architecture: a ResNet-18 backbone extracts visual features, CAGAM generates instrument-aware spatial attention, and MHMA models semantic relationships between triplet components."
+    text: "The Rendezvous architecture consists of three main components:"
+    bullets:
+      - "<strong>Encoder backbone</strong>: Extracts visual features from each video frame using a ResNet-18"
+      - "<strong>Class Activation Guided Attention (CAGAM)</strong>: Generates instrument-specific spatial attention maps that focus the network on the locations of each detected tool"
+      - "<strong>Multi-Head of Mixed Attention (MHMA)</strong>: Models the semantic relationships between instruments, verbs, and targets through combined self-attention and cross-attention heads"
+    extra_figures:
+      - src: "/assets/img/papers/rendezvous-cagam.png"
+        caption: "Detail of the Class Activation Guided Attention Mechanism (CAGAM): class activation maps are refined into instrument-specific spatial attention that guides triplet prediction."
+
+  - heading: "Research Coverage"
+    bullets:
+      - "<strong>Dataset</strong>: CholecT50 -- 50 cholecystectomy videos with frame-level triplet annotations covering 100 unique triplet classes (6 instruments, 10 verbs, 15 targets)"
+      - "<strong>Scope</strong>: The largest study on surgical action triplet recognition at the time of publication"
+      - "<strong>Analysis</strong>: Comprehensive ablation study on attention mechanisms, comparison with 7 baseline methods, and per-class performance breakdown"
+      - "<strong>Domain</strong>: Minimally invasive surgery (cholecystectomy)"
+
+  - heading: "Results and Findings"
+    figures:
+      - src: "/assets/img/papers/rendezvous-attention-maps.png"
+        caption: "Visualization of learned attention maps: the model focuses on correct instrument locations and their interaction regions with target anatomy."
+    text: "Rendezvous achieves state-of-the-art performance on the CholecT50 dataset:"
+    bullets:
+      - "<strong>26.7% AP</strong> on triplet recognition (vs. 20.3% for the previous best Tripnet)"
+      - "CAGAM alone improves triplet AP by +3.4% over the baseline"
+      - "MHMA further improves by +2.8% by modeling inter-component relationships"
+      - "The model runs in real-time, suitable for intraoperative deployment"
+    extra_figures:
+      - src: "/assets/img/papers/rendezvous-qualitative-top.png"
+        caption: "Qualitative results showing top triplet predictions on challenging surgical scenes with multiple tools and overlapping actions."

@@ -1,0 +1,36 @@
+title: Chinedu Nwoye
+description: AI Research Scientist | Ph.D. in Computer Vision & Deep Learning
+url: "https://nwoyecid.github.io"
+baseurl: ""
+
+# Profile
+name: "Dr. Chinedu Innocent Dominic Nwoye"
+tagline: "AI Research Scientist"
+affiliation: "Post-doctoral Research Fellow, ICube Lab / CAMMA, IHU Strasbourg, University of Strasbourg, France"
+avatar: assets/img/photo.png
+
+# Social
+email: nwoye.chinedu@gmail.com
+linkedin: https://ng.linkedin.com/in/chinedu-nwoye-69471a31
+github: https://github.com/nwoyecid
+gscholar: https://scholar.google.com/citations?user=9lKxBUoAAAAJ&hl=en
+researchgate: https://www.researchgate.net/profile/Chinedu-Nwoye-3
+twitter: https://twitter.com/Nwoyecid
+
+# Build
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /publications/:slug/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"

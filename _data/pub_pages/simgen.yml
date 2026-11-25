@@ -1,0 +1,51 @@
+# Publication Page: SimGen
+# Edit this file to update /publications/simgen/
+
+acronym: SimGen
+title: 'SimGen: A Diffusion-Based Framework for Simultaneous Surgical Image and Segmentation Mask Generation'
+venue: arXiv Preprint
+year: 2025
+authors: A. Bhat, R. Bose, C.I. Nwoye, N. Padoy
+affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+summary: A diffusion-based generative framework that jointly produces paired surgical images and pixel-level segmentation
+  masks, addressing the scarcity of annotated surgical data.
+abstract: Acquiring large-scale annotated surgical datasets is expensive and time-consuming. We present SimGen, a diffusion-based
+  framework for the simultaneous generation of realistic surgical images and their corresponding segmentation masks. By jointly
+  modeling the image and mask distributions, SimGen produces perfectly aligned image-mask pairs that can be used to augment
+  training data for surgical scene segmentation. The framework is evaluated on multiple surgical segmentation benchmarks,
+  demonstrating that augmenting real datasets with SimGen-generated pairs significantly improves segmentation performance.
+links:
+  arxiv: https://arxiv.org/abs/2501.09008
+citation: "@article{bhat2025simgen,\n  title={SimGen: A diffusion-based framework for simultaneous surgical image and segmentation\
+  \ mask generation},\n  author={Bhat, Aditya and Bose, Rupak and Nwoye, Chinedu Innocent and Padoy, Nicolas},\n  journal={arXiv\
+  \ preprint arXiv:2501.09008},\n  year={2025}\n}\n"
+sections:
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/simgen-demo.png
+    caption: SimGen generates perfectly paired surgical images and segmentation masks simultaneously, covering diverse surgical
+      instruments and anatomical structures.
+- heading: Method
+  figures:
+  - src: /assets/img/papers/simgen-architecture.png
+    caption: 'The SimGen framework: a dual-branch diffusion model that jointly denoises image and mask latent representations,
+      ensuring spatial alignment between generated images and their segmentation labels.'
+  bullets:
+  - '<strong>Joint diffusion</strong>: Simultaneously denoises image and mask latent spaces to ensure pixel-level alignment'
+  - '<strong>Conditional generation</strong>: Supports conditioning on class labels, text prompts, or partial masks'
+  - '<strong>Multi-dataset training</strong>: Trained across multiple surgical segmentation datasets for broad generalization'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Datasets</strong>: CholecSeg8k, CaDIS, Kvasir-SEG, CholecInstanceSeg, EndoScapes'
+  - '<strong>Scope</strong>: First framework to jointly generate surgical images and segmentation masks using diffusion models'
+  - '<strong>Analysis</strong>: FID and segmentation quality metrics, downstream task improvement evaluation'
+  - '<strong>Domain</strong>: Surgical generative AI, data augmentation for segmentation'
+- heading: Results and Findings
+  figures:
+  - src: /assets/img/papers/simgen-results.png
+    caption: 'Generated image-mask pairs on the CholecSeg8k dataset: SimGen produces diverse, high-quality surgical scenes
+      with accurate corresponding segmentation masks.'
+  bullets:
+  - Augmenting real datasets with SimGen-generated pairs improves segmentation IoU by 3-7% across benchmarks
+  - Generated masks maintain high spatial consistency with their paired images
+  - The framework generalizes across different surgical domains (cholecystectomy, cataract, colonoscopy)

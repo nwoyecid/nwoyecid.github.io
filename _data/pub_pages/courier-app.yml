@@ -1,0 +1,35 @@
+# Publication Page: Courier Service App
+# Edit this file to update /publications/courier-app/
+
+acronym: Courier Service App
+title: Enhancing Courier Service with the Development of an Interactive Mobile App in Android Platform
+venue: IOSR Journal of Mobile Computing &amp; Application (IOSR-JMCA)
+year: 2015
+authors: M.N. Agu, C.I. Nwoye, B.O. Ogbuokiri
+affiliations: University of Nigeria, Nsukka
+summary: An interactive Android mobile application for improving courier service delivery, tracking, and customer communication.
+abstract: Courier services face challenges in package tracking, delivery confirmation, and customer communication. This paper
+  presents the design and development of an interactive mobile application on the Android platform that enhances courier service
+  operations. The application provides real-time package tracking, delivery status notifications, and an interactive interface
+  for both courier personnel and customers.
+links: {}
+citation: "@article{agu2015enhancing,\n  title={Enhancing courier service with the development of an interactive mobile app\
+  \ in android platform},\n  author={Agu, Monica N. and Nwoye, Chinedu Innocent and Ogbuokiri, Blessing O.},\n  journal={IOSR\
+  \ Journal of Mobile Computing \\& Application},\n  year={2015}\n}\n"
+sections:
+- heading: Method
+  bullets:
+  - '<strong>Package tracking module</strong>: Real-time tracking of courier packages through status updates at each delivery
+    checkpoint'
+  - '<strong>Notification system</strong>: Push notifications to customers on delivery status changes'
+  - '<strong>Interactive interface</strong>: User-friendly Android UI for both courier staff and customers'
+- heading: Research Coverage
+  bullets:
+  - '<strong>Scope</strong>: End-to-end mobile application from requirements analysis to deployment'
+  - '<strong>Analysis</strong>: User evaluation, system performance testing, comparison with existing courier workflows'
+  - '<strong>Domain</strong>: Mobile computing, logistics, service delivery'
+- heading: Results and Findings
+  bullets:
+  - Significant improvement in delivery tracking accuracy and customer satisfaction
+  - Reduced delivery confirmation delays through automated notifications
+  - Demonstrated feasibility of mobile-first approach for small-scale courier operations

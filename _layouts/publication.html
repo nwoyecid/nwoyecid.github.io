@@ -1,0 +1,159 @@
+---
+layout: default
+---
+{% comment %}
+  Publication page layout.
+  Content is driven by _data/pub_pages/<slug>.yml
+  The .md file only needs: layout, title, slug in its front matter.
+  Any field missing from the YAML is silently skipped.
+{% endcomment %}
+
+{% assign d = site.data.pub_pages[page.slug] %}
+
+<article class="pub-page">
+
+  <!-- ===== HERO HEADER ===== -->
+  <section class="pub-page-hero">
+    <div class="container">
+      <a href="{{ '/#publications' | relative_url }}" class="back-link">&larr; All Publications</a>
+      {% if d.acronym and d.acronym != "" %}
+      <p class="pub-page-acronym">{{ d.acronym }}</p>
+      {% endif %}
+      <h1 class="pub-page-title">{{ d.title | default: page.title }}</h1>
+      <p class="pub-page-venue">{{ d.venue }}{% if d.year %} &middot; {{ d.year }}{% endif %}</p>
+      <p class="pub-page-authors">{{ d.authors }}</p>
+      {% if d.affiliations and d.affiliations != "" %}
+      <p class="pub-page-affiliations">{{ d.affiliations }}</p>
+      {% endif %}
+      {% if d.summary and d.summary != "" %}
+      <p class="pub-page-summary">{{ d.summary }}</p>
+      {% endif %}
+
+      <!-- Action buttons -->
+      <div class="pub-page-links">
+        {% if d.links.publication and d.links.publication != "#" %}
+          <a href="{{ d.links.publication }}" target="_blank" class="pub-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            Paper
+          </a>
+        {% endif %}
+        {% if d.links.arxiv and d.links.arxiv != "#" %}
+          <a href="{{ d.links.arxiv }}" target="_blank" class="pub-btn secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            arXiv
+          </a>
+        {% endif %}
+        {% if d.links.code and d.links.code != "#" %}
+          <a href="{{ d.links.code }}" target="_blank" class="pub-btn secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Code
+          </a>
+        {% endif %}
+        {% if d.links.project and d.links.project != "#" %}
+          <a href="{{ d.links.project }}" target="_blank" class="pub-btn secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Dataset
+          </a>
+        {% endif %}
+        {% if d.links.demo and d.links.demo != "#" %}
+          <a href="{{ d.links.demo }}" target="_blank" class="pub-btn secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Demo
+          </a>
+        {% endif %}
+        {% if d.links.video and d.links.video != "#" %}
+          <a href="{{ d.links.video }}" target="_blank" class="pub-btn secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Video
+          </a>
+        {% endif %}
+        {% if d.links.challenge and d.links.challenge != "#" %}
+          <a href="{{ d.links.challenge }}" target="_blank" class="pub-btn secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5C7 4 7 7 7 7M18 9h1.5a2.5 2.5 0 0 0 0-5C17 4 17 7 17 7"/><path d="M4 22h16"/><path d="M10 22V8h4v14"/></svg>
+            Challenge
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABSTRACT ===== -->
+  {% if d.abstract and d.abstract != "" %}
+  <section class="pub-section" id="abstract">
+    <div class="container">
+      <h2>Abstract</h2>
+      <div class="pub-abstract-text">
+        <p>{{ d.abstract }}</p>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- ===== CONTENT SECTIONS (driven by YAML) ===== -->
+  {% if d.sections %}
+  <div class="pub-page-content">
+    <div class="container">
+      {% for sec in d.sections %}
+      <h2>{{ sec.heading }}</h2>
+
+      {% if sec.figures %}
+      {% for fig in sec.figures %}
+      <figure class="pub-figure">
+        <img src="{{ fig.src | relative_url }}" alt="{{ sec.heading }}"{% if fig.width %} style="max-width:{{ fig.width }}"{% endif %}>
+        {% if fig.caption and fig.caption != "" %}
+        <figcaption>{{ fig.caption }}</figcaption>
+        {% endif %}
+      </figure>
+      {% endfor %}
+      {% endif %}
+
+      {% if sec.text and sec.text != "" %}
+      <p>{{ sec.text }}</p>
+      {% endif %}
+
+      {% if sec.bullets and sec.bullets.size > 0 %}
+      <ul>
+        {% for b in sec.bullets %}
+        <li>{{ b }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if sec.extra_figures %}
+      {% for fig in sec.extra_figures %}
+      <figure class="pub-figure">
+        <img src="{{ fig.src | relative_url }}" alt="{{ sec.heading }}"{% if fig.width %} style="max-width:{{ fig.width }}"{% endif %}>
+        {% if fig.caption and fig.caption != "" %}
+        <figcaption>{{ fig.caption }}</figcaption>
+        {% endif %}
+      </figure>
+      {% endfor %}
+      {% endif %}
+
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- ===== EXTRA MARKDOWN CONTENT (optional, from .md body) ===== -->
+  {% if content and content != "" %}
+  <div class="pub-page-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- ===== CITATION ===== -->
+  {% if d.citation and d.citation != "" %}
+  <section class="pub-section pub-citation-section" id="citation">
+    <div class="container">
+      <h2>Citation</h2>
+      <div class="pub-bibtex">
+        <pre><code>{{ d.citation }}</code></pre>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+</article>

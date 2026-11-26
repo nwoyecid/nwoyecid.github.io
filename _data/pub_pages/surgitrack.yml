@@ -22,16 +22,10 @@ citation: "@article{nwoye2025surgitrack,\n  title={SurgiTrack: Fine-grained mult
   \  author={Nwoye, Chinedu Innocent and Padoy, Nicolas},\n  journal={Medical Image Analysis},\n  volume={90},\n  pages={103438},\n\
   \  year={2025},\n  publisher={Elsevier}\n}\n"
 sections:
-- heading: Demo
-  figures:
-  - src: /assets/img/papers/cholectrack20-annotations.gif
-    caption: 'Fine-grained multi-class multi-tool tracking: each instrument is tracked with a unique identity across the video,
-      handling occlusions and tool exchanges.'
 - heading: Method
   figures:
-  - src: /assets/img/papers/cholectrack20-perspectives.gif
-    caption: 'SurgiTrack operates across multiple perspectives: tracking tools from intraoperative, intracorporeal, and visibility
-      viewpoints.'
+  - src: /assets/img/papers/surgitrack-architecture-complete.png
+    caption: 'SurgiTrack architecture: detection backbone with multi-cue association module for robust multi-class multi-tool tracking.'
   text: 'SurgiTrack addresses the challenges of fine-grained surgical tool tracking through:'
   bullets:
   - '<strong>Multi-cue association</strong>: Combines spatial proximity, visual appearance, and motion patterns for robust
@@ -39,14 +33,22 @@ sections:
   - '<strong>Occlusion handling</strong>: Maintains track identities through temporary occlusions using a memory mechanism'
   - '<strong>Tool exchange detection</strong>: Identifies when tools are exchanged between hands and updates track assignments
     accordingly'
-- heading: Research Coverage
-  bullets:
-  - '<strong>Dataset</strong>: CholecTrack20 with multi-class bounding box annotations and track IDs'
-  - '<strong>Scope</strong>: First method specifically designed for fine-grained multi-class surgical tool tracking'
-  - '<strong>Analysis</strong>: Comprehensive evaluation on all three tracking perspectives (intraoperative, intracorporeal,
-    visibility)'
-  - '<strong>Domain</strong>: Laparoscopic cholecystectomy, multi-object tracking'
-- heading: Results and Findings
+- heading: Qualitative Results
+  figures:
+  - src: /assets/img/papers/surgitrack-qualitative-results.png
+    caption: 'Qualitative tracking results across different surgical scenarios showing robust identity preservation.'
+- heading: Demo
+  figures:
+  - src: /assets/img/papers/surgitrack-results-demo.png
+    caption: 'SurgiTrack tracking results: each instrument is tracked with a unique identity across the video, handling occlusions and tool exchanges.'
+- heading: Quantitative Results
+  figures:
+  - src: /assets/img/papers/surgitrack-result-table.png
+    caption: 'Comparison with state-of-the-art tracking methods on the CholecTrack20 benchmark.'
+  - src: /assets/img/papers/surgitrack-classwise-results.png
+    caption: 'Class-wise tracking performance across different surgical tool categories.'
+  - src: /assets/img/papers/surgitrack-compute-performance.png
+    caption: 'Computational performance analysis showing real-time tracking capability.'
   bullets:
   - SurgiTrack outperforms existing MOT methods (DeepSORT, ByteTrack) on surgical tool tracking by significant margins
   - The multi-cue association module improves identity preservation through occlusions by 12%

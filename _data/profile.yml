@@ -7,17 +7,18 @@
 
 name: "Chinedu Nwoye"
 title: "AI Research Scientist &middot; Ph.D."
-position: "Post-doctoral Research Fellow"
-lab: "ICube Lab / CAMMA, IHU Strasbourg"
-institution: "University of Strasbourg, France"
+position: "AI Research Scientist"
+lab: "Intuitive"
+institution: "California, USA"
 photo: "assets/img/chinedu-nwoye.gif"
 photo_alt: "Chinedu Nwoye"
 
 bio: >
-  I develop deep learning methods for surgical video understanding,
-  focusing on action triplet recognition and detection in endoscopic
-  videos. My work aims to build context-aware AI systems for the
-  next-generation intelligent operating room.
+  I design intelligent systems that bridge technical precision with real-world impact,
+  with work spanning perception, generative modeling, and vision-language
+  understanding applied to surgical AI, autonomous systems, and engineering
+  designs. Driven by curiosity, guided by clarity, and committed to innovation
+  that is both rigorous and meaningful. Have a look around.
 
 # Personal / social links shown in the hero section.
 # Supported icons: email, scholar, github, linkedin, twitter, researchgate, cv, website

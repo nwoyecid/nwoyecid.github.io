@@ -5,6 +5,10 @@
 # the fields. The homepage list is auto-generated from this
 # file, sorted by year (newest first).
 #
+# Within each year, entries are ordered by:
+#   1. Month (most recent first)
+#   2. Venue prestige (top conferences/journals before workshops/arXiv)
+#
 # Fields:
 #   title:       Paper title (required)
 #   authors:     Author string (required)
@@ -19,23 +23,12 @@
 #   links:            List of {label, url} pairs for external links
 # ============================================================
 
-# ---------- 2026 ----------
-
-- title: "Understanding tool-tissue interactions in surgical videos"
-  authors: "F. Federiconi, C. La Sala, Z. Khatab, C.I. Nwoye, P. Mascagni, A. Madani, et al."
-  venue: "IEEE BioRob 2026"
-  year: 2026
-  icon: "assets/img/pubs/tool-tissue-interaction.svg"
-  desc: "Analyzing fine-grained tool-tissue interaction patterns in surgical video for improved activity understanding."
-  first_author: false
-  links:
-    - label: Scholar
-      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:5awf1xo2G04C"
+# ---------- 2027 ----------
 
 - title: "Sureon: A benchmark and vision-language-model for surgical reasoning"
   authors: "A. Perez, A. Rau, L. White, B. Mlambo, C. Nwoye, M.A. Jamal, O. Mohareri"
-  venue: "arXiv 2026"
-  year: 2026
+  venue: "WACV 2027"
+  year: 2027
   icon: "assets/img/pubs/sureon.svg"
   desc: "A VLM benchmark for evaluating surgical reasoning capabilities with structured question answering."
   first_author: false
@@ -43,6 +36,55 @@
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2603.06570"
+    - label: Code
+      url: "https://github.com/aperezr20/sureon"
+    - label: Dataset
+      url: "https://huggingface.co/datasets/aleperez24/sureon"
+
+# ---------- 2026 ----------
+
+- title: "Current validation practice undermines surgical AI development"
+  authors: "A. Reinke, Z.O. Li, M.D. Tizabi, et al."
+  venue: "Nature Biomedical Engineering 2026"
+  year: 2026
+  icon: "assets/img/pubs/validation-practice.svg"
+  desc: "Critical analysis of evaluation practices in surgical AI and recommendations for more reliable validation."
+  first_author: false
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2511.03769"
+
+- title: "iMED: A multi-endoscope dataset for surgical 3D perception"
+  authors: "S. Bonilla, F. Jiang, C. Nwoye, J. Lu, K. Reardon, et al."
+  venue: "ECCV 2026"
+  year: 2026
+  icon: "assets/img/pubs/imed.svg"
+  desc: "A multi-endoscope dataset for 3D reconstruction and depth estimation in surgical environments."
+  first_author: false
+  links:
+    - label: Paper
+      url: "https://link.springer.com/chapter/10.1007/978-3-032-37393-9_19"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2611.04755"
+    - label: Dataset
+      url: "https://huggingface.co/datasets/sbonilla/imed"
+    - label: Challenge
+      url: "https://imed-challenge.github.io/"
+
+- title: "SurgLaVI: Large-scale hierarchical dataset for surgical vision-language representation learning"
+  authors: "A. Perez, C. Nwoye, R.R. Kermani, O. Mohareri, M.A. Jamal"
+  venue: "Medical Image Analysis 2026"
+  year: 2026
+  icon: "assets/img/pubs/surglavi.svg"
+  desc: "A large-scale hierarchical dataset enabling vision-language pre-training for surgical scene understanding."
+  first_author: false
+  links:
+    - label: Journal
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S1361841526000514"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2509.10555"
+    - label: Code
+      url: "https://github.com/aperezr20/surglavi"
 
 - title: "State-change learning for prediction of future events in endoscopic videos"
   authors: "S. Sharma, C.I. Nwoye, D. Mutter, N. Padoy"
@@ -54,28 +96,23 @@
   links:
     - label: Journal
       url: "https://doi.org/10.1016/j.media.2025.104325"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2510.12904"
 
-- title: "SurgLaVI: Large-scale hierarchical dataset for surgical vision-language representation learning"
-  authors: "A. Perez, C. Nwoye, R.R. Kermani, O. Mohareri, M.A. Jamal"
-  venue: "Medical Image Analysis 2026"
+- title: "Understanding tool-tissue interactions in surgical videos"
+  authors: "F. Federiconi, C. La Sala, Z. Khatab, C.I. Nwoye, P. Mascagni, A. Madani, et al."
+  venue: "IEEE BioRob 2026"
   year: 2026
-  icon: "assets/img/pubs/surglavi.svg"
-  desc: "A large-scale hierarchical dataset enabling vision-language pre-training for surgical scene understanding."
+  icon: "assets/img/pubs/tool-tissue-interaction.svg"
+  desc: "Analyzing fine-grained tool-tissue interaction patterns in surgical video for improved activity understanding."
   first_author: false
   links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/abstract/document/11681759"
     - label: Scholar
-      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:wbdj-CoPYUoC"
-
-- title: "iMED: A multi-endoscope dataset for surgical 3D perception"
-  authors: "S. Bonilla, F. Jiang, C. Nwoye, J. Lu, K. Reardon, et al."
-  venue: "ECCV 2026"
-  year: 2026
-  icon: "assets/img/pubs/imed.svg"
-  desc: "A multi-endoscope dataset for 3D reconstruction and depth estimation in surgical environments."
-  first_author: false
-  links:
-    - label: Scholar
-      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:eq2jaN3J8jMC"
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:5awf1xo2G04C"
+    - label: arXiv
+      url: "https://iris.uniroma1.it/bitstream/11573/1775690/2/Federiconi_preprint_Understanding-Tool-Tissue_2026.pdf.pdf"
 
 - title: "On the role of depth in surgical vision foundation models: an empirical study of RGB-D pre-training"
   authors: "J.J. Han, A. Schmidt, M.A. Jamal, C. Nwoye, A. Rau, J.Y. Wu, O. Mohareri"
@@ -99,12 +136,28 @@
   first_author: true
   project_page: cholectrack20
   links:
+    - label: Paper
+      url: "https://openaccess.thecvf.com/content/CVPR2025/papers/Nwoye_CholecTrack20_A_Multi-Perspective_Tracking_Dataset_for_Surgical_Tools_CVPR_2025_paper.pdf"
     - label: arXiv
       url: "https://arxiv.org/abs/2312.07906"
     - label: Code
       url: "https://github.com/CAMMA-public/cholectrack20"
     - label: Dataset
       url: "https://doi.org/10.7303/syn53182642"
+
+- title: "Feature mixing approach for detecting intraoperative adverse events in laparoscopic Roux-en-Y gastric bypass surgery"
+  authors: "R. Bose, C.I. Nwoye, J.F. Lazo, J.L. Lavanchy, N. Padoy"
+  venue: "MICCAI 2025"
+  year: 2025
+  icon: "assets/img/pubs/feature-mixing.svg"
+  desc: "Detecting adverse events during bariatric surgery by mixing multi-scale temporal features from surgical video."
+  first_author: true
+  project_page: betamixer
+  links:
+    - label: Paper
+      url: "https://link.springer.com/chapter/10.1007/978-3-032-05141-7_18"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2504.16749"
 
 - title: "SurgiTrack: Fine-grained multi-class multi-tool tracking in surgical videos"
   authors: "C.I. Nwoye, N. Padoy"
@@ -117,6 +170,8 @@
   links:
     - label: Journal
       url: "https://doi.org/10.1016/j.media.2024.103438"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2405.20333"
     - label: Code
       url: "https://github.com/CAMMA-public/surgitrack"
 
@@ -144,17 +199,9 @@
   desc: "Integrating complementary tracking perspectives for robust surgical tool localization under challenging conditions."
   first_author: true
   project_page: multi-perspective-tracking
-
-- title: "Current validation practice undermines surgical AI development"
-  authors: "A. Reinke, Z.O. Li, M.D. Tizabi, et al."
-  venue: "arXiv 2025"
-  year: 2025
-  icon: "assets/img/pubs/validation-practice.svg"
-  desc: "Critical analysis of evaluation practices in surgical AI and recommendations for more reliable validation."
-  first_author: false
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2511.03769"
+    - label: Article
+      url: "https://hal.science/hal-05004010/"
 
 - title: "SimGen: A diffusion-based framework for simultaneous surgical image and segmentation mask generation"
   authors: "A. Bhat, R. Bose, C.I. Nwoye, N. Padoy"
@@ -180,21 +227,9 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2503.19661"
 
-- title: "Feature mixing approach for detecting intraoperative adverse events in laparoscopic Roux-en-Y gastric bypass surgery"
-  authors: "R. Bose, C.I. Nwoye, J.F. Lazo, J.L. Lavanchy, N. Padoy"
-  venue: "MICCAI 2025"
-  year: 2025
-  icon: "assets/img/pubs/feature-mixing.svg"
-  desc: "Detecting adverse events during bariatric surgery by mixing multi-scale temporal features from surgical video."
-  first_author: true
-  project_page: betamixer
-  links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2504.16749"
-
 # ---------- 2023 ----------
 
-- title: "CholecTriplet2022: Show me a tool and tell me the triplet"
+- title: "CholecTriplet2022: Show me a tool and tell me the triplet — An endoscopic vision challenge for surgical action triplet detection"
   authors: "C.I. Nwoye, T. Yu, S. Sharma, et al., N. Padoy"
   venue: "Medical Image Analysis 2023"
   year: 2023
@@ -203,6 +238,8 @@
   first_author: true
   project_page: cholectriplet2022
   links:
+    - label: Journal
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S1361841523001482"
     - label: arXiv
       url: "https://arxiv.org/abs/2302.06294"
     - label: Code
@@ -219,6 +256,8 @@
   first_author: true
   project_page: cholectriplet2021
   links:
+    - label: Journal
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S1361841523000646"
     - label: arXiv
       url: "https://arxiv.org/abs/2204.04746"
     - label: Code
@@ -248,6 +287,30 @@
     - label: Journal
       url: "https://doi.org/10.1016/j.media.2022.102844"
 
+- title: "Self-distillation for surgical action recognition"
+  authors: "A. Yamlahi, T.N. Tran, P. Godau, et al."
+  venue: "MICCAI 2023"
+  year: 2023
+  icon: "assets/img/pubs/self-distillation.svg"
+  desc: "Using self-distillation to improve surgical action recognition without additional labeled data."
+  first_author: false
+  links:
+    - label: Scholar
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:O3NaXMp0MMsC"
+
+- title: "Surgical action triplet detection by mixed supervised learning of instrument-tissue interactions"
+  authors: "S. Sharma, C.I. Nwoye, D. Mutter, N. Padoy"
+  venue: "MICCAI 2023"
+  year: 2023
+  icon: "assets/img/pubs/mixed-supervised.svg"
+  desc: "Combining different supervision levels to detect surgical action triplets from instrument-tissue interactions."
+  first_author: false
+  links:
+    - label: Article
+      url: "https://link.springer.com/chapter/10.1007/978-3-031-43996-4_48"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2307.09548"
+
 - title: "Rendezvous in time: an attention-based temporal fusion approach for surgical triplet recognition"
   authors: "S. Sharma, C.I. Nwoye, D. Mutter, N. Padoy"
   venue: "International Journal of CARS 2023"
@@ -269,28 +332,6 @@
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2305.07152"
-
-- title: "Self-distillation for surgical action recognition"
-  authors: "A. Yamlahi, T.N. Tran, P. Godau, et al."
-  venue: "MICCAI 2023"
-  year: 2023
-  icon: "assets/img/pubs/self-distillation.svg"
-  desc: "Using self-distillation to improve surgical action recognition without additional labeled data."
-  first_author: false
-  links:
-    - label: Scholar
-      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:O3NaXMp0MMsC"
-
-- title: "Surgical action triplet detection by mixed supervised learning of instrument-tissue interactions"
-  authors: "S. Sharma, C.I. Nwoye, D. Mutter, N. Padoy"
-  venue: "MICCAI 2023"
-  year: 2023
-  icon: "assets/img/pubs/mixed-supervised.svg"
-  desc: "Combining different supervision levels to detect surgical action triplets from instrument-tissue interactions."
-  first_author: false
-  links:
-    - label: Scholar
-      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9lKxBUoAAAAJ&citation_for_view=9lKxBUoAAAAJ:RYcK_YlVTxYC"
 
 # ---------- 2022 ----------
 

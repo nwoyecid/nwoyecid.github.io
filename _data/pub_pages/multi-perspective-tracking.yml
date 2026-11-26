@@ -20,15 +20,15 @@ citation: "@inproceedings{nwoye2025multiperspective,\n  title={Multi-Perspective
   \ Chinedu Innocent and Padoy, Nicolas},\n  booktitle={International Conference on Information Processing in Computer-Assisted\
   \ Interventions (IPCAI)},\n  year={2025}\n}\n"
 sections:
-- heading: Demo
+- heading: "Data: CholecTrack20"
   figures:
   - src: /assets/img/papers/cholectrack20-perspectives.gif
     caption: 'Multi-perspective tracking: jointly reasoning from intraoperative, intracorporeal, and visibility viewpoints
       for robust tool localization.'
-- heading: Method
+- heading: "Method: SurgiTrack"
   figures:
-  - src: /assets/img/papers/cholectrack20-annotations.gif
-    caption: Dense multi-class annotations with track IDs enable training and evaluation of the multi-perspective framework.
+  - src: /assets/img/papers/surgitrack-architecture.png
+    caption: 'Multi-perspective tracking architecture for robust surgical tool localization.'
   text: 'The multi-perspective tracking framework consists of:'
   bullets:
   - '<strong>Perspective-specific trackers</strong>: Dedicated tracking heads for each perspective (intraoperative, intracorporeal,

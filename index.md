@@ -74,14 +74,17 @@ title: Home
     <div class="section-header">
       <h2>News &amp; Highlights</h2>
     </div>
-    <div class="news-list">
+    <div class="news-list" id="newsList">
       {% for item in site.data.news %}
-      <div class="news-item">
+      <div class="news-item" {% if forloop.index > 5 %}style="display:none" data-hidden-news{% endif %}>
         <span class="news-date">{{ item.year }}</span>
         <span class="news-text">{{ item.text }}</span>
       </div>
       {% endfor %}
     </div>
+    {% if site.data.news.size > 5 %}
+    <button class="news-toggle" id="newsToggle" onclick="(function(){var h=document.querySelectorAll('[data-hidden-news]');var b=document.getElementById('newsToggle');if(b.dataset.open==='true'){h.forEach(function(e){e.style.display='none'});b.innerHTML='Show more &#9662;';b.dataset.open='false'}else{h.forEach(function(e){e.style.display=''});b.innerHTML='Show less &#9652;';b.dataset.open='true'}})()" data-open="false">Show more &#9662;</button>
+    {% endif %}
   </div>
 </section>
 
@@ -96,17 +99,20 @@ title: Home
       <h2>Publications</h2>
       <p>Complete list of published works &#128073; <a href="https://scholar.google.com/citations?user=9lKxBUoAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
     </div>
-    <div class="pub-list">
+    <div class="pub-list" id="pubList">
 
-{% assign sorted = site.data.publications | sort: "year" | reverse %}
+{% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% assign sorted = "" | split: "" %}
+{% for grp in by_year %}{% for pub in grp.items %}{% assign sorted = sorted | push: pub %}{% endfor %}{% endfor %}
 {% assign current_year = 0 %}
+{% assign pub_index = 0 %}
 {% for pub in sorted %}
 {% if pub.year != current_year %}
 {% assign current_year = pub.year %}
-      <div class="pub-year-divider">{{ current_year }}</div>
+      <div class="pub-year-divider" data-pub-idx="{{ pub_index }}">{{ current_year }}</div>
 {% endif %}
 
-      <div class="pub-item">
+      <div class="pub-item" data-pub-idx="{{ pub_index }}">
         <div class="pub-thumb"><img src="{{ pub.icon | relative_url }}" alt="{{ pub.title | truncate: 20 }}"></div>
         <div class="pub-body">
           <span class="pub-venue-tag">{{ pub.venue }}</span>
@@ -129,11 +135,75 @@ title: Home
         </div>
       </div>
 
+{% assign pub_index = pub_index | plus: 1 %}
 {% endfor %}
 
     </div>
+    <div class="pub-pagination" id="pubPagination"></div>
   </div>
 </section>
+
+<script>
+(function(){
+  var PER_PAGE = 10;
+  var items = document.querySelectorAll('#pubList [data-pub-idx]');
+  var total = 0;
+  items.forEach(function(el){
+    var idx = parseInt(el.dataset.pubIdx);
+    if(el.classList.contains('pub-item') && idx >= total) total = idx + 1;
+  });
+  var pages = Math.ceil(total / PER_PAGE);
+  if(pages <= 1) return;
+  var current = 0;
+
+  function showPage(p){
+    current = p;
+    var start = p * PER_PAGE;
+    var end = start + PER_PAGE;
+    items.forEach(function(el){
+      var idx = parseInt(el.dataset.pubIdx);
+      if(el.classList.contains('pub-year-divider')){
+        var show = false;
+        var nextItems = document.querySelectorAll('.pub-item[data-pub-idx]');
+        nextItems.forEach(function(ni){
+          var ni_idx = parseInt(ni.dataset.pubIdx);
+          if(ni_idx >= start && ni_idx < end){
+            var prevs = [];
+            var s = ni.previousElementSibling;
+            while(s){
+              if(s.classList.contains('pub-year-divider')){prevs.push(s); break;}
+              s = s.previousElementSibling;
+            }
+            if(prevs.length && prevs[0] === el) show = true;
+          }
+        });
+        el.style.display = show ? '' : 'none';
+      } else {
+        el.style.display = (idx >= start && idx < end) ? '' : 'none';
+      }
+    });
+    renderPagination();
+  }
+
+  function renderPagination(){
+    var cont = document.getElementById('pubPagination');
+    var html = '<button class="pub-page-btn" ' + (current===0?'disabled':'') + ' onclick="window._pubPage(' + (current-1) + ')">&laquo;</button>';
+    for(var i=0;i<pages;i++){
+      html += '<button class="pub-page-btn' + (i===current?' active':'') + '" onclick="window._pubPage(' + i + ')">' + (i+1) + '</button>';
+    }
+    html += '<button class="pub-page-btn" ' + (current===pages-1?'disabled':'') + ' onclick="window._pubPage(' + (current+1) + ')">&raquo;</button>';
+    cont.innerHTML = html;
+  }
+
+  window._pubPage = function(p){
+    if(p < 0 || p >= pages) return;
+    showPage(p);
+    document.getElementById('publications').scrollIntoView({behavior:'smooth'});
+  };
+
+  showPage(0);
+})();
+</script>
 
 
 <!-- ============= RESEARCH PROJECTS =============== -->

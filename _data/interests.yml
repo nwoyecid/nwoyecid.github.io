@@ -5,17 +5,18 @@
 # Add or remove items to update the list.
 # ============================================================
 
-headline: "Developing AI methods for surgical video analysis and the future intelligent operating room"
+headline: "<i>I teach machines to see, understand, and act in complex environments, with a strong focus on the surgical domain.</i>"
 
 tags:
-  - Deep Learning
   - Computer Vision
-  - Surgical AI
-  - Action Triplet Recognition
-  - Multi-task Learning
-  - Attention Mechanisms
-  - Weak Supervision
-  - Transformers
-  - Endoscopic Video Analysis
-  - Generative AI for Surgery
-  - Surgical Tool Tracking
+  - Vision Foundation & World Models
+  - Vision-Language-Action Models
+  - 2D & 3D Scene Understanding
+  - Multi-Modal Learning
+  - Multi-Object Tracking
+  - Image Segmentation
+  - Generative AI
+  - Robotics & Autonomous Systems
+  - Surgical Workflow Analysis
+  - Medical Image Analysis
+  - Benchmark & Dataset Design

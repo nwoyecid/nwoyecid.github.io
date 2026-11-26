@@ -307,11 +307,11 @@ a:hover {
 
 .interest-tag {
   display: inline-block;
-  padding: 8px 18px;
+  padding: 4px 11px;
   background: var(--color-bg-alt);
   border: 1px solid var(--color-border);
   border-radius: 50px;
-  font-size: 0.9rem;
+  font-size: 0.72rem;
   font-weight: 500;
   color: var(--color-text);
   transition: all var(--transition);
@@ -562,6 +562,62 @@ a:hover {
 .news-text {
   font-size: 0.95rem;
   color: var(--color-text);
+}
+
+.news-toggle {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  cursor: pointer;
+  font-family: inherit;
+}
+.news-toggle:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Publication pagination */
+.pub-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 24px;
+}
+
+.pub-page-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.pub-page-btn:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+.pub-page-btn.active {
+  background: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
+}
+.pub-page-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
 }
 
 /* ============================================

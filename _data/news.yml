@@ -6,6 +6,27 @@
 # Entries are displayed in the order listed here.
 # ============================================================
 
+- year: 2027
+  text: 'SUREON accepted at <strong>WACV 2027</strong>'
+
+- year: 2027
+  text: 'Area Chair for <strong>IPCAI 2027</strong>'
+
+- year: 2026
+  text: 'iMED published at <strong>ECCV 2026</strong>'
+
+- year: 2026
+  text: 'SurgLaVi published in <strong>Medical Image Analysis</strong>'
+
+- year: 2026
+  text: 'General Chair for <strong>ICDIA 2026</strong>'
+
+- year: 2026
+  text: 'Workshop Organizer: DCA-MI at <strong>ECCV 2026</strong>'
+
+- year: 2025
+  text: '<strong>MICCAI Outstanding Reviewer 2025</strong>'
+
 - year: 2025
   text: '<a href="/publications/cholectrack20/">CholecTrack20</a> accepted at <strong>CVPR 2025</strong>'
 

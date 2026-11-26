@@ -5,8 +5,13 @@ acronym: Surgical Imagen
 title: Surgical Text-to-Image Generation
 venue: Pattern Recognition Letters, Volume 189, pp. 73-79
 year: 2025
-authors: C.I. Nwoye, R. Bose, K. Elgohary, L. Arboit, G. Carlino, J.L. Lavanchy, N. Padoy
-affiliations: ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France
+authors: >
+  Chinedu Nwoye<sup>1,2</sup>, Rupak Bose<sup>1,2</sup>, Kareem Elgohary<sup>1,2</sup>,
+  Lorenzo Arboit<sup>1,2</sup>, Giovanni Carlino<sup>1,2</sup>,
+  Jo&euml;l L. Lavanchy<sup>1,2</sup>, Pietro Mascagni<sup>1,2</sup>, Nicolas Padoy<sup>1,2</sup>
+affiliations: >
+  <sup>1</sup>ICube, University of Strasbourg, CNRS, France
+  <span style="margin-left:12px"><sup>2</sup>IHU Strasbourg, France</span>
 summary: A pioneering effort in generating realistic surgical images from triplet-based text prompts using diffusion models,
   enabling data augmentation and educational applications in surgical AI.
 abstract: Generating realistic surgical images from textual descriptions has significant potential for data augmentation,
@@ -20,11 +25,37 @@ links:
   arxiv: https://arxiv.org/abs/2312.09066
   code: https://github.com/CAMMA-public/SurgicalT2I
   project: https://camma-public.github.io/endogen/surgical-imagen/
-citation: "@article{nwoye2025surgical,\n  title={Surgical text-to-image generation},\n  author={Nwoye, Chinedu Innocent and\
-  \ Bose, Rupak and Elgohary, Kareem and Arboit, Lorenzo and Carlino, Giovanni and Lavanchy, Jo{\\\"e}l L. and Padoy, Nicolas},\n\
-  \  journal={Pattern Recognition Letters},\n  volume={189},\n  pages={73--79},\n  year={2025},\n  publisher={Elsevier}\n\
-  }\n"
+citation: |
+  @article{nwoye2025surgical,
+    title={Surgical text-to-image generation},
+    author={Nwoye, Chinedu Innocent and Bose, Rupak and Elgohary, Kareem and Arboit, Lorenzo and Carlino, Giovanni and Lavanchy, Jo{\"e}l L. and Mascagni, Pietro and Padoy, Nicolas},
+    journal={Pattern Recognition Letters},
+    year={2025},
+    publisher={Elsevier}
+  }
+
 sections:
+- heading: 
+  figures:
+  - src: /assets/img/papers/surgen_pipeline.gif
+    caption: 'The Surgical Imagen pipeline in action: generating realistic surgical images from triplet-based text prompts.'
+
+- heading: "What is Surgical Imagen?"
+  text: >
+    <strong>Surgical Imagen</strong> is a specialized generative model developed to address significant challenges
+    in acquiring high-quality, annotated surgical data for research, training, and development in the medical field,
+    particularly in the domain of laparoscopic surgery. Surgical Imagen is a diffusion-based text-to-image generative
+    model designed to create photorealistic surgical images from textual descriptions, specifically using triplet-based
+    textual prompts that include an instrument, an action, and a target (e.g., "clipper clip cystic duct"). This model
+    builds upon the foundational principles of the Imagen framework, which integrates a large language model, a diffusion
+    model, and a super-resolution component to generate high-fidelity images from text inputs.
+  bullets:
+  - '<strong>Text-to-Image Generation</strong>: Surgical Imagen generates realistic surgical images based on text descriptions, capturing the nuances and details required for surgical training and education.'
+  - '<strong>Triplet-Based Prompts</strong>: The model leverages triplet annotations (instrument, action, target) to succinctly describe surgical scenes. This format ensures that the generated images are contextually accurate and semantically meaningful.'
+  - '<strong>Diffusion Model</strong>: By employing a diffusion-based generative approach, Surgical Imagen produces high-quality images that closely resemble real surgical scenarios.'
+  - '<strong>Instrument-Based Class Balancing</strong>: To address the imbalance in surgical datasets, where some critical actions or instruments may be underrepresented, Surgical Imagen includes a technique to balance the classes based on instrument frequency in the dataset. This improves training convergence and the ability to generate diverse and representative images.'
+  - '<strong>Evaluation and Validation</strong>: The model''s effectiveness is validated using human expert evaluations and automated metrics such as FID (Fr&eacute;chet Inception Distance) and CLIP (Contrastive Language-Image Pre-Training) scores. These evaluations ensure that generated images are not only photorealistic but also align well with the input textual prompts. It also covers aspects such as quality, reasoning, knowledge and robustness.'
+
 - heading: Method
   figures:
   - src: /assets/img/papers/t2i-architecture.png
@@ -32,36 +63,85 @@ sections:
       large language model and used to condition a cascaded diffusion model for generating photorealistic surgical images.'
   text: 'The Surgical Imagen framework builds on the Imagen architecture with surgical-specific adaptations:'
   bullets:
-  - '<strong>Triplet-based text conditioning</strong>: Structured prompts describing surgical scenes as &lt;instrument, verb,
-    target&gt; triplets (e.g., "grasper retract gallbladder")'
-  - '<strong>Cascaded diffusion model</strong>: A base diffusion model generates low-resolution images, followed by super-resolution
-    stages for high-fidelity output'
-  - '<strong>Instrument-based class balancing</strong>: Addresses dataset imbalance by balancing training samples based on
-    instrument frequency'
-- heading: Demo
-  figures:
-  - src: /assets/img/papers/t2i-bipolar-coagulate-liver.png
-    caption: 'Prompt: "bipolar coagulate liver" -- the model generates realistic endoscopic images showing the bipolar instrument
-      coagulating liver tissue.'
-  - src: /assets/img/papers/t2i-grasper-retract-gallbladder.png
-    caption: 'Prompt: "grasper retract gallbladder" -- generated images faithfully depict the grasper retracting the gallbladder.'
-  - src: /assets/img/papers/t2i-hook-dissect-duct.png
-    caption: 'Prompt: "hook dissect cystic duct" -- the model captures the correct instrument and anatomy for this common
-      surgical action.'
-- heading: Research Coverage
-  bullets:
-  - '<strong>Dataset</strong>: CholecT50 with triplet annotations providing structured text descriptions of surgical scenes'
-  - '<strong>Scope</strong>: First study on text-to-image generation specifically for the surgical domain'
-  - '<strong>Analysis</strong>: FID and CLIP metrics, surgeon qualitative assessment, downstream task evaluation for data
-    augmentation'
-  - '<strong>Domain</strong>: Surgical generative AI, data augmentation, surgical education'
-- heading: Results and Findings
-  figures:
-  - src: /assets/img/papers/t2i-clipper-clip-duct.png
-    caption: 'Prompt: "clipper clip cystic duct" -- generated images are realistic enough to fool expert surgeons in blind
-      assessment.'
-  bullets:
-  - Surgeon evaluators rate generated images as plausible surgical scenes in blind assessment
-  - Using generated images for data augmentation improves triplet recognition by 2-4% on underrepresented classes
-  - The model handles rare instrument-action-target combinations that are difficult to collect in real datasets
-  - Opens new possibilities for surgical training simulation and rare case generation
+  - '<strong>Triplet-based text conditioning</strong>: Structured prompts describing surgical scenes as &lt;instrument, verb, target&gt; triplets (e.g., "grasper retract gallbladder")'
+  - '<strong>Cascaded diffusion model</strong>: A base diffusion model generates low-resolution images, followed by super-resolution stages for high-fidelity output'
+  - '<strong>Instrument-based class balancing</strong>: Addresses dataset imbalance by balancing training samples based on instrument frequency'
+
+- heading: "Example Generated Images"
+  carousel:
+    - src: /assets/img/papers/t2i-carousel-bipolar-coagulate-liver.png
+      prompt: "Bipolar coagulate liver"
+    - src: /assets/img/papers/t2i-carousel-clipper-clip-cystic-artery.png
+      prompt: "Clipper clip cystic artery"
+    - src: /assets/img/papers/t2i-carousel-grasper-retract-gallbladder.png
+      prompt: "Grasper retract gallbladder"
+    - src: /assets/img/papers/t2i-carousel-hook-dissect-cystic-duct.png
+      prompt: "Hook dissect cystic duct"
+    - src: /assets/img/papers/t2i-carousel-clipper-clip-cystic-duct.png
+      prompt: "Clipper clip cystic duct"
+    - src: /assets/img/papers/t2i-carousel-irrigator-aspirate-fluid.png
+      prompt: "Irrigator aspirate fluid"
+    - src: /assets/img/papers/t2i-carousel-grasper-grasp-specimen-bag.png
+      prompt: "Grasper grasp specimen bag"
+    - src: /assets/img/papers/t2i-carousel-hook-dissect-omentum.png
+      prompt: "Hook dissect omentum"
+    - src: /assets/img/papers/t2i-carousel-grasper-pack-gallbladder.png
+      prompt: "Grasper pack gallbladder"
+    - src: /assets/img/papers/t2i-carousel-hook-dissect-cystic-artery.png
+      prompt: "Hook dissect cystic artery"
+
+- heading: "Example Generated Clinically Impossible Images"
+  carousel:
+    - src: /assets/img/papers/t2i-use-multiple-hook.png
+      caption: "The use of multiple hooks"
+    - src: /assets/img/papers/t2i-use-multiple-gallbladder.png
+      caption: "A patient with multiple gallbladder"
+    - src: /assets/img/papers/t2i-use-multiple-bipolar.png
+      caption: "The use of multiple electrified bipolar"
+    - src: /assets/img/papers/t2i-use-multiple-irrigator.png
+      caption: "Aspirating with multiple suction irrigators"
+
+- heading: "Example Deep Learning Inference on Generated Images"
+  carousel:
+    - src: /assets/img/papers/t2i-seg-1.png
+      caption: "Segment anything model on Surgical Imagen"
+    - src: /assets/img/papers/t2i-seg-2.png
+      caption: "Segment anything model on Surgical Imagen"
+    - src: /assets/img/papers/t2i-det-1.png
+      caption: "SurgiTrack on Surgical Imagen"
+
+- heading: "Survey"
+  text: >
+    <ul>
+    <li>Do you have medical knowledge?</li>
+    <li>Do you know about laparoscopic cholecystectomy?</li>
+    <li>Can you differentiate AI generated surgical images from the real one?</li>
+    <li>Take the test @ <a href="https://camma-public.github.io/endogen/surgical-imagen/survey" target="_blank" style="color:var(--color-primary)">https://t.ly/endogen</a> !</li>
+    <li>View your performance here afterward ...</li>
+    <li>And not forgetting that your effort will be acknowledged.</li>
+    </ul>
+
+- heading: "Leaderboard"
+  text: >
+    <p><strong>The authors acknowledge the following clinicians for their participation in filling the evaluation survey:</strong></p>
+    <div style="width:100%;overflow-x:auto;">
+    <iframe width="100%" height="500" seamless frameborder="0" scrolling="no"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4v5xTrjIqKHdbrpb_-9Y6oVHQ8OTl8DMVk010JuAdBABfj0dB604OVdqPlaPbKDR8nKI3CFcdb-0N/pubchart?oid=732103762&amp;format=interactive"></iframe>
+    </div>
+    <p>Not satisfied with your score? Can you beat the top score? Take the study again
+    <a href="https://camma-public.github.io/endogen/surgical-imagen/survey" target="_blank" style="color:var(--color-primary)">here</a>! It is allowed...</p>
+
+- heading: "Special Thanks"
+  text: >
+    <p><strong>The authors acknowledge the following clinicians for their participation in filling the evaluation survey:</strong></p>
+    <div style="width:100%;overflow-x:auto;">
+    <iframe width="100%" height="500" seamless frameborder="0" scrolling="no"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4v5xTrjIqKHdbrpb_-9Y6oVHQ8OTl8DMVk010JuAdBABfj0dB604OVdqPlaPbKDR8nKI3CFcdb-0N/pubchart?oid=1741363542&amp;format=interactive"></iframe>
+    </div>
+
+- heading: "Acknowledgement"
+  text: >
+    This work was supported by French state funds managed within the Plan Investissements d'Avenir by the ANR
+    under references: National AI Chair AI4ORSafety [ANR-20-CHIA-0029-01], IHU Strasbourg [ANR-10-IAHU-02] and
+    by BPI France [Project 5G-OR]. This work was granted access to the servers/HPC resources managed by CAMMA,
+    IHU Strasbourg, Unistra Mesocentre, and GENCI-IDRIS [Grant 2021-AD011011638R3, 2021-AD011011638R4].

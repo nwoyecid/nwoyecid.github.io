@@ -18,8 +18,13 @@ acronym: "RENDEZVOUS"
 title: "Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos"
 venue: "Medical Image Analysis, Volume 78, 102433"
 year: 2022
-authors: "C.I. Nwoye, T. Yu, C. Gonzalez, B. Seeliger, P. Mascagni, D. Mutter, J. Marescaux, and N. Padoy"
-affiliations: "ICube, University of Strasbourg, CNRS, France &middot; IHU Strasbourg, France"
+authors: >
+  Chinedu Nwoye<sup>1,2</sup>, Tong Yu<sup>1,2</sup>, Cristians Gonzalez<sup>2</sup>,
+  Barbara Seeliger<sup>2</sup>, Pietro Mascagni<sup>1,2</sup>, Didier Mutter<sup>2</sup>,
+  Jacques Marescaux<sup>2</sup>, Nicolas Padoy<sup>1,2</sup>
+affiliations: >
+  <sup>1</sup>ICube, University of Strasbourg, CNRS, France
+  <span style="margin-left:12px"><sup>2</sup>IHU Strasbourg, France</span>
 summary: "A transformer-inspired deep learning model that uses class activation guided attention (CAGAM) and multi-head of mixed attention (MHMA) to jointly detect surgical instruments, recognize actions, and identify targets as action triplets from endoscopic video."
 
 abstract: >

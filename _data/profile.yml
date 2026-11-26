@@ -10,7 +10,7 @@ title: "AI Research Scientist &middot; Ph.D."
 position: "Post-doctoral Research Fellow"
 lab: "ICube Lab / CAMMA, IHU Strasbourg"
 institution: "University of Strasbourg, France"
-photo: "assets/img/photo.png"
+photo: "assets/img/chinedu-nwoye.gif"
 photo_alt: "Chinedu Nwoye"
 
 bio: >
@@ -20,7 +20,7 @@ bio: >
   next-generation intelligent operating room.
 
 # Personal / social links shown in the hero section.
-# Supported icons: email, scholar, github, linkedin, twitter, cv, website
+# Supported icons: email, scholar, github, linkedin, twitter, researchgate, cv, website
 # For email use "mailto:your@email.com" as the url.
 links:
   - label: Email
@@ -38,6 +38,14 @@ links:
   - label: LinkedIn
     url: "https://ng.linkedin.com/in/chinedu-nwoye-69471a31"
     icon: linkedin
+
+  - label: Twitter
+    url: "https://twitter.com/Nwoyecid"
+    icon: twitter
+
+  - label: ResearchGate
+    url: "https://www.researchgate.net/profile/Chinedu-Nwoye-3"
+    icon: researchgate
 
   - label: CV
     url: "assets/pdf/cid_cv.pdf"

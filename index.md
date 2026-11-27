@@ -95,9 +95,36 @@ title: Home
 
 <section class="section" id="publications">
   <div class="container">
-    <div class="section-header">
+    <div class="section-header pub-header-row">
       <h2>Publications</h2>
-      <p>Complete list of published works &#128073; <a href="https://scholar.google.com/citations?user=9lKxBUoAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+      <div class="scholar-inline" id="scholarMetrics"
+           data-gs-citations="{{ site.data.profile.scholar_gs_citations }}"
+           data-gs-hindex="{{ site.data.profile.scholar_gs_hindex }}"
+           data-ss-citations="{{ site.data.profile.scholar_ss_citations }}"
+           data-ss-hindex="{{ site.data.profile.scholar_ss_hindex }}">
+        <div class="scholar-inline-chart">
+          {% assign max_count = 0 %}
+          {% for entry in site.data.profile.scholar_citations_per_year %}
+            {% if entry.count > max_count %}{% assign max_count = entry.count %}{% endif %}
+          {% endfor %}
+          {% for entry in site.data.profile.scholar_citations_per_year %}
+          <div class="si-bar-col" title="{{ entry.count }}">
+            <div class="si-bar" style="height: {{ entry.count | times: 100 | divided_by: max_count }}%"></div>
+            <span class="si-bar-year">{{ entry.year }}</span>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="scholar-inline-nums">
+          <div class="si-stat">
+            <span class="si-num" id="metricCitations">{{ site.data.profile.scholar_gs_citations | append: "+" }}</span>
+            <span class="si-label">citations</span>
+          </div>
+          <div class="si-stat">
+            <span class="si-num" id="metricHIndex">{{ site.data.profile.scholar_gs_hindex }}</span>
+            <span class="si-label">h-index</span>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="pub-list" id="pubList">
 
@@ -140,6 +167,7 @@ title: Home
 
     </div>
     <div class="pub-pagination" id="pubPagination"></div>
+    <p class="pub-scholar-link">Complete list of published works &#128073; <a href="https://scholar.google.com/citations?user=9lKxBUoAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
   </div>
 </section>
 
@@ -202,6 +230,32 @@ title: Home
   };
 
   showPage(0);
+})();
+</script>
+
+<script>
+(function(){
+  var el = document.getElementById('scholarMetrics');
+  var gsCit = parseFloat(el.dataset.gsCitations);
+  var gsH = parseFloat(el.dataset.gsHindex);
+  var ssCit = parseFloat(el.dataset.ssCitations);
+  var ssH = parseFloat(el.dataset.ssHindex);
+  var padCit = gsCit / ssCit;
+  var padH = gsH / ssH;
+
+  fetch('https://api.semanticscholar.org/graph/v1/author/40992763?fields=citationCount,hIndex')
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      if(d.citationCount != null){
+        var adjusted = Math.round(d.citationCount * padCit);
+        document.getElementById('metricCitations').textContent = adjusted.toLocaleString() + '+';
+      }
+      if(d.hIndex != null){
+        var adjusted = Math.round(d.hIndex * padH);
+        document.getElementById('metricHIndex').textContent = adjusted;
+      }
+    })
+    .catch(function(){});
 })();
 </script>
 

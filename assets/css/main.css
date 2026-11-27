@@ -332,6 +332,85 @@ a:hover {
 }
 
 /* ============================================
+   Scholar Metrics
+   ============================================ */
+/* ============================================
+   Scholar Inline (header row)
+   ============================================ */
+.pub-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pub-header-row h2 { margin-bottom: 0; }
+.pub-header-row > p { display: none; }
+
+.scholar-inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.scholar-inline-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 36px;
+}
+.si-bar-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 28px;
+}
+.si-bar-col .si-bar {
+  width: 16px;
+}
+.si-bar {
+  width: 100%;
+  min-height: 2px;
+  background: var(--color-accent);
+  border-radius: 2px 2px 0 0;
+  opacity: 0.55;
+  transition: opacity 0.15s;
+}
+.si-bar-col:hover .si-bar {
+  opacity: 1;
+}
+.si-bar-year {
+  font-size: 0.5rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+  line-height: 1;
+}
+.scholar-inline-nums {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.si-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.si-num {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1.1;
+}
+.si-label {
+  font-size: 0.55rem;
+  color: var(--color-text);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* ============================================
    Publication List (unified, compact)
    ============================================ */
 .pub-list {
@@ -626,6 +705,16 @@ a:hover {
 .pub-page-btn:disabled {
   opacity: 0.35;
   cursor: default;
+}
+.pub-scholar-link {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+.pub-scholar-link a {
+  color: var(--color-accent);
+  font-weight: 500;
 }
 
 /* ============================================

@@ -52,3 +52,37 @@ links:
   - label: CV
     url: "assets/pdf/cid_cv.pdf"
     icon: cv
+
+# Scholar metrics calibration.
+# These are used to calculate the padding factor between
+# Google Scholar (ground truth) and Semantic Scholar (live API).
+# Update these periodically from both sources to keep the
+# correction accurate.
+# Last calibrated: Nov 2026
+scholar_gs_citations: 1855
+scholar_gs_hindex: 19
+scholar_ss_citations: 1410
+scholar_ss_hindex: 16
+
+# Per-year citation counts from Google Scholar.
+# Update these periodically from your Google Scholar profile.
+# Last updated: Nov 2026
+scholar_citations_per_year: # (2015-2017: 20 citations)
+  - year: 2018
+    count: 8
+  - year: 2019
+    count: 10
+  - year: 2020
+    count: 22
+  - year: 2021
+    count: 39
+  - year: 2022
+    count: 106
+  - year: 2023
+    count: 236
+  - year: 2024
+    count: 260
+  - year: 2025
+    count: 509
+  - year: 2026
+    count: 680

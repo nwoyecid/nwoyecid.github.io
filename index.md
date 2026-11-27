@@ -221,13 +221,16 @@ title: Home
         <span class="status {{ proj.status }}">{{ proj.status | capitalize }}</span>
         <h3>{{ proj.title }}</h3>
         <p>{{ proj.description }}</p>
-        {% if proj.links and proj.links.size > 0 %}
         <div class="project-card-links">
+          {% if proj.project_page %}
+          <a href="{{ '/projects/' | append: proj.project_page | append: '/' | relative_url }}">View Project</a>
+          {% endif %}
+          {% if proj.links %}
           {% for link in proj.links %}
           <a href="{{ link.url }}"{% if link.url contains '://' %} target="_blank"{% endif %}>{{ link.label }}</a>
           {% endfor %}
+          {% endif %}
         </div>
-        {% endif %}
       </div>
       {% endfor %}
     </div>

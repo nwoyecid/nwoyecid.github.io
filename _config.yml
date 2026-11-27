@@ -26,6 +26,9 @@ collections:
   publications:
     output: true
     permalink: /publications/:slug/
+  projects:
+    output: true
+    permalink: /projects/:slug/
 
 # Defaults
 defaults:
@@ -34,3 +37,8 @@ defaults:
       type: "publications"
     values:
       layout: "publication"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

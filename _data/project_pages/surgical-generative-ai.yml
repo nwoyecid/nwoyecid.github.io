@@ -1,0 +1,48 @@
+# ============================================================
+# Project Page: Surgical Generative AI
+# ============================================================
+
+title: "Surgical Generative AI"
+status: ongoing
+tagline: "Generating realistic surgical images and annotations for training and augmentation"
+
+intro: >
+  This project explores generative modeling for the surgical domain,
+  with a focus on creating realistic synthetic surgical images, paired
+  segmentation masks, and training data from text descriptions. The
+  research addresses the chronic shortage of annotated surgical data
+  by developing diffusion-based methods that can produce diverse,
+  high-fidelity surgical scenes on demand. These methods have potential
+  applications in surgeon training, simulation, and data augmentation
+  for downstream perception models.
+
+sections:
+  - heading: "Research Directions"
+    bullets:
+      - "<strong>Text-to-image generation</strong>: Producing realistic surgical images from natural language descriptions of instruments, anatomy, and procedural context."
+      - "<strong>Simultaneous image and mask synthesis</strong>: Jointly generating paired surgical images and pixel-level segmentation masks, reducing the need for manual annotation."
+      - "<strong>Controllable generation</strong>: Conditioning the generation process on user-specified attributes such as tool type, tissue state, or surgical phase."
+      - "<strong>Data augmentation</strong>: Using synthetic data to improve the robustness and generalization of perception models trained on limited real-world surgical datasets."
+
+  - heading: "Associated Papers"
+    papers:
+      - title: "Surgical text-to-image generation"
+        venue: "Pattern Recognition Letters 2025"
+        url: "https://arxiv.org/abs/2312.09066"
+        note: "First diffusion-based text-to-image system tailored for surgical content"
+        project_page: "/publications/surgical-text-to-image/"
+      - title: "SimGen: A diffusion-based framework for simultaneous surgical image and segmentation mask generation"
+        venue: "arXiv 2025"
+        url: "https://arxiv.org/abs/2501.09008"
+        note: "Joint image and segmentation mask generation using diffusion models"
+        project_page: "/publications/simgen/"
+      - title: "CoSimGen: Controllable diffusion model for simultaneous image and mask generation"
+        venue: "arXiv 2025"
+        url: "https://arxiv.org/abs/2503.19661"
+        note: "Controllable generation with user-specified conditions"
+        project_page: "/publications/cosimgen/"
+
+  - heading: "Resources"
+    links:
+      - label: "SurgicalT2I Code"
+        url: "https://github.com/CAMMA-public/SurgicalT2I"

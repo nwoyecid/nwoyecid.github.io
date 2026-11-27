@@ -1,0 +1,56 @@
+# ============================================================
+# Project Page: Vision Foundation Models
+# ============================================================
+
+title: "Vision Foundation Models"
+status: ongoing
+tagline: "Pre-training large-scale models for surgical visual understanding"
+
+intro: >
+  This project investigates how foundation models, pre-trained on
+  large-scale visual and multimodal data, can be adapted to understand
+  surgical scenes. The work covers vision-language alignment, depth-aware
+  pre-training, hierarchical representation learning, and reasoning over
+  surgical video. The aim is to build general-purpose visual backbones
+  that transfer effectively across diverse surgical tasks such as
+  instrument detection, phase recognition, and scene captioning.
+
+sections:
+  - heading: "Research Directions"
+    bullets:
+      - "<strong>Vision-language pre-training</strong>: Learning joint representations of surgical images and text descriptions for zero-shot and few-shot transfer to downstream tasks."
+      - "<strong>Depth-aware foundation models</strong>: Studying how RGB-D pre-training with depth signals improves representation quality for surgical perception."
+      - "<strong>Hierarchical dataset design</strong>: Creating large-scale datasets with multi-level annotations (from scene-level to instrument-level) to enable richer pre-training."
+      - "<strong>Surgical reasoning</strong>: Evaluating vision-language models on structured reasoning tasks that require understanding of surgical context, anatomy, and procedure flow."
+
+  - heading: "Associated Papers"
+    papers:
+      - title: "Sureon: A benchmark and vision-language-model for surgical reasoning"
+        venue: "WACV 2027"
+        url: "https://arxiv.org/abs/2603.06570"
+        note: "Benchmark for evaluating VLM surgical reasoning capabilities"
+      - title: "SurgLaVI: Large-scale hierarchical dataset for surgical vision-language representation learning"
+        venue: "Medical Image Analysis 2026"
+        url: "https://arxiv.org/abs/2509.10555"
+        note: "Hierarchical dataset for vision-language pre-training"
+      - title: "On the role of depth in surgical vision foundation models"
+        venue: "arXiv 2026"
+        url: "https://arxiv.org/abs/2601.18929"
+        note: "Empirical study on RGB-D pre-training for surgical vision"
+      - title: "iMED: A multi-endoscope dataset for surgical 3D perception"
+        venue: "ECCV 2026"
+        url: "https://arxiv.org/abs/2611.04755"
+        note: "Multi-endoscope dataset for 3D reconstruction and depth estimation"
+      - title: "Dissecting self-supervised learning methods for surgical computer vision"
+        venue: "Medical Image Analysis 2023"
+        url: "https://doi.org/10.1016/j.media.2022.102844"
+        note: "Systematic study of self-supervised pre-training for surgical video"
+
+  - heading: "Resources"
+    links:
+      - label: "SUREON Benchmark"
+        url: "https://aperezr20.github.io/sureon/"
+      - label: "SurgLaVI Code"
+        url: "https://github.com/aperezr20/surglavi"
+      - label: "iMED Challenge"
+        url: "https://imed-challenge.github.io/"

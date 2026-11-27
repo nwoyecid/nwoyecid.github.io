@@ -1,0 +1,124 @@
+---
+layout: default
+---
+{% comment %}
+  Project page layout.
+  Content is driven by _data/project_pages/<slug>.yml
+  The .md file only needs: layout, title, slug in its front matter.
+  Any field missing from the YAML is silently skipped.
+{% endcomment %}
+
+{% assign d = site.data.project_pages[page.slug] %}
+
+<article class="project-page">
+
+  <!-- ===== HERO HEADER ===== -->
+  <section class="project-page-hero">
+    <div class="container">
+      <a href="{{ '/#projects' | relative_url }}" class="back-link">&#8598; All Projects</a>
+      {% if d.status %}
+      <span class="project-status-badge {{ d.status }}">{{ d.status | capitalize }}</span>
+      {% endif %}
+      <h1 class="project-page-title">{{ d.title | default: page.title }}</h1>
+      {% if d.tagline and d.tagline != "" %}
+      <p class="project-page-tagline">{{ d.tagline }}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <!-- ===== INTRODUCTION ===== -->
+  {% if d.intro and d.intro != "" %}
+  <section class="project-section" id="intro">
+    <div class="container">
+      <h2>Introduction</h2>
+      <div class="project-intro-text">
+        <p>{{ d.intro }}</p>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- ===== CONTENT SECTIONS (driven by YAML) ===== -->
+  {% if d.sections %}
+  <div class="project-page-content">
+    <div class="container">
+      {% for sec in d.sections %}
+      <section class="project-content-section">
+        <h2>{{ sec.heading }}</h2>
+
+        {% if sec.text and sec.text != "" %}
+        <p>{{ sec.text }}</p>
+        {% endif %}
+
+        {% if sec.bullets and sec.bullets.size > 0 %}
+        <ul class="project-bullets">
+          {% for b in sec.bullets %}
+          <li>{{ b }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if sec.figures %}
+        {% for fig in sec.figures %}
+        <figure class="project-figure">
+          <img src="{{ fig.src | relative_url }}" alt="{{ sec.heading }}"{% if fig.width %} style="max-width:{{ fig.width }}"{% endif %}>
+          {% if fig.caption and fig.caption != "" %}
+          <figcaption>{{ fig.caption }}</figcaption>
+          {% endif %}
+        </figure>
+        {% endfor %}
+        {% endif %}
+
+        {% if sec.papers and sec.papers.size > 0 %}
+        <div class="project-papers-list">
+          {% for paper in sec.papers %}
+          <div class="project-paper-item">
+            <div class="project-paper-info">
+              <span class="project-paper-venue">{{ paper.venue }}</span>
+              <h4>
+                {% if paper.url %}
+                <a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>
+                {% else %}
+                {{ paper.title }}
+                {% endif %}
+              </h4>
+              {% if paper.note and paper.note != "" %}
+              <p class="project-paper-note">{{ paper.note }}</p>
+              {% endif %}
+              <div class="project-paper-links">
+                {% if paper.project_page %}
+                <a href="{{ paper.project_page | relative_url }}" class="project-paper-link">Project Page</a>
+                {% endif %}
+                {% if paper.url %}
+                <a href="{{ paper.url }}" target="_blank" class="project-paper-link">Paper</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if sec.links and sec.links.size > 0 %}
+        <div class="project-resource-links">
+          {% for link in sec.links %}
+          <a href="{{ link.url }}" target="_blank" class="project-resource-btn">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- ===== EXTRA MARKDOWN CONTENT (optional, from .md body) ===== -->
+  {% if content and content != "" %}
+  <div class="project-page-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </div>
+  {% endif %}
+
+</article>

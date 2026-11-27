@@ -1,0 +1,98 @@
+# ============================================================
+# Project Page: Surgical Action Triplet
+# ============================================================
+
+title: "Surgical Action Triplet for Tool-Tissue Interaction Modeling"
+status: completed
+tagline: "Modeling what happens in surgery as structured instrument-verb-target triplets"
+
+intro: >
+  This project introduced the surgical action triplet, a structured
+  representation of surgical activities as compositions of the
+  instrument being used, the action being performed, and the target
+  anatomy being acted upon. This formulation enabled fine-grained
+  understanding of tool-tissue interactions in endoscopic video,
+  moving beyond simple phase or tool recognition toward a richer
+  description of what is actually happening during a procedure.
+  The project produced foundational datasets, models, evaluation
+  tools, and international benchmarking challenges that have become
+  standard references in the field.
+
+sections:
+  - heading: "Key Contributions"
+    bullets:
+      - "<strong>Triplet formulation</strong>: Defined the &lt;instrument, verb, target&gt; triplet as a structured unit of surgical activity, enabling compositional reasoning about tool-tissue interactions."
+      - "<strong>CholecT50 dataset</strong>: Created a large-scale dataset of 50 cholecystectomy videos with frame-level triplet annotations covering 100 unique triplet classes (6 instruments, 10 verbs, 15 targets)."
+      - "<strong>Deep learning architectures</strong>: Developed Tripnet, Attention-Tripnet, and Rendezvous, a series of progressively more capable models using multi-task learning, attention mechanisms, and transformer-inspired designs."
+      - "<strong>Benchmarking challenges</strong>: Organized CholecTriplet2021 and CholecTriplet2022 at MICCAI, evaluating over 30 methods from teams worldwide."
+      - "<strong>ivtmetrics library</strong>: Released an open-source Python package for standardized evaluation of triplet recognition and detection methods, available on PyPI and Anaconda."
+      - "<strong>Weak and mixed supervision</strong>: Explored training strategies that reduce annotation cost by using partial labels and mixed supervision levels."
+
+  - heading: "Associated Papers"
+    papers:
+      - title: "Recognition of instrument-tissue interactions in endoscopic videos via action triplets"
+        venue: "MICCAI 2020 (Oral)"
+        url: "https://arxiv.org/abs/2007.05405"
+        note: "The foundational paper introducing surgical action triplets and Tripnet"
+        project_page: "/publications/tripnet/"
+      - title: "Rendezvous: Attention mechanisms for the recognition of surgical action triplets in endoscopic videos"
+        venue: "Medical Image Analysis 2022"
+        url: "https://arxiv.org/abs/2109.03223"
+        note: "Transformer-inspired attention model achieving state-of-the-art triplet recognition"
+        project_page: "/publications/rendezvous/"
+      - title: "Data splits and metrics for benchmarking methods on surgical action triplet datasets"
+        venue: "arXiv 2022"
+        url: "https://arxiv.org/abs/2204.05235"
+        note: "Standard data splits and the ivtmetrics evaluation library"
+        project_page: "/publications/data-splits-metrics/"
+      - title: "CholecTriplet2021: A benchmark challenge for surgical action triplet recognition"
+        venue: "Medical Image Analysis 2023"
+        url: "https://arxiv.org/abs/2204.04746"
+        note: "MICCAI 2021 challenge evaluating 20 methods"
+        project_page: "/publications/cholectriplet2021/"
+      - title: "CholecTriplet2022: Show me a tool and tell me the triplet"
+        venue: "Medical Image Analysis 2023"
+        url: "https://arxiv.org/abs/2302.06294"
+        note: "MICCAI 2022 challenge benchmarking 11 methods"
+        project_page: "/publications/cholectriplet2022/"
+      - title: "Surgical action triplet detection by mixed supervised learning of instrument-tissue interactions"
+        venue: "MICCAI 2023"
+        url: "https://arxiv.org/abs/2307.09548"
+        note: "Mixed supervision for triplet detection"
+      - title: "Rendezvous in time: an attention-based temporal fusion approach for surgical triplet recognition"
+        venue: "International Journal of CARS 2023"
+        url: "https://doi.org/10.1007/s11548-023-02914-1"
+        note: "Temporal extension of Rendezvous"
+      - title: "Understanding tool-tissue interactions in surgical videos"
+        venue: "IEEE BioRob 2026"
+        url: "https://ieeexplore.ieee.org/abstract/document/11681759"
+        note: "Fine-grained tool-tissue interaction analysis"
+      - title: "State-change learning for prediction of future events in endoscopic videos"
+        venue: "Medical Image Analysis 2026"
+        url: "https://arxiv.org/abs/2510.12904"
+        note: "Predicting future surgical events from state transitions"
+      - title: "Deep learning methods for the detection and recognition of surgical tools and activities in laparoscopic videos"
+        venue: "Ph.D. Thesis, Universit&eacute; de Strasbourg (Thesis Prize)"
+        url: "https://theses.fr/2021STRAD033"
+        note: "Doctoral thesis introducing the triplet paradigm"
+        project_page: "/publications/phd-thesis/"
+
+  - heading: "Challenges"
+    bullets:
+      - "<strong>CholecTriplet2021</strong>: MICCAI EndoVis challenge with 20 participating teams. <a href='https://cholectriplet2021.grand-challenge.org/' target='_blank'>Challenge page</a>"
+      - "<strong>CholecTriplet2022</strong>: MICCAI EndoVis challenge with 11 participating teams. <a href='https://cholectriplet2022.grand-challenge.org/' target='_blank'>Challenge page</a>"
+
+  - heading: "Resources"
+    links:
+      - label: "CholecT50 Dataset"
+        url: "https://paperswithcode.com/dataset/cholect50"
+      - label: "Tripnet Code"
+        url: "https://github.com/CAMMA-public/tripnet"
+      - label: "Rendezvous Code"
+        url: "https://github.com/CAMMA-public/rendezvous"
+      - label: "ivtmetrics (PyPI)"
+        url: "https://pypi.org/project/ivtmetrics/"
+      - label: "ivtmetrics (Anaconda)"
+        url: "https://anaconda.org/nwoye/ivtmetrics"
+      - label: "Attention-Tripnet Code"
+        url: "https://github.com/CAMMA-public/attention-tripnet"

@@ -2,62 +2,39 @@
 # Research Projects
 # ============================================================
 # Each entry needs: title, description, status (ongoing/completed)
-# Optional: links (list of {label, url})
+# Optional: project_page (slug for local project page),
+#           links (list of {label, url})
 # ============================================================
 
 headline: "Ongoing and completed research initiatives"
 
 items:
-  - title: "Activity Recognition for Tool-Tissue Interaction Understanding"
-    description: "Creating datasets and deep learning models for surgical action triplet detection <instrument, verb, target> using multi-task learning, weak supervision, and attention/transformer architectures."
+  - title: "Intuitive Surgical Projects [Undisclosed]"
+    description: "AI research and development supporting features on the Intuitive da Vinci robotic-assisted surgical platform. Project details are undisclosed."
     status: ongoing
-    links:
-      - label: Dataset
-        url: "https://paperswithcode.com/dataset/cholect50"
-      - label: GitHub
-        url: "https://github.com/CAMMA-public/cholect45"
-      - label: Challenge 2021
-        url: "https://cholectriplet2021.grand-challenge.org/"
-      - label: Challenge 2022
-        url: "https://cholectriplet2022.grand-challenge.org/"
+    project_page: intuitive-surgical-projects
 
-  - title: "IVTMETRICS: Open Source Triplet Performance Metrics"
-    description: "Python package library for unified evaluation of surgical action triplet recognition and detection methods. Available on PyPI and Anaconda."
+  - title: "Vision Foundation Models"
+    description: "Pre-training large-scale vision and multimodal models for surgical scene understanding, covering vision-language alignment, depth-aware representations, and structured reasoning over surgical video."
     status: ongoing
-    links:
-      - label: Paper
-        url: "https://arxiv.org/pdf/2204.05235.pdf"
-      - label: GitHub
-        url: "https://github.com/CAMMA-public/ivtmetrics"
-      - label: PyPI
-        url: "https://pypi.org/project/ivtmetrics/"
-      - label: Anaconda
-        url: "https://anaconda.org/nwoye/ivtmetrics"
-
-  - title: "Surgical Tool Tracking for Context-Aware Assistance"
-    description: "Deep learning models for instrument tracking in endoscopic videos using weak supervision for spatial localization and temporal consistency. Integrated in NVIDIA Holoscan SDK."
-    status: ongoing
-    links:
-      - label: Paper
-        url: "https://link.springer.com/article/10.1007/s11548-019-01958-6"
-      - label: NVIDIA SDK
-        url: "https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/resources/holoscan_endoscopy_sample_data"
+    project_page: vision-foundation-models
 
   - title: "Surgical Generative AI"
-    description: "Pioneering efforts in text-to-image generation for surgery, diffusion-based image and mask synthesis, and generative models for surgical data augmentation."
+    description: "Developing diffusion-based methods for generating realistic surgical images, paired segmentation masks, and training data from text descriptions to address the shortage of annotated surgical data."
     status: ongoing
-    links:
-      - label: SurgicalT2I
-        url: "/publications/surgical-text-to-image/"
-      - label: SimGen
-        url: "https://arxiv.org/abs/2501.09008"
-      - label: CoSimGen
-        url: "https://arxiv.org/abs/2503.19661"
+    project_page: surgical-generative-ai
 
-  - title: "Melanoma Skin Cancer Detection"
-    description: "Machine learning methods for early diagnosis of skin cancers, developed during M.Sc. at the University of Southampton, UK."
+  - title: "Surgical Action Triplet for Tool-Tissue Interaction Modeling"
+    description: "Introduced the surgical action triplet representation for modeling what happens during surgery as structured instrument-verb-target compositions. Produced foundational datasets, models, evaluation tools, and international challenges."
     status: completed
+    project_page: surgical-action-triplet
 
-  - title: "Automatic Diagnosis of Cardiovascular Diseases"
-    description: "Automated diagnostic system for cardiovascular disease detection."
+  - title: "Surgical Tool Tracking for Context-Aware Assistance"
+    description: "Deep learning methods for real-time instrument tracking in endoscopic video, from weakly supervised spatial localization to fine-grained multi-class multi-tool tracking. Adopted into the NVIDIA Holoscan SDK."
     status: completed
+    project_page: surgical-tool-tracking
+
+  - title: "Computer Assisted Diagnostic"
+    description: "Machine learning systems for automated diagnosis from medical images and clinical data, covering melanoma detection, cataract surgery segmentation, and cardiovascular disease prediction."
+    status: completed
+    project_page: computer-assisted-diagnostic

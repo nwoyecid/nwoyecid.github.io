@@ -1,0 +1,36 @@
+# ============================================================
+# Project Page: Computer Assisted Diagnostic
+# ============================================================
+
+title: "Computer Assisted Diagnostic"
+status: completed
+tagline: "Machine learning methods for medical image classification and clinical decision support"
+
+intro: >
+  This project developed machine learning systems for automated
+  diagnosis from medical images and clinical data. The work covered
+  melanoma skin cancer detection from dermoscopic images, cataract
+  surgery scene segmentation, and cardiovascular disease prediction.
+  These efforts explored how computer-aided diagnostic tools can
+  support clinicians by providing reliable second opinions, reducing
+  diagnostic turnaround time, and enabling earlier detection of disease.
+
+sections:
+  - heading: "Research Areas"
+    bullets:
+      - "<strong>Melanoma skin cancer detection</strong>: Built classification models for distinguishing malignant melanoma from benign skin lesions in dermoscopic images, developed during M.Sc. research at the University of Southampton, UK."
+      - "<strong>Cataract surgery segmentation</strong>: Participated in the CATARACTS 2020 semantic segmentation challenge for identifying surgical instruments and anatomical structures in cataract surgery video."
+      - "<strong>Cardiovascular disease prediction</strong>: Developed automated diagnostic systems for cardiovascular disease detection from clinical data."
+
+  - heading: "Associated Papers"
+    papers:
+      - title: "2020 CATARACTS semantic segmentation challenge"
+        venue: "arXiv 2021"
+        url: "https://arxiv.org/abs/2110.10965"
+        note: "Challenge for surgical instrument and anatomy segmentation in cataract surgery"
+        project_page: "/publications/cadis/"
+
+  - heading: "Resources"
+    links:
+      - label: "CATARACTS Challenge"
+        url: "https://cataracts-semantic-segmentation2020.grand-challenge.org/"

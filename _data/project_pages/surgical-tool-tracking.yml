@@ -1,0 +1,68 @@
+# ============================================================
+# Project Page: Surgical Tool Tracking
+# ============================================================
+
+title: "Surgical Tool Tracking for Context-Aware Assistance"
+status: completed
+tagline: "Real-time instrument tracking in endoscopic video for surgical awareness"
+
+intro: >
+  This project developed deep learning methods for detecting and tracking
+  surgical instruments in endoscopic video, with the goal of providing
+  real-time context-aware information to support surgical workflows.
+  Starting from weakly supervised approaches that required only binary
+  tool presence labels, the work progressed to fine-grained multi-class
+  multi-tool tracking across different visual perspectives. The methods
+  produced in this project were adopted into the NVIDIA Holoscan SDK
+  for intraoperative deployment, and contributed a large-scale
+  benchmark dataset for the tracking community.
+
+sections:
+  - heading: "Key Contributions"
+    bullets:
+      - "<strong>Weakly supervised tracking</strong>: Developed a ConvLSTM-based approach that localizes and tracks surgical tools using only binary presence labels, eliminating the need for expensive bounding box annotations."
+      - "<strong>Multi-perspective tracking</strong>: Introduced methods that integrate complementary tracking perspectives (detection-based, point-based, and segmentation-based) for more robust localization under occlusion and tool exchange."
+      - "<strong>Fine-grained multi-class tracking</strong>: Built SurgiTrack, a system capable of distinguishing and tracking multiple tool types simultaneously across video frames."
+      - "<strong>CholecTrack20 dataset</strong>: Created a large-scale multi-perspective tracking dataset with multi-class multi-tool annotations for laparoscopic cholecystectomy."
+      - "<strong>Industrial adoption</strong>: The ConvLSTM tracker was integrated into the NVIDIA Holoscan SDK for real-time surgical tool tracking on edge devices."
+
+  - heading: "Associated Papers"
+    papers:
+      - title: "Weakly supervised convolutional LSTM approach for tool tracking in laparoscopic videos"
+        venue: "IPCAI 2019 (Oral, Best Paper Award)"
+        url: "https://arxiv.org/abs/1812.01366"
+        note: "The foundational weakly supervised tracker, now in NVIDIA Holoscan SDK"
+        project_page: "/publications/convlstm-tracker/"
+      - title: "SurgiTrack: Fine-grained multi-class multi-tool tracking in surgical videos"
+        venue: "Medical Image Analysis 2025"
+        url: "https://arxiv.org/abs/2405.20333"
+        note: "Fine-grained tracking of multiple tool types with occlusion handling"
+        project_page: "/publications/surgitrack/"
+      - title: "Multi-perspective tracking of surgical tools"
+        venue: "IPCAI 2025"
+        url: "https://hal.science/hal-05004010/"
+        note: "Integrating detection, point, and segmentation perspectives for tracking"
+        project_page: "/publications/multi-perspective-tracking/"
+      - title: "CholecTrack20: A multi-perspective tracking dataset for surgical tools"
+        venue: "CVPR 2025"
+        url: "https://arxiv.org/abs/2312.07906"
+        note: "Large-scale multi-perspective tracking benchmark"
+        project_page: "/publications/cholectrack20/"
+
+  - heading: "Applications"
+    bullets:
+      - "<strong>NVIDIA Holoscan SDK</strong>: The ConvLSTM surgical tool tracker is part of the NVIDIA Holoscan endoscopy sample application, enabling real-time tool tracking on NVIDIA edge computing platforms."
+      - "<strong>Context-aware assistance</strong>: Tracking outputs feed into higher-level systems for workflow recognition, safety alerts, and decision support during surgery."
+
+  - heading: "Resources"
+    links:
+      - label: "ConvLSTM Tracker Code"
+        url: "https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker"
+      - label: "SurgiTrack Code"
+        url: "https://github.com/CAMMA-public/surgitrack"
+      - label: "CholecTrack20 Code"
+        url: "https://github.com/CAMMA-public/cholectrack20"
+      - label: "CholecTrack20 Dataset"
+        url: "https://doi.org/10.7303/syn53182642"
+      - label: "NVIDIA Holoscan SDK"
+        url: "https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/resources/holoscan_endoscopy_sample_data"
